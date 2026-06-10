@@ -6,7 +6,7 @@ from pathlib import Path
 
 import trimesh
 
-DEFAULT_SOURCE = Path("/Users/michael/Projects/_active/atrium")
+DEFAULT_SOURCE = Path(os.environ.get("SOURCE_ATRIUM_DIR", "/Users/michael/Projects/_active/atrium"))
 FEATURED_SLUGS = [
     "michelangelo/david",
     "discobolus",

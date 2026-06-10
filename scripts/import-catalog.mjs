@@ -30,6 +30,20 @@ function searchText(entry) {
     .toLowerCase();
 }
 
+
+// RETIRED: the repo catalog is now master (see INGEST.md). This legacy import
+// would clobber ingested works. It refuses to run once ingest entries exist.
+{
+  const { readFile: rf } = await import('node:fs/promises');
+  try {
+    const cur = JSON.parse(await rf(path.join(dataDir, 'catalog.json'), 'utf8'));
+    if (cur.some((e) => e.license_tier)) {
+      console.error('Refusing to run: catalog contains ingested entries. See INGEST.md.');
+      process.exit(1);
+    }
+  } catch {}
+}
+
 const raw = JSON.parse(await readFile(sourceCatalog, 'utf8'));
 const imported = raw.map((entry, index) => ({
   slug: entry.slug,

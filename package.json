@@ -7,12 +7,13 @@
     "dev": "astro dev",
     "build": "astro build && node ./scripts/write-redirects.mjs",
     "preview": "astro preview",
-    "import:catalog": "node ./scripts/import-catalog.mjs",
     "data:smk": "node ./scripts/enrich-smk.mjs",
     "verify:assets": "node ./scripts/verify-catalog-assets.mjs",
     "images:posters": "node ./scripts/generate-posters.mjs",
     "images:renders": "node ./scripts/render-thumbnails.mjs",
-    "models:preview": ".venv/bin/python ./scripts/generate-previews.py"
+    "models:preview": ".venv/bin/python ./scripts/generate-previews.py",
+    "import:catalog:legacy": "node ./scripts/import-catalog.mjs",
+    "ingest": "node ./scripts/ingest-manifests.mjs"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.7.2",
