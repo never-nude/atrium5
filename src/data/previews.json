@@ -127,6 +127,30 @@
     "faces": null,
     "sourceFaces": null
   },
+  "renaissance/bust-of-marcantonio-ruzzini-smk": {
+    "url": "/models/previews/renaissance/bust-of-marcantonio-ruzzini-smk/preview.glb",
+    "bytes": 2700784,
+    "sourceBytes": 100001784,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 2000034
+  },
+  "renaissance/saint-john-the-baptist-bregno-smk": {
+    "url": "/models/previews/renaissance/saint-john-the-baptist-bregno-smk/preview.glb",
+    "bytes": 2700820,
+    "sourceBytes": 99950184,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 1999002
+  },
+  "renaissance/saint-jerome-bregno-smk": {
+    "url": "/models/previews/renaissance/saint-jerome-bregno-smk/preview.glb",
+    "bytes": 2700796,
+    "sourceBytes": 100008384,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 2000166
+  },
   "sub-saharan-africa/gelede-helmet-mask": {
     "url": "/models/previews/sub-saharan-africa/gelede-helmet-mask/preview.glb",
     "bytes": 873024,
