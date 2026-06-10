@@ -1143,6 +1143,30 @@
     "faces": null,
     "sourceFaces": null
   },
+  "egyptian/woman-grinding-flour-smk-cast": {
+    "url": "/models/previews/egyptian/woman-grinding-flour-smk-cast/preview.glb",
+    "bytes": 2700620,
+    "sourceBytes": 150014284,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 3000284
+  },
+  "egyptian/portrait-of-pharaoh-amasis-smk-cast": {
+    "url": "/models/previews/egyptian/portrait-of-pharaoh-amasis-smk-cast/preview.glb",
+    "bytes": 2700848,
+    "sourceBytes": 56388784,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 1127774
+  },
+  "egyptian/portrait-of-kaaper-sheik-el-beled-smk-cast": {
+    "url": "/models/previews/egyptian/portrait-of-kaaper-sheik-el-beled-smk-cast/preview.glb",
+    "bytes": 3081156,
+    "sourceBytes": 253576080,
+    "sourceFormat": "obj",
+    "faces": 149999,
+    "sourceFaces": 2000002
+  },
   "final-neolithic-marble-female-figure": {
     "url": "/models/previews/final-neolithic-marble-female-figure/preview.glb",
     "bytes": 994180,
