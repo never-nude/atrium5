@@ -1,74 +1,1106 @@
 {
-  "assyrian/ashurnasirpal-lion-hunt": {
-    "url": "/models/previews/assyrian/ashurnasirpal-lion-hunt/preview.glb",
-    "bytes": 468116,
-    "sourceBytes": 20002584,
+  "galeria-valeria-eutropia": {
+    "url": "/models/previews/galeria-valeria-eutropia/preview.glb",
+    "bytes": 499816,
+    "sourceBytes": 34999884,
     "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400050
+    "faces": null,
+    "sourceFaces": null
+  },
+  "donatello/john-the-baptist-as-a-boy": {
+    "url": "/models/previews/donatello/john-the-baptist-as-a-boy/preview.glb",
+    "bytes": 481040,
+    "sourceBytes": 20001184,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "donatello/saint-george": {
+    "url": "/models/previews/donatello/saint-george/preview.glb",
+    "bytes": 482952,
+    "sourceBytes": 20000884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "donatello/david": {
+    "url": "/models/previews/donatello/david/preview.glb",
+    "bytes": 485204,
+    "sourceBytes": 20000084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
   },
   "assyrian/lion-released-from-cage": {
     "url": "/models/previews/assyrian/lion-released-from-cage/preview.glb",
     "bytes": 470712,
     "sourceBytes": 19999884,
     "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 399996
+    "faces": null,
+    "sourceFaces": null
   },
-  "discobolus": {
-    "url": "/models/previews/discobolus/preview.glb",
-    "bytes": 483480,
-    "sourceBytes": 9988284,
+  "assyrian/ashurnasirpal-lion-hunt": {
+    "url": "/models/previews/assyrian/ashurnasirpal-lion-hunt/preview.glb",
+    "bytes": 468116,
+    "sourceBytes": 20002584,
     "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 199764
+    "faces": null,
+    "sourceFaces": null
   },
-  "athena-lemnia": {
-    "url": "/models/previews/athena-lemnia/preview.glb",
-    "bytes": 484180,
-    "sourceBytes": 19999884,
+  "menippos": {
+    "url": "/models/previews/menippos/preview.glb",
+    "bytes": 486608,
+    "sourceBytes": 20000884,
     "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 399996
+    "faces": null,
+    "sourceFaces": null
   },
-  "apollo-belvedere": {
-    "url": "/models/previews/apollo-belvedere/preview.glb",
-    "bytes": 487300,
-    "sourceBytes": 14512784,
+  "porcellino": {
+    "url": "/models/previews/porcellino/preview.glb",
+    "bytes": 508740,
+    "sourceBytes": 20002684,
     "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 290254
+    "faces": null,
+    "sourceFaces": null
   },
   "dying-gaul": {
     "url": "/models/previews/dying-gaul/preview.glb",
     "bytes": 486104,
     "sourceBytes": 20001584,
     "sourceFormat": "stl",
-    "faces": 149998,
+    "faces": 14000,
     "sourceFaces": 400030
   },
-  "ludovisi-gaul": {
-    "url": "/models/previews/ludovisi-gaul/preview.glb",
-    "bytes": 493248,
-    "sourceBytes": 20002784,
+  "sphinx": {
+    "url": "/models/previews/sphinx/preview.glb",
+    "bytes": 493400,
+    "sourceBytes": 16505584,
     "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400054
+    "faces": null,
+    "sourceFaces": null
+  },
+  "capitoline-wolf": {
+    "url": "/models/previews/capitoline-wolf/preview.glb",
+    "bytes": 485000,
+    "sourceBytes": 20005084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "spandrel": {
+    "url": "/models/previews/spandrel/preview.glb",
+    "bytes": 891936,
+    "sourceBytes": 2396876,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "marble-anthropoid-sarcophagus-74-51-2452": {
+    "url": "/models/previews/marble-anthropoid-sarcophagus-74-51-2452/preview.glb",
+    "bytes": 1075024,
+    "sourceBytes": 3303720,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "head-of-maxence": {
+    "url": "/models/previews/head-of-maxence/preview.glb",
+    "bytes": 495532,
+    "sourceBytes": 34999884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "corbel-25-120-599": {
+    "url": "/models/previews/corbel-25-120-599/preview.glb",
+    "bytes": 1116608,
+    "sourceBytes": 4292140,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "limestone-votive-relief-banquet-scenes": {
+    "url": "/models/previews/limestone-votive-relief-banquet-scenes/preview.glb",
+    "bytes": 851196,
+    "sourceBytes": 2949252,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "sub-saharan-africa/gelede-helmet-mask": {
+    "url": "/models/previews/sub-saharan-africa/gelede-helmet-mask/preview.glb",
+    "bytes": 873024,
+    "sourceBytes": 3284180,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "sub-saharan-africa/opo-veranda-post-olowe": {
+    "url": "/models/previews/sub-saharan-africa/opo-veranda-post-olowe/preview.glb",
+    "bytes": 1128932,
+    "sourceBytes": 4755840,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "sub-saharan-africa/ancestor-figure-teke": {
+    "url": "/models/previews/sub-saharan-africa/ancestor-figure-teke/preview.glb",
+    "bytes": 1032364,
+    "sourceBytes": 2297884,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "sub-saharan-africa/male-pombia-figure": {
+    "url": "/models/previews/sub-saharan-africa/male-pombia-figure/preview.glb",
+    "bytes": 1305128,
+    "sourceBytes": 2438484,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "sub-saharan-africa/female-figure-with-raised-arm": {
+    "url": "/models/previews/sub-saharan-africa/female-figure-with-raised-arm/preview.glb",
+    "bytes": 956276,
+    "sourceBytes": 1962256,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "sub-saharan-africa/ngya-commemorative-post": {
+    "url": "/models/previews/sub-saharan-africa/ngya-commemorative-post/preview.glb",
+    "bytes": 841648,
+    "sourceBytes": 930988,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "sub-saharan-africa/nkisi-power-figure": {
+    "url": "/models/previews/sub-saharan-africa/nkisi-power-figure/preview.glb",
+    "bytes": 1953440,
+    "sourceBytes": 7838108,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "sub-saharan-africa/helmet-mask-four-faces": {
+    "url": "/models/previews/sub-saharan-africa/helmet-mask-four-faces/preview.glb",
+    "bytes": 1149856,
+    "sourceBytes": 2192988,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "sub-saharan-africa/seated-figure-middle-niger": {
+    "url": "/models/previews/sub-saharan-africa/seated-figure-middle-niger/preview.glb",
+    "bytes": 1025080,
+    "sourceBytes": 4337656,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "limestone-statue-of-herakles": {
+    "url": "/models/previews/limestone-statue-of-herakles/preview.glb",
+    "bytes": 894056,
+    "sourceBytes": 3105868,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "narcissus-and-echo-puteal": {
+    "url": "/models/previews/narcissus-and-echo-puteal/preview.glb",
+    "bytes": 1987480,
+    "sourceBytes": 7113316,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "hermes-antinoos-from-belvedere": {
+    "url": "/models/previews/hermes-antinoos-from-belvedere/preview.glb",
+    "bytes": 483968,
+    "sourceBytes": 20000984,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "corbel-25-120-602": {
+    "url": "/models/previews/corbel-25-120-602/preview.glb",
+    "bytes": 1116628,
+    "sourceBytes": 4262412,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "apollo-lykeios": {
+    "url": "/models/previews/apollo-lykeios/preview.glb",
+    "bytes": 481924,
+    "sourceBytes": 20001484,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
   },
   "laocoon": {
     "url": "/models/previews/laocoon/preview.glb",
     "bytes": 496940,
     "sourceBytes": 20005084,
     "sourceFormat": "stl",
-    "faces": 150000,
+    "faces": 14000,
     "sourceFaces": 400100
+  },
+  "athena-pallas-giustiniani": {
+    "url": "/models/previews/athena-pallas-giustiniani/preview.glb",
+    "bytes": 487948,
+    "sourceBytes": 20005084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "antinoos-farnese": {
+    "url": "/models/previews/antinoos-farnese/preview.glb",
+    "bytes": 482036,
+    "sourceBytes": 20000284,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "spandrel-sections-of-an-arch": {
+    "url": "/models/previews/spandrel-sections-of-an-arch/preview.glb",
+    "bytes": 1623844,
+    "sourceBytes": 1878380,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "thalia": {
+    "url": "/models/previews/thalia/preview.glb",
+    "bytes": 493952,
+    "sourceBytes": 20002484,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "head-of-a-ruler": {
+    "url": "/models/previews/head-of-a-ruler/preview.glb",
+    "bytes": 1187568,
+    "sourceBytes": 6491664,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "arch-keystone-470788": {
+    "url": "/models/previews/arch-keystone-470788/preview.glb",
+    "bytes": 1150928,
+    "sourceBytes": 3244308,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "mourning-victory-melvin-memorial": {
+    "url": "/models/previews/mourning-victory-melvin-memorial/preview.glb",
+    "bytes": 1234372,
+    "sourceBytes": 4859200,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "figure-of-a-man-with-an-oryx": {
+    "url": "/models/previews/figure-of-a-man-with-an-oryx/preview.glb",
+    "bytes": 1113728,
+    "sourceBytes": 5733736,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "herakles-lansdowne": {
+    "url": "/models/previews/herakles-lansdowne/preview.glb",
+    "bytes": 483188,
+    "sourceBytes": 20001384,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "portrait-of-homer": {
+    "url": "/models/previews/portrait-of-homer/preview.glb",
+    "bytes": 487232,
+    "sourceBytes": 20000284,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "adolescent-torso": {
+    "url": "/models/previews/adolescent-torso/preview.glb",
+    "bytes": 483884,
+    "sourceBytes": 36364384,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "portrait-of-antinoos": {
+    "url": "/models/previews/portrait-of-antinoos/preview.glb",
+    "bytes": 489660,
+    "sourceBytes": 20005084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "tomb-of-ermengol-x": {
+    "url": "/models/previews/tomb-of-ermengol-x/preview.glb",
+    "bytes": 1597764,
+    "sourceBytes": 6246712,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "vulcan": {
+    "url": "/models/previews/vulcan/preview.glb",
+    "bytes": 492904,
+    "sourceBytes": 35004084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "head-of-a-female-or-goddess-wearing-a-necklace": {
+    "url": "/models/previews/head-of-a-female-or-goddess-wearing-a-necklace/preview.glb",
+    "bytes": 1064424,
+    "sourceBytes": 5106420,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "bust-of-marcus-aurelius": {
+    "url": "/models/previews/bust-of-marcus-aurelius/preview.glb",
+    "bytes": 490860,
+    "sourceBytes": 74127284,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "dying-niobid": {
+    "url": "/models/previews/dying-niobid/preview.glb",
+    "bytes": 487684,
+    "sourceBytes": 20000684,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "crouching-venus": {
+    "url": "/models/previews/crouching-venus/preview.glb",
+    "bytes": 493044,
+    "sourceBytes": 20000984,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "hestia": {
+    "url": "/models/previews/hestia/preview.glb",
+    "bytes": 497900,
+    "sourceBytes": 20000484,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "limestone-figure-of-a-woman": {
+    "url": "/models/previews/limestone-figure-of-a-woman/preview.glb",
+    "bytes": 901524,
+    "sourceBytes": 3715040,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "head-from-farnese-hercules-type": {
+    "url": "/models/previews/head-from-farnese-hercules-type/preview.glb",
+    "bytes": 491040,
+    "sourceBytes": 19999984,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "marble-anthropoid-sarcophagus-74-51-2454": {
+    "url": "/models/previews/marble-anthropoid-sarcophagus-74-51-2454/preview.glb",
+    "bytes": 796928,
+    "sourceBytes": 2741668,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "ganymede": {
+    "url": "/models/previews/ganymede/preview.glb",
+    "bytes": 483556,
+    "sourceBytes": 34999984,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "statue-of-ur-ningirsu": {
+    "url": "/models/previews/statue-of-ur-ningirsu/preview.glb",
+    "bytes": 854352,
+    "sourceBytes": 4244984,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "aphrodite-holding-winged-eros": {
+    "url": "/models/previews/aphrodite-holding-winged-eros/preview.glb",
+    "bytes": 1189612,
+    "sourceBytes": 4926940,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "doryphoros": {
+    "url": "/models/previews/doryphoros/preview.glb",
+    "bytes": 479576,
+    "sourceBytes": 13759184,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "cycladic-marble-female-figure": {
+    "url": "/models/previews/cycladic-marble-female-figure/preview.glb",
+    "bytes": 159212,
+    "sourceBytes": 715524,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "head-of-gudea": {
+    "url": "/models/previews/head-of-gudea/preview.glb",
+    "bytes": 942644,
+    "sourceBytes": 4223060,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "head-of-a-male-or-female-figure": {
+    "url": "/models/previews/head-of-a-male-or-female-figure/preview.glb",
+    "bytes": 1072828,
+    "sourceBytes": 2342164,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "medici-faun": {
+    "url": "/models/previews/medici-faun/preview.glb",
+    "bytes": 486004,
+    "sourceBytes": 20000884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "young-bacchus-bronze": {
+    "url": "/models/previews/young-bacchus-bronze/preview.glb",
+    "bytes": 481024,
+    "sourceBytes": 33062884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "asia/emperor-xiaowen-entourage-worshipping-buddha": {
+    "url": "/models/previews/asia/emperor-xiaowen-entourage-worshipping-buddha/preview.glb",
+    "bytes": 868600,
+    "sourceBytes": 3113684,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "asia/ewer-khurasan-herat": {
+    "url": "/models/previews/asia/ewer-khurasan-herat/preview.glb",
+    "bytes": 1357876,
+    "sourceBytes": 5158308,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "asia/figure-of-an-elephant-possibly-a-chessman": {
+    "url": "/models/previews/asia/figure-of-an-elephant-possibly-a-chessman/preview.glb",
+    "bytes": 862160,
+    "sourceBytes": 3433444,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "asia/standing-buddha-radiate-combined-halo": {
+    "url": "/models/previews/asia/standing-buddha-radiate-combined-halo/preview.glb",
+    "bytes": 1061176,
+    "sourceBytes": 3920596,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "asia/bowl-arabic-inscription": {
+    "url": "/models/previews/asia/bowl-arabic-inscription/preview.glb",
+    "bytes": 633660,
+    "sourceBytes": 1222516,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "lorenzi/portrait-of-michelangelo": {
+    "url": "/models/previews/lorenzi/portrait-of-michelangelo/preview.glb",
+    "bytes": 494432,
+    "sourceBytes": 19999884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "outside-row-standing-horse": {
+    "url": "/models/previews/outside-row-standing-horse/preview.glb",
+    "bytes": 976128,
+    "sourceBytes": 4262168,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "diana-of-villa-bartholoni": {
+    "url": "/models/previews/diana-of-villa-bartholoni/preview.glb",
+    "bytes": 484596,
+    "sourceBytes": 26734884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/house-model-nayarit-2015-306": {
+    "url": "/models/previews/americas/house-model-nayarit-2015-306/preview.glb",
+    "bytes": 1224324,
+    "sourceBytes": 5100436,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/house-post-iatmul": {
+    "url": "/models/previews/americas/house-post-iatmul/preview.glb",
+    "bytes": 876256,
+    "sourceBytes": 2849036,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/bisj-ancestor-pole-omadesep": {
+    "url": "/models/previews/americas/bisj-ancestor-pole-omadesep/preview.glb",
+    "bytes": 1290644,
+    "sourceBytes": 2185952,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/bisj-ancestor-pole-jewer": {
+    "url": "/models/previews/americas/bisj-ancestor-pole-jewer/preview.glb",
+    "bytes": 1606616,
+    "sourceBytes": 2851392,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/body-mask-asmat": {
+    "url": "/models/previews/americas/body-mask-asmat/preview.glb",
+    "bytes": 1871828,
+    "sourceBytes": 11333392,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/mask-le-op": {
+    "url": "/models/previews/americas/mask-le-op/preview.glb",
+    "bytes": 1899204,
+    "sourceBytes": 17403228,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/atingting-kon-slit-gong": {
+    "url": "/models/previews/americas/atingting-kon-slit-gong/preview.glb",
+    "bytes": 896868,
+    "sourceBytes": 1573752,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/shield-with-owl-figure": {
+    "url": "/models/previews/americas/shield-with-owl-figure/preview.glb",
+    "bytes": 1012948,
+    "sourceBytes": 15919128,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/bisj-ancestor-pole-1978-412-1251": {
+    "url": "/models/previews/americas/bisj-ancestor-pole-1978-412-1251/preview.glb",
+    "bytes": 1127356,
+    "sourceBytes": 1833088,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/house-model-nayarit": {
+    "url": "/models/previews/americas/house-model-nayarit/preview.glb",
+    "bytes": 1162080,
+    "sourceBytes": 4262520,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/white-ogre-tihu-katsina-figure": {
+    "url": "/models/previews/americas/white-ogre-tihu-katsina-figure/preview.glb",
+    "bytes": 1109648,
+    "sourceBytes": 4618600,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/waka-huia-treasure-box": {
+    "url": "/models/previews/americas/waka-huia-treasure-box/preview.glb",
+    "bytes": 1534040,
+    "sourceBytes": 6653952,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/zemi-cohoba-stand": {
+    "url": "/models/previews/americas/zemi-cohoba-stand/preview.glb",
+    "bytes": 256972,
+    "sourceBytes": 9555720,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/village-scene-nayarit": {
+    "url": "/models/previews/americas/village-scene-nayarit/preview.glb",
+    "bytes": 1811572,
+    "sourceBytes": 3108208,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/female-figure-inyai-ewa": {
+    "url": "/models/previews/americas/female-figure-inyai-ewa/preview.glb",
+    "bytes": 1406052,
+    "sourceBytes": 5051316,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/headdress-effigy-hareiga": {
+    "url": "/models/previews/americas/headdress-effigy-hareiga/preview.glb",
+    "bytes": 877728,
+    "sourceBytes": 2452484,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "americas/bisj-ancestor-pole-jiem": {
+    "url": "/models/previews/americas/bisj-ancestor-pole-jiem/preview.glb",
+    "bytes": 1268976,
+    "sourceBytes": 2315660,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "bronze-figure-boy-eastern-dress": {
+    "url": "/models/previews/bronze-figure-boy-eastern-dress/preview.glb",
+    "bytes": 1581264,
+    "sourceBytes": 6528332,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "apollo-belvedere": {
+    "url": "/models/previews/apollo-belvedere/preview.glb",
+    "bytes": 487300,
+    "sourceBytes": 14512784,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 290254
+  },
+  "tomb-effigy-ermengol-ix": {
+    "url": "/models/previews/tomb-effigy-ermengol-ix/preview.glb",
+    "bytes": 1213796,
+    "sourceBytes": 2733524,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "marble-capital-sphinx": {
+    "url": "/models/previews/marble-capital-sphinx/preview.glb",
+    "bytes": 446632,
+    "sourceBytes": 1902556,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "ancestor-figure-sawos": {
+    "url": "/models/previews/ancestor-figure-sawos/preview.glb",
+    "bytes": 1242316,
+    "sourceBytes": 2349692,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "cybele-ra-34-i": {
+    "url": "/models/previews/cybele-ra-34-i/preview.glb",
+    "bytes": 494728,
+    "sourceBytes": 34999984,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "cleopatra-v-tryphaena": {
+    "url": "/models/previews/cleopatra-v-tryphaena/preview.glb",
+    "bytes": 495716,
+    "sourceBytes": 35001384,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "pandora-james-pradier": {
+    "url": "/models/previews/pandora-james-pradier/preview.glb",
+    "bytes": 481064,
+    "sourceBytes": 21652934,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "castor-and-pollux": {
+    "url": "/models/previews/castor-and-pollux/preview.glb",
+    "bytes": 492052,
+    "sourceBytes": 20001434,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "development-of-a-bottle-in-space": {
+    "url": "/models/previews/development-of-a-bottle-in-space/preview.glb",
+    "bytes": 834400,
+    "sourceBytes": 2904696,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "relief-agnus-dei-and-cherub": {
+    "url": "/models/previews/relief-agnus-dei-and-cherub/preview.glb",
+    "bytes": 1093116,
+    "sourceBytes": 3676428,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "diadoumenos-bust": {
+    "url": "/models/previews/diadoumenos-bust/preview.glb",
+    "bytes": 487028,
+    "sourceBytes": 19999884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "rodin/the-thinker": {
+    "url": "/models/previews/rodin/the-thinker/preview.glb",
+    "bytes": 499032,
+    "sourceBytes": 41874184,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 837482
+  },
+  "rodin/danaid": {
+    "url": "/models/previews/rodin/danaid/preview.glb",
+    "bytes": 362492,
+    "sourceBytes": 19895954,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "rodin/the-walking-man": {
+    "url": "/models/previews/rodin/the-walking-man/preview.glb",
+    "bytes": 236100,
+    "sourceBytes": 18119205,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "rodin/heroic-head-of-pierre-de-wissant": {
+    "url": "/models/previews/rodin/heroic-head-of-pierre-de-wissant/preview.glb",
+    "bytes": 492228,
+    "sourceBytes": 31168384,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "eros-flying": {
+    "url": "/models/previews/eros-flying/preview.glb",
+    "bytes": 879448,
+    "sourceBytes": 1702840,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "block-470953": {
+    "url": "/models/previews/block-470953/preview.glb",
+    "bytes": 1393724,
+    "sourceBytes": 6187456,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "doryphoros-torso": {
+    "url": "/models/previews/doryphoros-torso/preview.glb",
+    "bytes": 483804,
+    "sourceBytes": 20000384,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "augustus-of-prima-porta": {
+    "url": "/models/previews/augustus-of-prima-porta/preview.glb",
+    "bytes": 488652,
+    "sourceBytes": 15661384,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "penelope": {
+    "url": "/models/previews/penelope/preview.glb",
+    "bytes": 494268,
+    "sourceBytes": 20000284,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "limestone-head-of-a-bearded-man": {
+    "url": "/models/previews/limestone-head-of-a-bearded-man/preview.glb",
+    "bytes": 1504016,
+    "sourceBytes": 5796892,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "corbel-25-120-601": {
+    "url": "/models/previews/corbel-25-120-601/preview.glb",
+    "bytes": 1169096,
+    "sourceBytes": 4348652,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "strangford-shield": {
+    "url": "/models/previews/strangford-shield/preview.glb",
+    "bytes": 479576,
+    "sourceBytes": 20000884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "greek/portrait-of-demosthenes-smk-cast": {
+    "url": "/models/previews/greek/portrait-of-demosthenes-smk-cast/preview.glb",
+    "bytes": 2700724,
+    "sourceBytes": 178673684,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 3573472
+  },
+  "greek/portrait-of-sophocles-smk-cast": {
+    "url": "/models/previews/greek/portrait-of-sophocles-smk-cast/preview.glb",
+    "bytes": 2700784,
+    "sourceBytes": 178903684,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 3578072
+  },
+  "silver-bowl-isis-medallion": {
+    "url": "/models/previews/silver-bowl-isis-medallion/preview.glb",
+    "bytes": 836700,
+    "sourceBytes": 3401108,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "athena-lemnia": {
+    "url": "/models/previews/athena-lemnia/preview.glb",
+    "bytes": 484180,
+    "sourceBytes": 19999884,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 399996
+  },
+  "cypriot-limestone-priest": {
+    "url": "/models/previews/cypriot-limestone-priest/preview.glb",
+    "bytes": 1942720,
+    "sourceBytes": 7245000,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "dionysos-farnese": {
+    "url": "/models/previews/dionysos-farnese/preview.glb",
+    "bytes": 494364,
+    "sourceBytes": 20000084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "belvedere-torso": {
+    "url": "/models/previews/belvedere-torso/preview.glb",
+    "bytes": 498508,
+    "sourceBytes": 20001884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "ludovisi-gaul": {
+    "url": "/models/previews/ludovisi-gaul/preview.glb",
+    "bytes": 493248,
+    "sourceBytes": 20002784,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "marble-sarcophagus-lions-antelope": {
+    "url": "/models/previews/marble-sarcophagus-lions-antelope/preview.glb",
+    "bytes": 1091980,
+    "sourceBytes": 5596024,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "princess-from-amarna": {
+    "url": "/models/previews/princess-from-amarna/preview.glb",
+    "bytes": 492652,
+    "sourceBytes": 19999884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "pudicity": {
+    "url": "/models/previews/pudicity/preview.glb",
+    "bytes": 489188,
+    "sourceBytes": 20003484,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "bearded-hercules-head": {
+    "url": "/models/previews/bearded-hercules-head/preview.glb",
+    "bytes": 493536,
+    "sourceBytes": 35000084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "capitoline-venus": {
+    "url": "/models/previews/capitoline-venus/preview.glb",
+    "bytes": 481568,
+    "sourceBytes": 20002184,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 400042
+  },
+  "diana-ra-34-h": {
+    "url": "/models/previews/diana-ra-34-h/preview.glb",
+    "bytes": 490444,
+    "sourceBytes": 34350484,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "artemision-bronze": {
+    "url": "/models/previews/artemision-bronze/preview.glb",
+    "bytes": 476816,
+    "sourceBytes": 10474784,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "attis": {
+    "url": "/models/previews/attis/preview.glb",
+    "bytes": 495184,
+    "sourceBytes": 35002384,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "lying-lion": {
+    "url": "/models/previews/lying-lion/preview.glb",
+    "bytes": 481968,
+    "sourceBytes": 20000484,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "discobolus": {
+    "url": "/models/previews/discobolus/preview.glb",
+    "bytes": 483480,
+    "sourceBytes": 9988284,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 199764
+  },
+  "horus-protecting-nectanebo-ii": {
+    "url": "/models/previews/horus-protecting-nectanebo-ii/preview.glb",
+    "bytes": 691872,
+    "sourceBytes": 2964784,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "voussoir-472190": {
+    "url": "/models/previews/voussoir-472190/preview.glb",
+    "bytes": 1473876,
+    "sourceBytes": 5524848,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "bronze-horse-head-herculaneum": {
+    "url": "/models/previews/bronze-horse-head-herculaneum/preview.glb",
+    "bytes": 1057492,
+    "sourceBytes": 20231,
+    "sourceFormat": "gltf",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "borghese-gladiator": {
+    "url": "/models/previews/borghese-gladiator/preview.glb",
+    "bytes": 490700,
+    "sourceBytes": 20000684,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "perseus-with-head-of-medusa": {
+    "url": "/models/previews/perseus-with-head-of-medusa/preview.glb",
+    "bytes": 873908,
+    "sourceBytes": 3746884,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "lion": {
+    "url": "/models/previews/lion/preview.glb",
+    "bytes": 485848,
+    "sourceBytes": 20005084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "palmyra/haliphat": {
+    "url": "/models/previews/palmyra/haliphat/preview.glb",
+    "bytes": 1308860,
+    "sourceBytes": 10600076,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "neoclassical/hebe-thorvaldsen-smk-cast": {
+    "url": "/models/previews/neoclassical/hebe-thorvaldsen-smk-cast/preview.glb",
+    "bytes": 2700700,
+    "sourceBytes": 99999884,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 1999996
   },
   "germanicus": {
     "url": "/models/previews/germanicus/preview.glb",
     "bytes": 484964,
     "sourceBytes": 20001084,
     "sourceFormat": "stl",
-    "faces": 149998,
+    "faces": 14000,
     "sourceFaces": 400020
   },
   "venus-de-milo": {
@@ -76,1319 +1108,311 @@
     "bytes": 481948,
     "sourceBytes": 13713684,
     "sourceFormat": "stl",
-    "faces": 149996,
+    "faces": 14000,
     "sourceFaces": 274272
-  },
-  "capitoline-venus": {
-    "url": "/models/previews/capitoline-venus/preview.glb",
-    "bytes": 481568,
-    "sourceBytes": 20002184,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400042
-  },
-  "belvedere-torso": {
-    "url": "/models/previews/belvedere-torso/preview.glb",
-    "bytes": 498508,
-    "sourceBytes": 20001884,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400036
-  },
-  "michelangelo/battle-of-the-centaurs": {
-    "url": "/models/previews/michelangelo/battle-of-the-centaurs/preview.glb",
-    "bytes": 494076,
-    "sourceBytes": 19999884,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 399996
-  },
-  "michelangelo/bacchus": {
-    "url": "/models/previews/michelangelo/bacchus/preview.glb",
-    "bytes": 483544,
-    "sourceBytes": 19500084,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 390000
-  },
-  "michelangelo/pieta": {
-    "url": "/models/previews/michelangelo/pieta/preview.glb",
-    "bytes": 500884,
-    "sourceBytes": 20000884,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400016
-  },
-  "michelangelo/bruges-madonna": {
-    "url": "/models/previews/michelangelo/bruges-madonna/preview.glb",
-    "bytes": 493304,
-    "sourceBytes": 20000484,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400008
-  },
-  "michelangelo/david": {
-    "url": "/models/previews/michelangelo/david/preview.glb",
-    "bytes": 482852,
-    "sourceBytes": 59997484,
-    "sourceFormat": "stl",
-    "faces": 149994,
-    "sourceFaces": 1199948
-  },
-  "michelangelo/tondo-pitti": {
-    "url": "/models/previews/michelangelo/tondo-pitti/preview.glb",
-    "bytes": 487768,
-    "sourceBytes": 19999884,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 399996
-  },
-  "michelangelo/tondo-taddei": {
-    "url": "/models/previews/michelangelo/tondo-taddei/preview.glb",
-    "bytes": 488904,
-    "sourceBytes": 19999884,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 399996
-  },
-  "michelangelo/dying-slave": {
-    "url": "/models/previews/michelangelo/dying-slave/preview.glb",
-    "bytes": 481048,
-    "sourceBytes": 20000884,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400016
-  },
-  "michelangelo/rebellious-slave": {
-    "url": "/models/previews/michelangelo/rebellious-slave/preview.glb",
-    "bytes": 482288,
-    "sourceBytes": 20000484,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400008
-  },
-  "michelangelo/moses": {
-    "url": "/models/previews/michelangelo/moses/preview.glb",
-    "bytes": 497600,
-    "sourceBytes": 20003084,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400060
-  },
-  "michelangelo/risen-christ": {
-    "url": "/models/previews/michelangelo/risen-christ/preview.glb",
-    "bytes": 483620,
-    "sourceBytes": 20001884,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400036
-  },
-  "michelangelo/prisoner": {
-    "url": "/models/previews/michelangelo/prisoner/preview.glb",
-    "bytes": 482220,
-    "sourceBytes": 19999884,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 399996
-  },
-  "michelangelo/medici-madonna": {
-    "url": "/models/previews/michelangelo/medici-madonna/preview.glb",
-    "bytes": 488372,
-    "sourceBytes": 20000084,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400000
-  },
-  "michelangelo/dusk": {
-    "url": "/models/previews/michelangelo/dusk/preview.glb",
-    "bytes": 490512,
-    "sourceBytes": 20005084,
-    "sourceFormat": "stl",
-    "faces": 149992,
-    "sourceFaces": 400100
-  },
-  "michelangelo/dawn": {
-    "url": "/models/previews/michelangelo/dawn/preview.glb",
-    "bytes": 493116,
-    "sourceBytes": 20005084,
-    "sourceFormat": "stl",
-    "faces": 149996,
-    "sourceFaces": 400100
-  },
-  "michelangelo/lorenzo-duke-of-urbino": {
-    "url": "/models/previews/michelangelo/lorenzo-duke-of-urbino/preview.glb",
-    "bytes": 491244,
-    "sourceBytes": 20000784,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400014
-  },
-  "michelangelo/giuliano-duke-of-nemours": {
-    "url": "/models/previews/michelangelo/giuliano-duke-of-nemours/preview.glb",
-    "bytes": 492280,
-    "sourceBytes": 20002084,
-    "sourceFormat": "stl",
-    "faces": 149996,
-    "sourceFaces": 400040
-  },
-  "michelangelo/night": {
-    "url": "/models/previews/michelangelo/night/preview.glb",
-    "bytes": 492088,
-    "sourceBytes": 20001684,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400032
-  },
-  "michelangelo/apollo": {
-    "url": "/models/previews/michelangelo/apollo/preview.glb",
-    "bytes": 483332,
-    "sourceBytes": 20000684,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400012
-  },
-  "michelangelo/brutus": {
-    "url": "/models/previews/michelangelo/brutus/preview.glb",
-    "bytes": 489868,
-    "sourceBytes": 20000284,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400004
-  },
-  "michelangelo/rondanini-pieta": {
-    "url": "/models/previews/michelangelo/rondanini-pieta/preview.glb",
-    "bytes": 485024,
-    "sourceBytes": 20000284,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400004
-  },
-  "rodin/danaid": {
-    "url": "/models/previews/rodin/danaid/preview.glb",
-    "bytes": 362492,
-    "sourceBytes": 19895954,
-    "sourceFormat": "stl",
-    "faces": 110538,
-    "sourceFaces": 110538
-  },
-  "rodin/the-walking-man": {
-    "url": "/models/previews/rodin/the-walking-man/preview.glb",
-    "bytes": 236100,
-    "sourceBytes": 18119205,
-    "sourceFormat": "stl",
-    "faces": 71794,
-    "sourceFaces": 71794
-  },
-  "adolescent-torso": {
-    "url": "/models/previews/adolescent-torso/preview.glb",
-    "bytes": 483884,
-    "sourceBytes": 36364384,
-    "sourceFormat": "stl",
-    "faces": 149942,
-    "sourceFaces": 727286
-  },
-  "americas/atingting-kon-slit-gong": {
-    "url": "/models/previews/americas/atingting-kon-slit-gong/preview.glb",
-    "bytes": 896868,
-    "sourceBytes": 1573752,
-    "sourceFormat": "glb",
-    "faces": 99985,
-    "sourceFaces": 99985
-  },
-  "americas/bisj-ancestor-pole-1978-412-1251": {
-    "url": "/models/previews/americas/bisj-ancestor-pole-1978-412-1251/preview.glb",
-    "bytes": 1127356,
-    "sourceBytes": 1833088,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "americas/bisj-ancestor-pole-jewer": {
-    "url": "/models/previews/americas/bisj-ancestor-pole-jewer/preview.glb",
-    "bytes": 1606616,
-    "sourceBytes": 2851392,
-    "sourceFormat": "glb",
-    "faces": 149988,
-    "sourceFaces": 187049
-  },
-  "americas/bisj-ancestor-pole-jiem": {
-    "url": "/models/previews/americas/bisj-ancestor-pole-jiem/preview.glb",
-    "bytes": 1268976,
-    "sourceBytes": 2315660,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
-  },
-  "americas/bisj-ancestor-pole-omadesep": {
-    "url": "/models/previews/americas/bisj-ancestor-pole-omadesep/preview.glb",
-    "bytes": 1290644,
-    "sourceBytes": 2185952,
-    "sourceFormat": "glb",
-    "faces": 121567,
-    "sourceFaces": 121567
-  },
-  "americas/body-mask-asmat": {
-    "url": "/models/previews/americas/body-mask-asmat/preview.glb",
-    "bytes": 1871828,
-    "sourceBytes": 11333392,
-    "sourceFormat": "glb",
-    "faces": 100826,
-    "sourceFaces": 478586
-  },
-  "americas/female-figure-inyai-ewa": {
-    "url": "/models/previews/americas/female-figure-inyai-ewa/preview.glb",
-    "bytes": 1406052,
-    "sourceBytes": 5051316,
-    "sourceFormat": "glb",
-    "faces": 149961,
-    "sourceFaces": 352736
-  },
-  "americas/headdress-effigy-hareiga": {
-    "url": "/models/previews/americas/headdress-effigy-hareiga/preview.glb",
-    "bytes": 877728,
-    "sourceBytes": 2452484,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "americas/house-model-nayarit": {
-    "url": "/models/previews/americas/house-model-nayarit/preview.glb",
-    "bytes": 1162080,
-    "sourceBytes": 4262520,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
-  },
-  "americas/house-model-nayarit-2015-306": {
-    "url": "/models/previews/americas/house-model-nayarit-2015-306/preview.glb",
-    "bytes": 1224324,
-    "sourceBytes": 5100436,
-    "sourceFormat": "glb",
-    "faces": 99999,
-    "sourceFaces": 99999
-  },
-  "americas/house-post-iatmul": {
-    "url": "/models/previews/americas/house-post-iatmul/preview.glb",
-    "bytes": 876256,
-    "sourceBytes": 2849036,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "americas/mask-le-op": {
-    "url": "/models/previews/americas/mask-le-op/preview.glb",
-    "bytes": 1899204,
-    "sourceBytes": 17403228,
-    "sourceFormat": "glb",
-    "faces": 123172,
-    "sourceFaces": 1254340
-  },
-  "americas/shield-with-owl-figure": {
-    "url": "/models/previews/americas/shield-with-owl-figure/preview.glb",
-    "bytes": 1012948,
-    "sourceBytes": 15919128,
-    "sourceFormat": "glb",
-    "faces": 86600,
-    "sourceFaces": 1092825
-  },
-  "americas/village-scene-nayarit": {
-    "url": "/models/previews/americas/village-scene-nayarit/preview.glb",
-    "bytes": 1811572,
-    "sourceBytes": 3108208,
-    "sourceFormat": "glb",
-    "faces": 99999,
-    "sourceFaces": 99999
-  },
-  "americas/waka-huia-treasure-box": {
-    "url": "/models/previews/americas/waka-huia-treasure-box/preview.glb",
-    "bytes": 1534040,
-    "sourceBytes": 6653952,
-    "sourceFormat": "glb",
-    "faces": 99985,
-    "sourceFaces": 99985
-  },
-  "americas/white-ogre-tihu-katsina-figure": {
-    "url": "/models/previews/americas/white-ogre-tihu-katsina-figure/preview.glb",
-    "bytes": 1109648,
-    "sourceBytes": 4618600,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
-  },
-  "americas/zemi-cohoba-stand": {
-    "url": "/models/previews/americas/zemi-cohoba-stand/preview.glb",
-    "bytes": 256972,
-    "sourceBytes": 9555720,
-    "sourceFormat": "glb",
-    "faces": 24990,
-    "sourceFaces": 317960
-  },
-  "ancestor-figure-sawos": {
-    "url": "/models/previews/ancestor-figure-sawos/preview.glb",
-    "bytes": 1242316,
-    "sourceBytes": 2349692,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
-  },
-  "antinoos-farnese": {
-    "url": "/models/previews/antinoos-farnese/preview.glb",
-    "bytes": 482036,
-    "sourceBytes": 20000284,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400004
-  },
-  "aphrodite-anadyomene": {
-    "url": "/models/previews/aphrodite-anadyomene/preview.glb",
-    "bytes": 481556,
-    "sourceBytes": 20005084,
-    "sourceFormat": "stl",
-    "faces": 149990,
-    "sourceFaces": 400100
-  },
-  "aphrodite-holding-winged-eros": {
-    "url": "/models/previews/aphrodite-holding-winged-eros/preview.glb",
-    "bytes": 1189612,
-    "sourceBytes": 4926940,
-    "sourceFormat": "glb",
-    "faces": 99985,
-    "sourceFaces": 99985
-  },
-  "apollo-lykeios": {
-    "url": "/models/previews/apollo-lykeios/preview.glb",
-    "bytes": 481924,
-    "sourceBytes": 20001484,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400028
-  },
-  "arch-keystone-470788": {
-    "url": "/models/previews/arch-keystone-470788/preview.glb",
-    "bytes": 1150928,
-    "sourceBytes": 3244308,
-    "sourceFormat": "glb",
-    "faces": 99985,
-    "sourceFaces": 99985
-  },
-  "aristippos-of-cyrene": {
-    "url": "/models/previews/aristippos-of-cyrene/preview.glb",
-    "bytes": 495316,
-    "sourceBytes": 20000784,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400014
-  },
-  "artemision-bronze": {
-    "url": "/models/previews/artemision-bronze/preview.glb",
-    "bytes": 476816,
-    "sourceBytes": 10474784,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 209494
-  },
-  "asia/bowl-arabic-inscription": {
-    "url": "/models/previews/asia/bowl-arabic-inscription/preview.glb",
-    "bytes": 633660,
-    "sourceBytes": 1222516,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "asia/emperor-xiaowen-entourage-worshipping-buddha": {
-    "url": "/models/previews/asia/emperor-xiaowen-entourage-worshipping-buddha/preview.glb",
-    "bytes": 868600,
-    "sourceBytes": 3113684,
-    "sourceFormat": "glb",
-    "faces": 99985,
-    "sourceFaces": 99985
-  },
-  "asia/ewer-khurasan-herat": {
-    "url": "/models/previews/asia/ewer-khurasan-herat/preview.glb",
-    "bytes": 1357876,
-    "sourceBytes": 5158308,
-    "sourceFormat": "glb",
-    "faces": 149947,
-    "sourceFaces": 211811
-  },
-  "asia/figure-of-an-elephant-possibly-a-chessman": {
-    "url": "/models/previews/asia/figure-of-an-elephant-possibly-a-chessman/preview.glb",
-    "bytes": 862160,
-    "sourceBytes": 3433444,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "asia/standing-buddha-radiate-combined-halo": {
-    "url": "/models/previews/asia/standing-buddha-radiate-combined-halo/preview.glb",
-    "bytes": 1061176,
-    "sourceBytes": 3920596,
-    "sourceFormat": "glb",
-    "faces": 99985,
-    "sourceFaces": 99985
-  },
-  "athena-pallas-giustiniani": {
-    "url": "/models/previews/athena-pallas-giustiniani/preview.glb",
-    "bytes": 487948,
-    "sourceBytes": 20005084,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400100
-  },
-  "attis": {
-    "url": "/models/previews/attis/preview.glb",
-    "bytes": 495184,
-    "sourceBytes": 35002384,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 700046
-  },
-  "augustus-of-prima-porta": {
-    "url": "/models/previews/augustus-of-prima-porta/preview.glb",
-    "bytes": 488652,
-    "sourceBytes": 15661384,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 313226
-  },
-  "barberini-faun": {
-    "url": "/models/previews/barberini-faun/preview.glb",
-    "bytes": 495288,
-    "sourceBytes": 20005084,
-    "sourceFormat": "stl",
-    "faces": 149994,
-    "sourceFaces": 400100
-  },
-  "bearded-hercules-head": {
-    "url": "/models/previews/bearded-hercules-head/preview.glb",
-    "bytes": 493536,
-    "sourceBytes": 35000084,
-    "sourceFormat": "stl",
-    "faces": 150002,
-    "sourceFaces": 700000
-  },
-  "block-470953": {
-    "url": "/models/previews/block-470953/preview.glb",
-    "bytes": 1393724,
-    "sourceBytes": 6187456,
-    "sourceFormat": "glb",
-    "faces": 99994,
-    "sourceFaces": 99994
-  },
-  "borghese-gladiator": {
-    "url": "/models/previews/borghese-gladiator/preview.glb",
-    "bytes": 490700,
-    "sourceBytes": 20000684,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400012
-  },
-  "bouchardon/cupid": {
-    "url": "/models/previews/bouchardon/cupid/preview.glb",
-    "bytes": 487956,
-    "sourceBytes": 12688084,
-    "sourceFormat": "stl",
-    "faces": 149994,
-    "sourceFaces": 253760
-  },
-  "bronze-figure-boy-eastern-dress": {
-    "url": "/models/previews/bronze-figure-boy-eastern-dress/preview.glb",
-    "bytes": 1581264,
-    "sourceBytes": 6528332,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
-  },
-  "bronze-horse-head-herculaneum": {
-    "url": "/models/previews/bronze-horse-head-herculaneum/preview.glb",
-    "bytes": 1057496,
-    "sourceBytes": 20231,
-    "sourceFormat": "gltf",
-    "faces": 149995,
-    "sourceFaces": 823188
-  },
-  "bust-of-marcus-aurelius": {
-    "url": "/models/previews/bust-of-marcus-aurelius/preview.glb",
-    "bytes": 490860,
-    "sourceBytes": 74127284,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 1482544
-  },
-  "capitoline-wolf": {
-    "url": "/models/previews/capitoline-wolf/preview.glb",
-    "bytes": 485000,
-    "sourceBytes": 20005084,
-    "sourceFormat": "stl",
-    "faces": 149996,
-    "sourceFaces": 400100
-  },
-  "castor-and-pollux": {
-    "url": "/models/previews/castor-and-pollux/preview.glb",
-    "bytes": 492052,
-    "sourceBytes": 20001434,
-    "sourceFormat": "stl",
-    "faces": 149997,
-    "sourceFaces": 400027
-  },
-  "cleopatra-v-tryphaena": {
-    "url": "/models/previews/cleopatra-v-tryphaena/preview.glb",
-    "bytes": 495716,
-    "sourceBytes": 35001384,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 700026
-  },
-  "corbel-25-120-599": {
-    "url": "/models/previews/corbel-25-120-599/preview.glb",
-    "bytes": 1116608,
-    "sourceBytes": 4292140,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
-  },
-  "corbel-25-120-601": {
-    "url": "/models/previews/corbel-25-120-601/preview.glb",
-    "bytes": 1169096,
-    "sourceBytes": 4348652,
-    "sourceFormat": "glb",
-    "faces": 99985,
-    "sourceFaces": 99985
-  },
-  "corbel-25-120-602": {
-    "url": "/models/previews/corbel-25-120-602/preview.glb",
-    "bytes": 1116628,
-    "sourceBytes": 4262412,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
-  },
-  "crouching-venus": {
-    "url": "/models/previews/crouching-venus/preview.glb",
-    "bytes": 493044,
-    "sourceBytes": 20000984,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400018
-  },
-  "cybele-ra-34-i": {
-    "url": "/models/previews/cybele-ra-34-i/preview.glb",
-    "bytes": 494728,
-    "sourceBytes": 34999984,
-    "sourceFormat": "stl",
-    "faces": 150002,
-    "sourceFaces": 699998
-  },
-  "cycladic-marble-female-figure": {
-    "url": "/models/previews/cycladic-marble-female-figure/preview.glb",
-    "bytes": 159212,
-    "sourceBytes": 715524,
-    "sourceFormat": "glb",
-    "faces": 7434,
-    "sourceFaces": 7434
-  },
-  "cypriot-limestone-priest": {
-    "url": "/models/previews/cypriot-limestone-priest/preview.glb",
-    "bytes": 1942720,
-    "sourceBytes": 7245000,
-    "sourceFormat": "glb",
-    "faces": 111201,
-    "sourceFaces": 211763
-  },
-  "development-of-a-bottle-in-space": {
-    "url": "/models/previews/development-of-a-bottle-in-space/preview.glb",
-    "bytes": 834400,
-    "sourceBytes": 2904696,
-    "sourceFormat": "glb",
-    "faces": 99985,
-    "sourceFaces": 99985
-  },
-  "diadoumenos-bust": {
-    "url": "/models/previews/diadoumenos-bust/preview.glb",
-    "bytes": 487028,
-    "sourceBytes": 19999884,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 399996
-  },
-  "diana-of-villa-bartholoni": {
-    "url": "/models/previews/diana-of-villa-bartholoni/preview.glb",
-    "bytes": 484596,
-    "sourceBytes": 26734884,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 534696
-  },
-  "diana-ra-34-h": {
-    "url": "/models/previews/diana-ra-34-h/preview.glb",
-    "bytes": 490444,
-    "sourceBytes": 34350484,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 687008
-  },
-  "dionysos-farnese": {
-    "url": "/models/previews/dionysos-farnese/preview.glb",
-    "bytes": 494364,
-    "sourceBytes": 20000084,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400000
-  },
-  "donatello/david": {
-    "url": "/models/previews/donatello/david/preview.glb",
-    "bytes": 485204,
-    "sourceBytes": 20000084,
-    "sourceFormat": "stl",
-    "faces": 149968,
-    "sourceFaces": 400000
-  },
-  "donatello/john-the-baptist-as-a-boy": {
-    "url": "/models/previews/donatello/john-the-baptist-as-a-boy/preview.glb",
-    "bytes": 481040,
-    "sourceBytes": 20001184,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400022
-  },
-  "donatello/saint-george": {
-    "url": "/models/previews/donatello/saint-george/preview.glb",
-    "bytes": 482952,
-    "sourceBytes": 20000884,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400016
-  },
-  "doryphoros": {
-    "url": "/models/previews/doryphoros/preview.glb",
-    "bytes": 479576,
-    "sourceBytes": 13759184,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 275182
-  },
-  "doryphoros-torso": {
-    "url": "/models/previews/doryphoros-torso/preview.glb",
-    "bytes": 483804,
-    "sourceBytes": 20000384,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400006
-  },
-  "dying-niobid": {
-    "url": "/models/previews/dying-niobid/preview.glb",
-    "bytes": 487684,
-    "sourceBytes": 20000684,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400012
-  },
-  "entombment-of-christ": {
-    "url": "/models/previews/entombment-of-christ/preview.glb",
-    "bytes": 1061412,
-    "sourceBytes": 23058940,
-    "sourceFormat": "glb",
-    "faces": 131344,
-    "sourceFaces": 1656533
-  },
-  "eros-flying": {
-    "url": "/models/previews/eros-flying/preview.glb",
-    "bytes": 879448,
-    "sourceBytes": 1702840,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "figure-of-a-man-with-an-oryx": {
-    "url": "/models/previews/figure-of-a-man-with-an-oryx/preview.glb",
-    "bytes": 1113728,
-    "sourceBytes": 5733736,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "final-neolithic-marble-female-figure": {
-    "url": "/models/previews/final-neolithic-marble-female-figure/preview.glb",
-    "bytes": 994180,
-    "sourceBytes": 2649332,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
-  },
-  "galeria-valeria-eutropia": {
-    "url": "/models/previews/galeria-valeria-eutropia/preview.glb",
-    "bytes": 499816,
-    "sourceBytes": 34999884,
-    "sourceFormat": "stl",
-    "faces": 150002,
-    "sourceFaces": 699996
-  },
-  "ganymede": {
-    "url": "/models/previews/ganymede/preview.glb",
-    "bytes": 483556,
-    "sourceBytes": 34999984,
-    "sourceFormat": "stl",
-    "faces": 150002,
-    "sourceFaces": 699998
-  },
-  "head-from-farnese-hercules-type": {
-    "url": "/models/previews/head-from-farnese-hercules-type/preview.glb",
-    "bytes": 491040,
-    "sourceBytes": 19999984,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 399998
-  },
-  "head-of-a-female-or-goddess-wearing-a-necklace": {
-    "url": "/models/previews/head-of-a-female-or-goddess-wearing-a-necklace/preview.glb",
-    "bytes": 1064424,
-    "sourceBytes": 5106420,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
-  },
-  "head-of-a-male-or-female-figure": {
-    "url": "/models/previews/head-of-a-male-or-female-figure/preview.glb",
-    "bytes": 1072828,
-    "sourceBytes": 2342164,
-    "sourceFormat": "glb",
-    "faces": 74618,
-    "sourceFaces": 74618
-  },
-  "head-of-a-ruler": {
-    "url": "/models/previews/head-of-a-ruler/preview.glb",
-    "bytes": 1187568,
-    "sourceBytes": 6491664,
-    "sourceFormat": "glb",
-    "faces": 96968,
-    "sourceFaces": 96968
-  },
-  "head-of-gudea": {
-    "url": "/models/previews/head-of-gudea/preview.glb",
-    "bytes": 942644,
-    "sourceBytes": 4223060,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
-  },
-  "head-of-maxence": {
-    "url": "/models/previews/head-of-maxence/preview.glb",
-    "bytes": 495532,
-    "sourceBytes": 34999884,
-    "sourceFormat": "stl",
-    "faces": 150002,
-    "sourceFaces": 699996
-  },
-  "herakles-lansdowne": {
-    "url": "/models/previews/herakles-lansdowne/preview.glb",
-    "bytes": 483188,
-    "sourceBytes": 20001384,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400026
-  },
-  "hermes-antinoos-from-belvedere": {
-    "url": "/models/previews/hermes-antinoos-from-belvedere/preview.glb",
-    "bytes": 483968,
-    "sourceBytes": 20000984,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400018
-  },
-  "hestia": {
-    "url": "/models/previews/hestia/preview.glb",
-    "bytes": 497900,
-    "sourceBytes": 20000484,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400008
-  },
-  "horus-protecting-nectanebo-ii": {
-    "url": "/models/previews/horus-protecting-nectanebo-ii/preview.glb",
-    "bytes": 691872,
-    "sourceBytes": 2964784,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "juno-ludovisi": {
-    "url": "/models/previews/juno-ludovisi/preview.glb",
-    "bytes": 491820,
-    "sourceBytes": 32149284,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 642984
-  },
-  "kneeling-youth": {
-    "url": "/models/previews/kneeling-youth/preview.glb",
-    "bytes": 489672,
-    "sourceBytes": 20000984,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400018
-  },
-  "limestone-figure-of-a-woman": {
-    "url": "/models/previews/limestone-figure-of-a-woman/preview.glb",
-    "bytes": 901524,
-    "sourceBytes": 3715040,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
   },
   "limestone-funerary-stele-cypriot-capital": {
     "url": "/models/previews/limestone-funerary-stele-cypriot-capital/preview.glb",
     "bytes": 968032,
     "sourceBytes": 4030744,
     "sourceFormat": "glb",
-    "faces": 99985,
-    "sourceFaces": 99985
+    "faces": null,
+    "sourceFaces": null
   },
-  "limestone-head-of-a-bearded-man": {
-    "url": "/models/previews/limestone-head-of-a-bearded-man/preview.glb",
-    "bytes": 1504016,
-    "sourceBytes": 5796892,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "limestone-statue-of-herakles": {
-    "url": "/models/previews/limestone-statue-of-herakles/preview.glb",
-    "bytes": 894056,
-    "sourceBytes": 3105868,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
-  },
-  "limestone-votive-relief-banquet-scenes": {
-    "url": "/models/previews/limestone-votive-relief-banquet-scenes/preview.glb",
-    "bytes": 851196,
-    "sourceBytes": 2949252,
-    "sourceFormat": "glb",
-    "faces": 99991,
-    "sourceFaces": 99991
-  },
-  "lintel-470947": {
-    "url": "/models/previews/lintel-470947/preview.glb",
-    "bytes": 1611648,
-    "sourceBytes": 5071784,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "lion": {
-    "url": "/models/previews/lion/preview.glb",
-    "bytes": 485848,
-    "sourceBytes": 20005084,
+  "aristippos-of-cyrene": {
+    "url": "/models/previews/aristippos-of-cyrene/preview.glb",
+    "bytes": 495316,
+    "sourceBytes": 20000784,
     "sourceFormat": "stl",
-    "faces": 149996,
-    "sourceFaces": 400100
-  },
-  "lorenzi/portrait-of-michelangelo": {
-    "url": "/models/previews/lorenzi/portrait-of-michelangelo/preview.glb",
-    "bytes": 494432,
-    "sourceBytes": 19999884,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 399996
-  },
-  "lying-lion": {
-    "url": "/models/previews/lying-lion/preview.glb",
-    "bytes": 481968,
-    "sourceBytes": 20000484,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400008
-  },
-  "marble-anthropoid-sarcophagus-74-51-2452": {
-    "url": "/models/previews/marble-anthropoid-sarcophagus-74-51-2452/preview.glb",
-    "bytes": 1075024,
-    "sourceBytes": 3303720,
-    "sourceFormat": "glb",
-    "faces": 107166,
-    "sourceFaces": 107166
-  },
-  "marble-anthropoid-sarcophagus-74-51-2454": {
-    "url": "/models/previews/marble-anthropoid-sarcophagus-74-51-2454/preview.glb",
-    "bytes": 796928,
-    "sourceBytes": 2741668,
-    "sourceFormat": "glb",
-    "faces": 99999,
-    "sourceFaces": 99999
-  },
-  "marble-capital-sphinx": {
-    "url": "/models/previews/marble-capital-sphinx/preview.glb",
-    "bytes": 446632,
-    "sourceBytes": 1902556,
-    "sourceFormat": "glb",
-    "faces": 26880,
-    "sourceFaces": 26880
-  },
-  "marble-sarcophagus-lions-antelope": {
-    "url": "/models/previews/marble-sarcophagus-lions-antelope/preview.glb",
-    "bytes": 1091980,
-    "sourceBytes": 5596024,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
+    "faces": null,
+    "sourceFaces": null
   },
   "marble-stele-youth-and-little-girl": {
     "url": "/models/previews/marble-stele-youth-and-little-girl/preview.glb",
     "bytes": 797728,
     "sourceBytes": 1361304,
     "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "medici-faun": {
-    "url": "/models/previews/medici-faun/preview.glb",
-    "bytes": 486004,
-    "sourceBytes": 20000884,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400016
-  },
-  "menippos": {
-    "url": "/models/previews/menippos/preview.glb",
-    "bytes": 486608,
-    "sourceBytes": 20000884,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400016
-  },
-  "michelangelo/crouching-boy": {
-    "url": "/models/previews/michelangelo/crouching-boy/preview.glb",
-    "bytes": 505796,
-    "sourceBytes": 20000684,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400012
-  },
-  "michelangelo/madonna-of-the-stairs": {
-    "url": "/models/previews/michelangelo/madonna-of-the-stairs/preview.glb",
-    "bytes": 482992,
-    "sourceBytes": 19917534,
-    "sourceFormat": "stl",
-    "faces": 149997,
-    "sourceFaces": 398349
-  },
-  "mourning-victory-melvin-memorial": {
-    "url": "/models/previews/mourning-victory-melvin-memorial/preview.glb",
-    "bytes": 1234372,
-    "sourceBytes": 4859200,
-    "sourceFormat": "glb",
-    "faces": 98851,
-    "sourceFaces": 98851
-  },
-  "narcissus-and-echo-puteal": {
-    "url": "/models/previews/narcissus-and-echo-puteal/preview.glb",
-    "bytes": 1987480,
-    "sourceBytes": 7113316,
-    "sourceFormat": "glb",
-    "faces": 134781,
-    "sourceFaces": 134781
-  },
-  "old-fisherman": {
-    "url": "/models/previews/old-fisherman/preview.glb",
-    "bytes": 485584,
-    "sourceBytes": 20000284,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400004
-  },
-  "outside-row-standing-horse": {
-    "url": "/models/previews/outside-row-standing-horse/preview.glb",
-    "bytes": 976128,
-    "sourceBytes": 4262168,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "palmyra/haliphat": {
-    "url": "/models/previews/palmyra/haliphat/preview.glb",
-    "bytes": 1308860,
-    "sourceBytes": 10600076,
-    "sourceFormat": "glb",
-    "faces": 150000,
-    "sourceFaces": 150000
-  },
-  "pandora-james-pradier": {
-    "url": "/models/previews/pandora-james-pradier/preview.glb",
-    "bytes": 481064,
-    "sourceBytes": 21652934,
-    "sourceFormat": "stl",
-    "faces": 149981,
-    "sourceFaces": 433057
-  },
-  "penelope": {
-    "url": "/models/previews/penelope/preview.glb",
-    "bytes": 494268,
-    "sourceBytes": 20000284,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400004
-  },
-  "perseus-with-head-of-medusa": {
-    "url": "/models/previews/perseus-with-head-of-medusa/preview.glb",
-    "bytes": 873908,
-    "sourceBytes": 3746884,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "pieta-with-donors": {
-    "url": "/models/previews/pieta-with-donors/preview.glb",
-    "bytes": 1882948,
-    "sourceBytes": 9857876,
-    "sourceFormat": "glb",
-    "faces": 105697,
-    "sourceFaces": 433355
-  },
-  "porcellino": {
-    "url": "/models/previews/porcellino/preview.glb",
-    "bytes": 508740,
-    "sourceBytes": 20002684,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400052
-  },
-  "portrait-of-antinoos": {
-    "url": "/models/previews/portrait-of-antinoos/preview.glb",
-    "bytes": 489660,
-    "sourceBytes": 20005084,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 400100
-  },
-  "portrait-of-homer": {
-    "url": "/models/previews/portrait-of-homer/preview.glb",
-    "bytes": 487232,
-    "sourceBytes": 20000284,
-    "sourceFormat": "stl",
-    "faces": 149996,
-    "sourceFaces": 400004
-  },
-  "princess-from-amarna": {
-    "url": "/models/previews/princess-from-amarna/preview.glb",
-    "bytes": 492652,
-    "sourceBytes": 19999884,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 399996
-  },
-  "pudicity": {
-    "url": "/models/previews/pudicity/preview.glb",
-    "bytes": 489188,
-    "sourceBytes": 20003484,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400068
-  },
-  "relief-agnus-dei-and-cherub": {
-    "url": "/models/previews/relief-agnus-dei-and-cherub/preview.glb",
-    "bytes": 1093116,
-    "sourceBytes": 3676428,
-    "sourceFormat": "glb",
-    "faces": 99999,
-    "sourceFaces": 99999
-  },
-  "rodin/heroic-head-of-pierre-de-wissant": {
-    "url": "/models/previews/rodin/heroic-head-of-pierre-de-wissant/preview.glb",
-    "bytes": 492228,
-    "sourceBytes": 31168384,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 623366
-  },
-  "rodin/the-thinker": {
-    "url": "/models/previews/rodin/the-thinker/preview.glb",
-    "bytes": 499032,
-    "sourceBytes": 41874184,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 837482
-  },
-  "silver-bowl-isis-medallion": {
-    "url": "/models/previews/silver-bowl-isis-medallion/preview.glb",
-    "bytes": 836700,
-    "sourceBytes": 3401108,
-    "sourceFormat": "glb",
-    "faces": 99993,
-    "sourceFaces": 99993
-  },
-  "spandrel": {
-    "url": "/models/previews/spandrel/preview.glb",
-    "bytes": 891936,
-    "sourceBytes": 2396876,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "spandrel-sections-of-an-arch": {
-    "url": "/models/previews/spandrel-sections-of-an-arch/preview.glb",
-    "bytes": 1623844,
-    "sourceBytes": 1878380,
-    "sourceFormat": "glb",
-    "faces": 99999,
-    "sourceFaces": 99999
-  },
-  "sphinx": {
-    "url": "/models/previews/sphinx/preview.glb",
-    "bytes": 493400,
-    "sourceBytes": 16505584,
-    "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 330110
-  },
-  "statue-of-ur-ningirsu": {
-    "url": "/models/previews/statue-of-ur-ningirsu/preview.glb",
-    "bytes": 854352,
-    "sourceBytes": 4244984,
-    "sourceFormat": "glb",
-    "faces": 98119,
-    "sourceFaces": 98119
-  },
-  "strangford-shield": {
-    "url": "/models/previews/strangford-shield/preview.glb",
-    "bytes": 479576,
-    "sourceBytes": 20000884,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400016
-  },
-  "sub-saharan-africa/ancestor-figure-teke": {
-    "url": "/models/previews/sub-saharan-africa/ancestor-figure-teke/preview.glb",
-    "bytes": 1032364,
-    "sourceBytes": 2297884,
-    "sourceFormat": "glb",
-    "faces": 99990,
-    "sourceFaces": 99990
-  },
-  "sub-saharan-africa/female-figure-with-raised-arm": {
-    "url": "/models/previews/sub-saharan-africa/female-figure-with-raised-arm/preview.glb",
-    "bytes": 956276,
-    "sourceBytes": 1962256,
-    "sourceFormat": "glb",
-    "faces": 99985,
-    "sourceFaces": 99985
-  },
-  "sub-saharan-africa/gelede-helmet-mask": {
-    "url": "/models/previews/sub-saharan-africa/gelede-helmet-mask/preview.glb",
-    "bytes": 873024,
-    "sourceBytes": 3284180,
-    "sourceFormat": "glb",
-    "faces": 99985,
-    "sourceFaces": 99985
-  },
-  "sub-saharan-africa/helmet-mask-four-faces": {
-    "url": "/models/previews/sub-saharan-africa/helmet-mask-four-faces/preview.glb",
-    "bytes": 1149856,
-    "sourceBytes": 2192988,
-    "sourceFormat": "glb",
-    "faces": 74985,
-    "sourceFaces": 74985
-  },
-  "sub-saharan-africa/male-pombia-figure": {
-    "url": "/models/previews/sub-saharan-africa/male-pombia-figure/preview.glb",
-    "bytes": 1305128,
-    "sourceBytes": 2438484,
-    "sourceFormat": "glb",
-    "faces": 123930,
-    "sourceFaces": 123930
-  },
-  "sub-saharan-africa/ngya-commemorative-post": {
-    "url": "/models/previews/sub-saharan-africa/ngya-commemorative-post/preview.glb",
-    "bytes": 841648,
-    "sourceBytes": 930988,
-    "sourceFormat": "glb",
-    "faces": 99988,
-    "sourceFaces": 99988
-  },
-  "sub-saharan-africa/nkisi-power-figure": {
-    "url": "/models/previews/sub-saharan-africa/nkisi-power-figure/preview.glb",
-    "bytes": 1953440,
-    "sourceBytes": 7838108,
-    "sourceFormat": "glb",
-    "faces": 149970,
-    "sourceFaces": 238974
-  },
-  "sub-saharan-africa/opo-veranda-post-olowe": {
-    "url": "/models/previews/sub-saharan-africa/opo-veranda-post-olowe/preview.glb",
-    "bytes": 1128932,
-    "sourceBytes": 4755840,
-    "sourceFormat": "glb",
-    "faces": 102915,
-    "sourceFaces": 102915
-  },
-  "sub-saharan-africa/seated-figure-middle-niger": {
-    "url": "/models/previews/sub-saharan-africa/seated-figure-middle-niger/preview.glb",
-    "bytes": 1025080,
-    "sourceBytes": 4337656,
-    "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
-  },
-  "thalia": {
-    "url": "/models/previews/thalia/preview.glb",
-    "bytes": 493952,
-    "sourceBytes": 20002484,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400048
+    "faces": null,
+    "sourceFaces": null
   },
   "the-wrestlers": {
     "url": "/models/previews/the-wrestlers/preview.glb",
     "bytes": 499232,
     "sourceBytes": 20001284,
     "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 400024
+    "faces": null,
+    "sourceFaces": null
   },
-  "tomb-effigy-ermengol-ix": {
-    "url": "/models/previews/tomb-effigy-ermengol-ix/preview.glb",
-    "bytes": 1213796,
-    "sourceBytes": 2733524,
+  "final-neolithic-marble-female-figure": {
+    "url": "/models/previews/final-neolithic-marble-female-figure/preview.glb",
+    "bytes": 994180,
+    "sourceBytes": 2649332,
     "sourceFormat": "glb",
-    "faces": 99990,
-    "sourceFaces": 99990
+    "faces": null,
+    "sourceFaces": null
   },
-  "tomb-of-ermengol-x": {
-    "url": "/models/previews/tomb-of-ermengol-x/preview.glb",
-    "bytes": 1597764,
-    "sourceBytes": 6246712,
+  "lintel-470947": {
+    "url": "/models/previews/lintel-470947/preview.glb",
+    "bytes": 1611648,
+    "sourceBytes": 5071784,
     "sourceFormat": "glb",
-    "faces": 148820,
-    "sourceFaces": 150806
+    "faces": null,
+    "sourceFaces": null
+  },
+  "barberini-faun": {
+    "url": "/models/previews/barberini-faun/preview.glb",
+    "bytes": 495288,
+    "sourceBytes": 20005084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "entombment-of-christ": {
+    "url": "/models/previews/entombment-of-christ/preview.glb",
+    "bytes": 1061412,
+    "sourceBytes": 23058940,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "old-fisherman": {
+    "url": "/models/previews/old-fisherman/preview.glb",
+    "bytes": 485584,
+    "sourceBytes": 20000284,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/tondo-taddei": {
+    "url": "/models/previews/michelangelo/tondo-taddei/preview.glb",
+    "bytes": 488904,
+    "sourceBytes": 19999884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/rebellious-slave": {
+    "url": "/models/previews/michelangelo/rebellious-slave/preview.glb",
+    "bytes": 482288,
+    "sourceBytes": 20000484,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/dying-slave": {
+    "url": "/models/previews/michelangelo/dying-slave/preview.glb",
+    "bytes": 481048,
+    "sourceBytes": 20000884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/lorenzo-duke-of-urbino": {
+    "url": "/models/previews/michelangelo/lorenzo-duke-of-urbino/preview.glb",
+    "bytes": 491244,
+    "sourceBytes": 20000784,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/bacchus": {
+    "url": "/models/previews/michelangelo/bacchus/preview.glb",
+    "bytes": 483544,
+    "sourceBytes": 6000084,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 120000
+  },
+  "michelangelo/pieta": {
+    "url": "/models/previews/michelangelo/pieta/preview.glb",
+    "bytes": 500884,
+    "sourceBytes": 20000884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/risen-christ": {
+    "url": "/models/previews/michelangelo/risen-christ/preview.glb",
+    "bytes": 483620,
+    "sourceBytes": 6000084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/brutus": {
+    "url": "/models/previews/michelangelo/brutus/preview.glb",
+    "bytes": 489868,
+    "sourceBytes": 3500084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/night": {
+    "url": "/models/previews/michelangelo/night/preview.glb",
+    "bytes": 492088,
+    "sourceBytes": 20001684,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/tondo-pitti": {
+    "url": "/models/previews/michelangelo/tondo-pitti/preview.glb",
+    "bytes": 487768,
+    "sourceBytes": 19999884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/bruges-madonna": {
+    "url": "/models/previews/michelangelo/bruges-madonna/preview.glb",
+    "bytes": 493304,
+    "sourceBytes": 4500084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/dawn": {
+    "url": "/models/previews/michelangelo/dawn/preview.glb",
+    "bytes": 493116,
+    "sourceBytes": 20005084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/apollo": {
+    "url": "/models/previews/michelangelo/apollo/preview.glb",
+    "bytes": 483332,
+    "sourceBytes": 20000684,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/madonna-of-the-stairs": {
+    "url": "/models/previews/michelangelo/madonna-of-the-stairs/preview.glb",
+    "bytes": 482992,
+    "sourceBytes": 19917534,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/rondanini-pieta": {
+    "url": "/models/previews/michelangelo/rondanini-pieta/preview.glb",
+    "bytes": 485024,
+    "sourceBytes": 20000284,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/moses": {
+    "url": "/models/previews/michelangelo/moses/preview.glb",
+    "bytes": 497600,
+    "sourceBytes": 6000084,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 120000
+  },
+  "michelangelo/david": {
+    "url": "/models/previews/michelangelo/david/preview.glb",
+    "bytes": 482852,
+    "sourceBytes": 59997484,
+    "sourceFormat": "stl",
+    "faces": 16000,
+    "sourceFaces": 1199948
+  },
+  "michelangelo/medici-madonna": {
+    "url": "/models/previews/michelangelo/medici-madonna/preview.glb",
+    "bytes": 488372,
+    "sourceBytes": 20000084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/crouching-boy": {
+    "url": "/models/previews/michelangelo/crouching-boy/preview.glb",
+    "bytes": 505796,
+    "sourceBytes": 3500084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/giuliano-duke-of-nemours": {
+    "url": "/models/previews/michelangelo/giuliano-duke-of-nemours/preview.glb",
+    "bytes": 492280,
+    "sourceBytes": 20002084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/dusk": {
+    "url": "/models/previews/michelangelo/dusk/preview.glb",
+    "bytes": 490512,
+    "sourceBytes": 20005084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/prisoner": {
+    "url": "/models/previews/michelangelo/prisoner/preview.glb",
+    "bytes": 482220,
+    "sourceBytes": 19999884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "michelangelo/battle-of-the-centaurs": {
+    "url": "/models/previews/michelangelo/battle-of-the-centaurs/preview.glb",
+    "bytes": 494076,
+    "sourceBytes": 19999884,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "aphrodite-anadyomene": {
+    "url": "/models/previews/aphrodite-anadyomene/preview.glb",
+    "bytes": 481556,
+    "sourceBytes": 20005084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "pieta-with-donors": {
+    "url": "/models/previews/pieta-with-donors/preview.glb",
+    "bytes": 1882948,
+    "sourceBytes": 9857876,
+    "sourceFormat": "glb",
+    "faces": null,
+    "sourceFaces": null
+  },
+  "bouchardon/cupid": {
+    "url": "/models/previews/bouchardon/cupid/preview.glb",
+    "bytes": 487956,
+    "sourceBytes": 12688084,
+    "sourceFormat": "stl",
+    "faces": null,
+    "sourceFaces": null
   },
   "ugolino-and-his-sons": {
     "url": "/models/previews/ugolino-and-his-sons/preview.glb",
     "bytes": 1089984,
     "sourceBytes": 6479680,
     "sourceFormat": "glb",
-    "faces": 100000,
-    "sourceFaces": 100000
+    "faces": null,
+    "sourceFaces": null
   },
-  "voussoir-472190": {
-    "url": "/models/previews/voussoir-472190/preview.glb",
-    "bytes": 1473876,
-    "sourceBytes": 5524848,
-    "sourceFormat": "glb",
-    "faces": 99986,
-    "sourceFaces": 99986
-  },
-  "vulcan": {
-    "url": "/models/previews/vulcan/preview.glb",
-    "bytes": 492904,
-    "sourceBytes": 35004084,
+  "kneeling-youth": {
+    "url": "/models/previews/kneeling-youth/preview.glb",
+    "bytes": 489672,
+    "sourceBytes": 20000984,
     "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 700080
+    "faces": null,
+    "sourceFaces": null
   },
-  "young-bacchus-bronze": {
-    "url": "/models/previews/young-bacchus-bronze/preview.glb",
-    "bytes": 481024,
-    "sourceBytes": 33062884,
+  "juno-ludovisi": {
+    "url": "/models/previews/juno-ludovisi/preview.glb",
+    "bytes": 491820,
+    "sourceBytes": 32149284,
     "sourceFormat": "stl",
-    "faces": 149998,
-    "sourceFaces": 661256
+    "faces": null,
+    "sourceFaces": null
   }
 }
