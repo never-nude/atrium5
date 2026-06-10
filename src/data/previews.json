@@ -31,6 +31,46 @@
     "faces": null,
     "sourceFaces": null
   },
+  "roman/julia-domna-smk-cast": {
+    "url": "/models/previews/roman/julia-domna-smk-cast/preview.glb",
+    "bytes": 2700472,
+    "sourceBytes": 74304984,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 1486098
+  },
+  "roman/julia-mamaea-smk-cast": {
+    "url": "/models/previews/roman/julia-mamaea-smk-cast/preview.glb",
+    "bytes": 2700732,
+    "sourceBytes": 97163184,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 1943262
+  },
+  "roman/jungling-vom-magdalensberg-tds-khm": {
+    "url": "/models/previews/roman/jungling-vom-magdalensberg-tds-khm/preview.glb",
+    "bytes": 2701096,
+    "sourceBytes": 94382092,
+    "sourceFormat": "obj",
+    "faces": 150000,
+    "sourceFaces": 2000057
+  },
+  "roman/portrait-of-philip-the-arab-smk-cast": {
+    "url": "/models/previews/roman/portrait-of-philip-the-arab-smk-cast/preview.glb",
+    "bytes": 2700844,
+    "sourceBytes": 99999884,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 1999996
+  },
+  "assyrian/black-obelisk-of-shalmaneser-iii-smk-cast": {
+    "url": "/models/previews/assyrian/black-obelisk-of-shalmaneser-iii-smk-cast/preview.glb",
+    "bytes": 2693616,
+    "sourceBytes": 399999984,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 7999998
+  },
   "assyrian/lion-released-from-cage": {
     "url": "/models/previews/assyrian/lion-released-from-cage/preview.glb",
     "bytes": 470712,
@@ -1167,6 +1207,14 @@
     "faces": null,
     "sourceFaces": null
   },
+  "egyptian/portrait-of-nefertiti-smk-cast": {
+    "url": "/models/previews/egyptian/portrait-of-nefertiti-smk-cast/preview.glb",
+    "bytes": 2700816,
+    "sourceBytes": 280363684,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 5607272
+  },
   "egyptian/woman-grinding-flour-smk-cast": {
     "url": "/models/previews/egyptian/woman-grinding-flour-smk-cast/preview.glb",
     "bytes": 2700620,
@@ -1183,6 +1231,14 @@
     "faces": 150000,
     "sourceFaces": 1127774
   },
+  "egyptian/four-headed-sphinx-tds-khm": {
+    "url": "/models/previews/egyptian/four-headed-sphinx-tds-khm/preview.glb",
+    "bytes": 2700956,
+    "sourceBytes": 25040084,
+    "sourceFormat": "stl",
+    "faces": 150000,
+    "sourceFaces": 500800
+  },
   "egyptian/portrait-of-kaaper-sheik-el-beled-smk-cast": {
     "url": "/models/previews/egyptian/portrait-of-kaaper-sheik-el-beled-smk-cast/preview.glb",
     "bytes": 3081156,
@@ -1190,6 +1246,14 @@
     "sourceFormat": "obj",
     "faces": 149999,
     "sourceFaces": 2000002
+  },
+  "egyptian/head-of-merytaten-smk-cast": {
+    "url": "/models/previews/egyptian/head-of-merytaten-smk-cast/preview.glb",
+    "bytes": 2908136,
+    "sourceBytes": 72181026,
+    "sourceFormat": "obj",
+    "faces": 150000,
+    "sourceFaces": 999996
   },
   "final-neolithic-marble-female-figure": {
     "url": "/models/previews/final-neolithic-marble-female-figure/preview.glb",
