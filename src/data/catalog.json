@@ -4312,7 +4312,8 @@
     },
     "search": "portrait of demosthenes, standing after polyeuktos after a bronze original of c. 280 bce bronze (lost original) 2090 x 930 x 510 mm smk - national gallery of denmark greek statue type by polyeuktos, erected in the athenian agora c. 280 bce and known from roman marble copies. cast acquired by smk in 1898. smk production note: rom, malpieri nr. 18.",
     "dimensions": "2090 x 930 x 510 mm",
-    "scan_source": "Plaster cast, Royal Cast Collection (SMK), Copenhagen"
+    "scan_source": "Plaster cast, Royal Cast Collection (SMK), Copenhagen",
+    "ingested": "2026-06-10"
   },
   {
     "slug": "greek/portrait-of-sophocles-smk-cast",
@@ -4343,7 +4344,8 @@
     },
     "search": "portrait of sophocles, standing after a bronze original of c. 340\u2013330 bce bronze (lost original) 2160 x 850 x 620 mm smk - national gallery of denmark greek lateran sophocles type; the best-known marble copy is in the vatican museums. cast acquired by smk in 1898. smk production note: rom, malpieri nr. 73.",
     "dimensions": "2160 x 850 x 620 mm",
-    "scan_source": "Plaster cast, Royal Cast Collection (SMK), Copenhagen"
+    "scan_source": "Plaster cast, Royal Cast Collection (SMK), Copenhagen",
+    "ingested": "2026-06-10"
   },
   {
     "slug": "neoclassical/hebe-thorvaldsen-smk-cast",
@@ -4374,6 +4376,7 @@
     },
     "search": "hebe bertel thorvaldsen 1806 marble h 53.5 x w 44.5 x d 37 cm thorvaldsens museum, copenhagen smk - national gallery of denmark neoclassical modeled by thorvaldsen in 1806; the scanned object is a plaster copy in the royal cast collection.",
     "dimensions": "H 53.5 x W 44.5 x D 37 cm",
-    "scan_source": "Plaster cast, Royal Cast Collection (SMK), Copenhagen (acquired 2018)"
+    "scan_source": "Plaster cast, Royal Cast Collection (SMK), Copenhagen (acquired 2018)",
+    "ingested": "2026-06-10"
   }
 ]

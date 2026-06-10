@@ -78,6 +78,18 @@ const description = `A digital museum of sculpture — explore ${works.length} w
     </div>
   </section>
 
+  <section class="section" aria-labelledby="recent-title">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">New additions</p>
+        <h2 id="recent-title">New to the collection.</h2>
+      </div>
+    </div>
+    <div class="rail">
+      {recent.map((work) => <WorkCard work={work} />)}
+    </div>
+  </section>
+
   <section class="section" aria-labelledby="timeline-title">
     <div class="section-head">
       <div>
@@ -124,15 +136,4 @@ const description = `A digital museum of sculpture — explore ${works.length} w
     </div>
   </section>
 
-  <section class="section" aria-labelledby="recent-title">
-    <div class="section-head">
-      <div>
-        <p class="eyebrow">Recently added</p>
-        <h2 id="recent-title">New to the collection.</h2>
-      </div>
-    </div>
-    <div class="rail">
-      {recent.map((work) => <WorkCard work={work} />)}
-    </div>
-  </section>
 </BaseLayout>

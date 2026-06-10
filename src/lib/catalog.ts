@@ -79,6 +79,7 @@ export type Work = {
   relatedWorks: string[];
   posterImage: string;
   thumbnailImage: string;
+  ingested?: string;
   modelGlb: string;
   modelUpAxis: string;
   modelStats: string;
@@ -488,6 +489,7 @@ function normalize(raw: RawWork, fallbackIndex: number): Work {
     modelUpAxis: orientationMap[raw.slug] || 'auto',
     modelStats: modelStatsFor(preview, raw),
     featuredWeight: Math.max(1, 5 - Number(raw.tier || 3)),
+    ingested: raw.ingested || undefined,
     heroCrop: 'center',
     index: raw.index || fallbackIndex + 1,
     search: clean(raw.search) || `${title} ${maker} ${era} ${geography} ${materials.join(' ')}`.toLowerCase(),
@@ -606,7 +608,14 @@ export function collectionHighlights(): Work[] {
 }
 
 export function recentlyPrepared(limit = 8): Work[] {
-  return [...works].sort((a, b) => b.index - a.index).slice(0, limit);
+  return [...works]
+    .sort((a, b) => {
+      const ai = a.ingested || '';
+      const bi = b.ingested || '';
+      if (ai !== bi) return bi.localeCompare(ai);
+      return b.index - a.index;
+    })
+    .slice(0, limit);
 }
 
 export function clampTimelineYear(year: number | null): number | null {

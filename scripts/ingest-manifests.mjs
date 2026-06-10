@@ -217,6 +217,7 @@ for (const m of additions) {
     note: m.note || '',
     tier: 3,
     license_tier: m.tier,
+    ingested: new Date().toISOString().slice(0, 10),
     index: 0,
     total: 0,
     period: periodFor(m.year_sort),
