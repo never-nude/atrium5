@@ -29,7 +29,9 @@ refuses to run if it detects ingested entries.
    npm run verify:assets                                 # catches anything missing
    ```
 
-4. **Build, eyeball, push.** `npm run build`, check a few new work pages, push to main —
+4. **Renders are mandatory before push** — new works must ship with real thumbnails, never poster fallbacks (owner's rule, 2026-06-10). In the Claude sandbox: install Playwright's ARM64 chromium (npx playwright install chromium), then run with CHROME_BIN=<headless_shell path> CHROME_EXTRA_ARGS="--no-sandbox --enable-unsafe-swiftshader --use-angle=swiftshader" ONLY=<slugs>. Then append the new slugs to src/data/renders.json (nothing writes it automatically).
+
+5. **Build, eyeball, push.** `npm run build`, check a few new work pages, push to main —
    the Pages workflow deploys.
 
 ## Field semantics

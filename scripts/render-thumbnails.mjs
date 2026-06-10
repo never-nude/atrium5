@@ -191,6 +191,7 @@ async function startChrome() {
     `--user-data-dir=${profile}`,
     '--remote-debugging-port=0',
     `--window-size=${width},${height}`,
+    ...(process.env.CHROME_EXTRA_ARGS ? process.env.CHROME_EXTRA_ARGS.split(' ') : []),
     'about:blank',
   ];
 
