@@ -31,22 +31,6 @@
     "faces": null,
     "sourceFaces": null
   },
-  "roman/julia-domna-smk-cast": {
-    "url": "/models/previews/roman/julia-domna-smk-cast/preview.glb",
-    "bytes": 2700472,
-    "sourceBytes": 74304984,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 1486098
-  },
-  "roman/julia-mamaea-smk-cast": {
-    "url": "/models/previews/roman/julia-mamaea-smk-cast/preview.glb",
-    "bytes": 2700732,
-    "sourceBytes": 97163184,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 1943262
-  },
   "roman/jungling-vom-magdalensberg-tds-khm": {
     "url": "/models/previews/roman/jungling-vom-magdalensberg-tds-khm/preview.glb",
     "bytes": 2701096,
@@ -1223,14 +1207,6 @@
     "faces": 150000,
     "sourceFaces": 3000284
   },
-  "egyptian/portrait-of-pharaoh-amasis-smk-cast": {
-    "url": "/models/previews/egyptian/portrait-of-pharaoh-amasis-smk-cast/preview.glb",
-    "bytes": 2700848,
-    "sourceBytes": 56388784,
-    "sourceFormat": "stl",
-    "faces": 150000,
-    "sourceFaces": 1127774
-  },
   "egyptian/four-headed-sphinx-tds-khm": {
     "url": "/models/previews/egyptian/four-headed-sphinx-tds-khm/preview.glb",
     "bytes": 2700956,
@@ -1526,5 +1502,125 @@
     "sourceFormat": "stl",
     "faces": null,
     "sourceFaces": null
+  },
+  "greek/kore-chiton-epiblema-smk-cast": {
+    "url": "/models/previews/greek/kore-chiton-epiblema-smk-cast/preview.glb",
+    "bytes": 252836,
+    "sourceBytes": 14438384,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 288766
+  },
+  "greek/kneeling-archer-aphaia-smk-cast": {
+    "url": "/models/previews/greek/kneeling-archer-aphaia-smk-cast/preview.glb",
+    "bytes": 252564,
+    "sourceBytes": 20005084,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 400100
+  },
+  "greek/zeus-ammon-smk-cast": {
+    "url": "/models/previews/greek/zeus-ammon-smk-cast/preview.glb",
+    "bytes": 252836,
+    "sourceBytes": 19999884,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 399996
+  },
+  "greek/crouching-aphrodite-with-eros-smk-cast": {
+    "url": "/models/previews/greek/crouching-aphrodite-with-eros-smk-cast/preview.glb",
+    "bytes": 252788,
+    "sourceBytes": 20000384,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 400006
+  },
+  "greek/iris-parthenon-west-pediment-smk-cast": {
+    "url": "/models/previews/greek/iris-parthenon-west-pediment-smk-cast/preview.glb",
+    "bytes": 252832,
+    "sourceBytes": 19999884,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 399996
+  },
+  "greek/head-of-amazon-sciarra-type-smk-cast": {
+    "url": "/models/previews/greek/head-of-amazon-sciarra-type-smk-cast/preview.glb",
+    "bytes": 252832,
+    "sourceBytes": 19999884,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 399996
+  },
+  "greek/running-female-figure-artemis-parthenon-smk-cast": {
+    "url": "/models/previews/greek/running-female-figure-artemis-parthenon-smk-cast/preview.glb",
+    "bytes": 252796,
+    "sourceBytes": 20000984,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 400018
+  },
+  "greek/reclining-dionysos-parthenon-smk-cast": {
+    "url": "/models/previews/greek/reclining-dionysos-parthenon-smk-cast/preview.glb",
+    "bytes": 252740,
+    "sourceBytes": 20000684,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 400012
+  },
+  "greek/selene-horse-head-parthenon-smk-cast": {
+    "url": "/models/previews/greek/selene-horse-head-parthenon-smk-cast/preview.glb",
+    "bytes": 252820,
+    "sourceBytes": 20000084,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 400000
+  },
+  "greek/lying-wounded-warrior-aphaia-smk-cast": {
+    "url": "/models/previews/greek/lying-wounded-warrior-aphaia-smk-cast/preview.glb",
+    "bytes": 252492,
+    "sourceBytes": 20003484,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 400068
+  },
+  "greek/kneeling-warrior-aphaia-smk-cast": {
+    "url": "/models/previews/greek/kneeling-warrior-aphaia-smk-cast/preview.glb",
+    "bytes": 252676,
+    "sourceBytes": 20002884,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 400056
+  },
+  "greek/standing-warrior-with-shield-aphaia-smk-cast": {
+    "url": "/models/previews/greek/standing-warrior-with-shield-aphaia-smk-cast/preview.glb",
+    "bytes": 252756,
+    "sourceBytes": 20001884,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 400036
+  },
+  "greek/lying-warrior-patroklos-aphaia-smk-cast": {
+    "url": "/models/previews/greek/lying-warrior-patroklos-aphaia-smk-cast/preview.glb",
+    "bytes": 252720,
+    "sourceBytes": 20001984,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 400038
+  },
+  "greek/athena-with-shield-aphaia-smk-cast": {
+    "url": "/models/previews/greek/athena-with-shield-aphaia-smk-cast/preview.glb",
+    "bytes": 252396,
+    "sourceBytes": 20005034,
+    "sourceFormat": "stl",
+    "faces": 13999,
+    "sourceFaces": 400099
+  },
+  "greek/kneeling-archer-figure-xii-aphaia-smk-cast": {
+    "url": "/models/previews/greek/kneeling-archer-figure-xii-aphaia-smk-cast/preview.glb",
+    "bytes": 252760,
+    "sourceBytes": 20000484,
+    "sourceFormat": "stl",
+    "faces": 14000,
+    "sourceFaces": 400008
   }
 }

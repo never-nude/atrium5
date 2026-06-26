@@ -272,7 +272,9 @@ async function waitForRender(page, slug) {
 }
 
 async function render(page, slug, index, total) {
-  const up = orientations[slug] || 'auto';
+  const transform = orientations[slug] || 'auto';
+  const legacyUp = typeof transform === 'string' ? transform : transform.upAxis || transform.axis || 'auto';
+  const transformParam = typeof transform === 'string' ? transform : JSON.stringify(transform);
   const appearance = JSON.stringify(appearanceForSlug(slug));
   const outDir = join(outRoot, slug);
   const png = join(outDir, 'thumb.png');
@@ -281,7 +283,7 @@ async function render(page, slug, index, total) {
   rmSync(png, { force: true });
 
   const model = `/public/models/previews/${slug}/preview.glb`;
-  const url = `http://127.0.0.1:${serverPort}/public/__render.html?model=${encodeURIComponent(model)}&up=${encodeURIComponent(up)}&appearance=${encodeURIComponent(appearance)}`;
+  const url = `http://127.0.0.1:${serverPort}/public/__render.html?model=${encodeURIComponent(model)}&up=${encodeURIComponent(legacyUp)}&transform=${encodeURIComponent(transformParam)}&appearance=${encodeURIComponent(appearance)}`;
   await page.send('Page.navigate', { url });
   await waitForRender(page, slug);
   const { data } = await page.send('Page.captureScreenshot', {

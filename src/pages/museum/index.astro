@@ -4,11 +4,12 @@ import FacetExplorer from '../../components/FacetExplorer.astro';
 import WorkCard from '../../components/WorkCard.astro';
 import Viewer from '../../components/Viewer.astro';
 import TimelineStrip from '../../components/TimelineStrip.astro';
-import { collectionHighlights, facets, featuredWorkForDate, works } from '../../lib/catalog';
+import { collectionHighlights, facets, featuredWorkForDate, recentlyPrepared, works } from '../../lib/catalog';
 import { withBase } from '../../lib/urls';
 
 const featured = featuredWorkForDate();
 const highlights = collectionHighlights().slice(0, 4);
+const newAdditions = recentlyPrepared(3);
 ---
 
 <BaseLayout
@@ -23,6 +24,18 @@ const highlights = collectionHighlights().slice(0, 4);
     <TimelineStrip />
   </section>
 
+  <section class="section" aria-labelledby="new-additions-title">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">New additions</p>
+        <h2 id="new-additions-title">New to the collection.</h2>
+      </div>
+    </div>
+    <div class="rail rail--three">
+      {newAdditions.map((work) => <WorkCard work={work} />)}
+    </div>
+  </section>
+
   <section class="section" aria-labelledby="featured-object">
     <div class="feature-block">
       <Viewer
@@ -32,6 +45,7 @@ const highlights = collectionHighlights().slice(0, 4);
         hud={false}
         tag={featured.hasPreview ? '3D MODEL' : 'PHOTOGRAPH'}
         upAxis={featured.modelUpAxis}
+        modelTransform={featured.modelTransform}
         materialAppearance={featured.materialAppearance}
       />
       <div>
