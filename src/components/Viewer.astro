@@ -6,16 +6,18 @@ type Props = {
   hud?: boolean;
   tag?: string;
   upAxis?: string;
+  modelTransform?: Record<string, unknown>;
   materialAppearance?: Record<string, unknown>;
 };
-const { glb = '', poster, title, hud = true, tag, upAxis = 'auto', materialAppearance = {} } = Astro.props;
+const { glb = '', poster, title, hud = true, tag, upAxis = 'auto', modelTransform = {}, materialAppearance = {} } = Astro.props;
 const hasModel = Boolean(glb);
 const uid = Math.random().toString(36).slice(2, 8);
 const appearanceJson = JSON.stringify(materialAppearance);
+const transformJson = JSON.stringify(modelTransform);
 ---
 
 <div class="viewer" data-viewer>
-  <div class="model-stage" data-stage data-glb={hasModel ? glb : ''} data-up-axis={upAxis} data-material-appearance={appearanceJson}>
+  <div class="model-stage" data-stage data-glb={hasModel ? glb : ''} data-up-axis={upAxis} data-model-transform={transformJson} data-material-appearance={appearanceJson}>
     <span class="stage-corner stage-corner--tl" aria-hidden="true"></span>
     <span class="stage-corner stage-corner--tr" aria-hidden="true"></span>
     <span class="stage-corner stage-corner--bl" aria-hidden="true"></span>
@@ -260,6 +262,7 @@ ${shader.fragmentShader.replace('#include <map_fragment>', `
     const { OrbitControls } = await import('three/examples/jsm/controls/OrbitControls.js');
     const { RoomEnvironment } = await import('three/examples/jsm/environments/RoomEnvironment.js');
     const { MeshoptDecoder } = await import('three/examples/jsm/libs/meshopt_decoder.module.js');
+    const { applyModelTransform, frameCameraToBox, normalizeModel, parseModelTransform } = await import(`${import.meta.env.BASE_URL}model-render-utils.js`);
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     let width = stage.clientWidth || 600;
@@ -316,9 +319,7 @@ ${shader.fragmentShader.replace('#include <map_fragment>', `
     loader.setMeshoptDecoder(MeshoptDecoder);
     const gltf = await loader.loadAsync(glb);
     const model = gltf.scene;
-    const [upAxis, fitValue, yawValue] = (stage.dataset.upAxis || 'auto').toLowerCase().split(':');
-    const fitOverride = Number(fitValue) || 0;
-    const yawOverride = Number(yawValue) || 0;
+    const transform = parseModelTransform(stage.dataset.modelTransform || stage.dataset.upAxis || 'auto', stage.dataset.upAxis || 'auto');
 
     const scanHelpers: any[] = [];
     const materials: any[] = [];
@@ -340,29 +341,10 @@ ${shader.fragmentShader.replace('#include <map_fragment>', `
     });
     for (const helper of scanHelpers) helper.parent?.remove(helper);
 
-    // Normalize to ~1 unit and center (source meshes vary wildly in scale).
-    let box = new THREE.Box3().setFromObject(model);
-    let size = box.getSize(new THREE.Vector3());
-    const isLikelyZUp = size.z > size.y * 1.15 && size.z > Math.min(size.x, size.y) * 1.15;
-    let transformed = false;
-    if (upAxis === 'z' || (upAxis === 'auto' && isLikelyZUp)) {
-      model.rotation.x -= Math.PI / 2;
-      transformed = true;
-    }
-    if (yawOverride) {
-      model.rotation.y += (yawOverride * Math.PI) / 180;
-      transformed = true;
-    }
-    if (transformed) {
-      box = new THREE.Box3().setFromObject(model);
-      size = box.getSize(new THREE.Vector3());
-    }
-    const maxDim = Math.max(size.x, size.y, size.z) || 1;
-    model.scale.setScalar(1 / maxDim);
-    box = new THREE.Box3().setFromObject(model);
-    size = box.getSize(new THREE.Vector3());
-    const center = box.getCenter(new THREE.Vector3());
-    model.position.sub(center);
+    applyModelTransform(THREE, model, transform);
+    const normalized = normalizeModel(THREE, model);
+    const box = normalized.box;
+    const size = normalized.size;
     scene.add(model);
 
     // Tight orthographic shadow frustum: covers the normalized model plus its shadow
@@ -379,12 +361,12 @@ ${shader.fragmentShader.replace('#include <map_fragment>', `
     shadowCam.updateProjectionMatrix();
 
     const isWideLow = Math.max(size.x, size.z) > Math.max(size.y * 1.8, 0.65);
-    const fit = fitOverride || (isWideLow ? 1.9 : 1.35);
-    const dist = (1 / (2 * Math.tan((camera.fov * Math.PI) / 360))) * fit;
     camera.near = 0.01;
     camera.far = 100;
-    camera.position.set(dist * 0.55, dist * 0.34, dist * 0.9);
-    camera.updateProjectionMatrix();
+    frameCameraToBox(THREE, camera, box, {
+      direction: [0.55, 0.34, 0.9],
+      padding: transform.fit || (isWideLow ? 1.38 : 1.18),
+    });
     controls.target.set(0, 0, 0);
     controls.minDistance = 0.5;
     controls.maxDistance = 8;

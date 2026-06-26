@@ -44,6 +44,26 @@ type Preview = {
   sourceFaces?: number;
 };
 
+type OrientationEntry = string | {
+  upAxis?: string;
+  axis?: string;
+  fit?: number;
+  yaw?: number;
+  modelRotation?: number[];
+  rotation?: number[];
+  status?: string;
+  note?: string;
+};
+
+export type ModelTransform = {
+  upAxis: string;
+  fit: number;
+  yaw: number;
+  modelRotation: [number, number, number];
+  status?: string;
+  note?: string;
+};
+
 export type Work = {
   id: string;
   slug: string;
@@ -82,6 +102,7 @@ export type Work = {
   ingested?: string;
   modelGlb: string;
   modelUpAxis: string;
+  modelTransform: ModelTransform;
   modelStats: string;
   featuredWeight: number;
   heroCrop: string;
@@ -132,7 +153,7 @@ type AppearanceOverride = Partial<Omit<MaterialAppearance, 'key' | 'label' | 'ma
 const rawWorks = rawCatalog as RawWork[];
 const previewMap = rawPreviews as Record<string, Preview>;
 const renderSet = new Set(rawRenders as string[]);
-const orientationMap = rawOrientations as Record<string, string>;
+const orientationMap = rawOrientations as Record<string, OrientationEntry>;
 const appearanceConfig = rawMaterialAppearances as {
   profiles: Record<string, MaterialAppearance>;
   materialToProfile: Record<string, string>;
@@ -163,6 +184,7 @@ const collectionGeography: Record<string, string> = {
   assyrian: 'Ancient Near East',
   bouchardon: 'Europe',
   donatello: 'Europe',
+  greek: 'Mediterranean',
   lorenzi: 'Europe',
   michelangelo: 'Europe',
   palmyra: 'Ancient Near East',
@@ -209,6 +231,54 @@ const internalNotePatterns = [
 function clean(value: unknown): string {
   const text = String(value ?? '').trim();
   return text === '-' || text === '—' ? '' : text;
+}
+
+function finiteNumber(value: unknown, fallback = 0): number {
+  const next = Number(value);
+  return Number.isFinite(next) ? next : fallback;
+}
+
+function rotationArray(value: unknown): [number, number, number] {
+  if (!Array.isArray(value) || value.length !== 3) return [0, 0, 0];
+  return [
+    finiteNumber(value[0], 0),
+    finiteNumber(value[1], 0),
+    finiteNumber(value[2], 0),
+  ];
+}
+
+function parseLegacyTransform(value: unknown): ModelTransform {
+  const [rawAxis, rawFit, rawYaw] = String(value || 'auto').toLowerCase().split(':');
+  const upAxis = ['auto', 'x', 'y', 'z'].includes(rawAxis) ? rawAxis : 'auto';
+  const fit = finiteNumber(rawFit, 0);
+  return {
+    upAxis,
+    fit: fit > 0 ? fit : 0,
+    yaw: finiteNumber(rawYaw, 0),
+    modelRotation: [0, 0, 0],
+  };
+}
+
+function modelTransformFor(entry: OrientationEntry | undefined): ModelTransform {
+  if (!entry || typeof entry === 'string') return parseLegacyTransform(entry || 'auto');
+  const fallback = parseLegacyTransform(entry.upAxis || entry.axis || 'auto');
+  const rawAxis = clean(entry.upAxis || entry.axis || fallback.upAxis).toLowerCase();
+  const upAxis = ['auto', 'x', 'y', 'z'].includes(rawAxis) ? rawAxis : fallback.upAxis;
+  const fit = finiteNumber(entry.fit, fallback.fit);
+  return {
+    status: entry.status,
+    note: entry.note,
+    upAxis,
+    fit: fit > 0 ? fit : 0,
+    yaw: finiteNumber(entry.yaw, fallback.yaw),
+    modelRotation: rotationArray(entry.modelRotation || entry.rotation),
+  };
+}
+
+function legacyTransformString(transform: ModelTransform): string {
+  const fit = transform.fit || '';
+  const yaw = transform.yaw || '';
+  return fit || yaw ? `${transform.upAxis}:${fit}:${yaw}` : transform.upAxis;
 }
 
 function titleCaseSlug(value: string): string {
@@ -438,6 +508,7 @@ function normalize(raw: RawWork, fallbackIndex: number): Work {
   const description = summaryFor(raw);
   const medium = clean(raw.material) || materials.join(', ');
   const title = clean(raw.title) || titleCaseSlug(raw.slug);
+  const modelTransform = modelTransformFor(orientationMap[raw.slug]);
 
   const tags = [
     era,
@@ -486,7 +557,8 @@ function normalize(raw: RawWork, fallbackIndex: number): Work {
     posterImage: `/previews/posters/${raw.slug}/poster.svg`,
     thumbnailImage: renderSet.has(raw.slug) ? `/previews/renders/${raw.slug}/thumb.webp` : `/previews/posters/${raw.slug}/poster.svg`,
     modelGlb: preview?.url || '',
-    modelUpAxis: orientationMap[raw.slug] || 'auto',
+    modelUpAxis: legacyTransformString(modelTransform),
+    modelTransform,
     modelStats: modelStatsFor(preview, raw),
     featuredWeight: Math.max(1, 5 - Number(raw.tier || 3)),
     ingested: raw.ingested || undefined,

@@ -15,6 +15,7 @@ import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+import { applyModelTransform, frameCameraToBox, normalizeModel, parseModelTransform } from './model-render-utils.js';
 const W=1000,H=1250;
 const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});
 renderer.setSize(W,H); renderer.setPixelRatio(2);
@@ -157,15 +158,6 @@ function applyMaterialAppearance(mesh, material, appearance) {
   addMaterialVariation(mesh, material, appearance);
   material.needsUpdate=true;
 }
-function orientModel(model, upAxis='auto') {
-  const [axis, , yawValue]=String(upAxis || 'auto').toLowerCase().split(':');
-  let box=new THREE.Box3().setFromObject(model);
-  let size=box.getSize(new THREE.Vector3());
-  const isLikelyZUp = size.z > size.y * 1.15 && size.z > Math.min(size.x, size.y) * 1.15;
-  if (axis === 'z' || (axis === 'auto' && isLikelyZUp)) model.rotation.x -= Math.PI / 2;
-  const yaw=Number(yawValue)||0;
-  if (yaw) model.rotation.y += (yaw*Math.PI)/180;
-}
 function removeScanHelpers(model) {
   const helpers=[];
   model.traverse((obj)=>{
@@ -173,10 +165,11 @@ function removeScanHelpers(model) {
   });
   for (const helper of helpers) helper.parent?.remove(helper);
 }
-window.loadModel=(url, upAxis='auto', rawAppearance='{}')=>new Promise((res,rej)=>{
+window.loadModel=(url, rawTransform='auto', rawAppearance='{}', upAxis='auto')=>new Promise((res,rej)=>{
   if(current){ scene.remove(current); current=null; }
   loader.load(url,(g)=>{
     const appearance=readAppearance(rawAppearance);
+    const transform=parseModelTransform(rawTransform, upAxis);
     applyBackdrop(appearance);
     applyLighting(appearance);
     renderer.toneMappingExposure=appearance.exposure;
@@ -189,17 +182,16 @@ window.loadModel=(url, upAxis='auto', rawAppearance='{}')=>new Promise((res,rej)
       obj.material=Array.isArray(obj.material) ? prepared : prepared[0];
       for(const material of prepared) applyMaterialAppearance(obj, material, appearance);
     });
-    orientModel(m, upAxis);
-    let box=new THREE.Box3().setFromObject(m); let size=box.getSize(new THREE.Vector3());
-    const maxDim=Math.max(size.x,size.y,size.z)||1; m.scale.setScalar(1/maxDim);
-    box=new THREE.Box3().setFromObject(m); size=box.getSize(new THREE.Vector3());
-    const c=box.getCenter(new THREE.Vector3()); m.position.sub(c);
+    applyModelTransform(THREE, m, transform);
+    const normalized=normalizeModel(THREE, m);
+    const box=normalized.box;
+    const size=normalized.size;
     scene.add(m); current=m;
     const isWideLow=Math.max(size.x,size.z)>Math.max(size.y*1.8,0.65);
-    const fitOverride=Number(String(upAxis || '').split(':')[1])||0;
-    const fit=fitOverride || (isWideLow?1.9:1.3);
-    const dist=(1/(2*Math.tan((camera.fov*Math.PI)/360)))*fit;
-    camera.position.set(dist*0.42, dist*0.26, dist*0.95); camera.lookAt(0,0,0);
+    frameCameraToBox(THREE, camera, box, {
+      direction:[0.55,0.34,0.9],
+      padding:transform.fit || (isWideLow?1.26:1.16)
+    });
     setTimeout(()=>res(true),350);
   }, undefined, (e)=>rej(String(e)));
 });
@@ -208,7 +200,7 @@ const params=new URLSearchParams(window.location.search);
 const model=params.get('model');
 if (model) {
   window.__ready=false;
-  window.loadModel(model, params.get('up') || 'auto', params.get('appearance') || '{}')
+  window.loadModel(model, params.get('transform') || params.get('up') || 'auto', params.get('appearance') || '{}', params.get('up') || 'auto')
     .then(() => { window.__ready=true; document.body.dataset.renderReady='true'; })
     .catch((err) => { window.__ready=true; document.body.dataset.renderError=String(err); });
 }

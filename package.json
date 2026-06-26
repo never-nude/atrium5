@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "data:smk": "node ./scripts/enrich-smk.mjs",
     "verify:assets": "node ./scripts/verify-catalog-assets.mjs",
+    "audit:orientation": "node ./scripts/audit-model-orientation.mjs",
     "images:posters": "node ./scripts/generate-posters.mjs",
     "images:renders": "node ./scripts/render-thumbnails.mjs",
     "models:preview": ".venv/bin/python ./scripts/generate-previews.py",

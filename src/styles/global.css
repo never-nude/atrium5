@@ -317,6 +317,7 @@ h3 { margin-bottom: var(--space-2); font-size: var(--step-h3); line-height: 1.14
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: var(--space-4);
 }
+.rail--three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 
 /* ============================================================ WORK CARD */
 .work-card {
