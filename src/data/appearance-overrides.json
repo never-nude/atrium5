@@ -44,5 +44,28 @@
     "fillLightIntensity": 1,
     "rimLightIntensity": 1.38,
     "hemiLightIntensity": 0.9
+  },
+  "neoclassical/model-of-the-greek-slave-smithsonian": {
+    "profile": "plaster",
+    "baseColor": "#D0C6B8",
+    "secondaryColor": "#C2B6A6",
+    "tintStrength": 0.36,
+    "variation": 0.08,
+    "metalness": 0,
+    "roughness": 0.82,
+    "textureDefault": 26,
+    "exposure": 0.72,
+    "envMapIntensity": 0.2,
+    "emissiveIntensity": 0,
+    "mapLift": 0.66,
+    "mapFloor": 0.22,
+    "backdropTop": "#15243A",
+    "backdropBase": "#15243A",
+    "backdropGlow": "#D7DEE8",
+    "backdropGlowStrength": 0.07,
+    "keyLightIntensity": 1.22,
+    "fillLightIntensity": 1.02,
+    "rimLightIntensity": 1.24,
+    "hemiLightIntensity": 0.98
   }
 }

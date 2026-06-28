@@ -2,6 +2,7 @@
 import argparse
 import json
 import os
+import shutil
 from pathlib import Path
 
 import trimesh
@@ -24,6 +25,9 @@ FEATURED_SLUGS = [
 SOURCE_OVERRIDES = {
     "michelangelo/david": "michelangelo/david/david_source.stl",
     "neoclassical/model-of-the-greek-slave-smithsonian": "neoclassical/model-of-the-greek-slave-smithsonian/greek-slave-smithsonian_preview.glb",
+}
+DIRECT_COPY_PREVIEWS = {
+    "neoclassical/model-of-the-greek-slave-smithsonian",
 }
 
 
@@ -96,6 +100,26 @@ def export_preview(work, source_root: Path, repo_root: Path, target_faces: int):
     loaded = trimesh.load(source_path, force=force)
     mesh = as_mesh(loaded)
     source_faces = int(len(mesh.faces))
+
+    if work["slug"] in DIRECT_COPY_PREVIEWS:
+        shutil.copyfile(source_path, output_path)
+        meta_path.write_text(
+            json.dumps(
+                {
+                    "slug": work["slug"],
+                    "source": str(source_path),
+                    "sourceBytes": source_path.stat().st_size,
+                    "sourceFaces": source_faces,
+                    "faces": source_faces,
+                    "targetFaces": source_faces,
+                    "directCopy": True,
+                },
+                indent=2,
+            )
+            + "\n"
+        )
+        return output_path
+
     preview = simplify(mesh, target_faces)
     preview.export(output_path, file_type="glb")
     meta_path.write_text(

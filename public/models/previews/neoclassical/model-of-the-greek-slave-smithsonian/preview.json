@@ -3,6 +3,7 @@
   "source": "/Users/michael/Documents/Claude/Projects/atrium/neoclassical/model-of-the-greek-slave-smithsonian/greek-slave-smithsonian_preview.glb",
   "sourceBytes": 9038672,
   "sourceFaces": 149999,
-  "faces": 90000,
-  "targetFaces": 90000
+  "faces": 149999,
+  "targetFaces": 149999,
+  "directCopy": true
 }
