@@ -1622,5 +1622,13 @@
     "sourceFormat": "stl",
     "faces": 14000,
     "sourceFaces": 400008
+  },
+  "neoclassical/model-of-the-greek-slave-smithsonian": {
+    "url": "/models/previews/neoclassical/model-of-the-greek-slave-smithsonian/preview.glb",
+    "bytes": 1683080,
+    "sourceBytes": 9038672,
+    "sourceFormat": "zip",
+    "faces": 90000,
+    "sourceFaces": 149999
   }
 }

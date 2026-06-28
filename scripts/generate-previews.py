@@ -23,6 +23,7 @@ FEATURED_SLUGS = [
 ]
 SOURCE_OVERRIDES = {
     "michelangelo/david": "michelangelo/david/david_source.stl",
+    "neoclassical/model-of-the-greek-slave-smithsonian": "neoclassical/model-of-the-greek-slave-smithsonian/greek-slave-smithsonian_preview.glb",
 }
 
 
