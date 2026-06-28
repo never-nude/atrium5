@@ -1622,5 +1622,29 @@
     "sourceFormat": "stl",
     "faces": 14000,
     "sourceFaces": 400008
+  },
+  "greek/double-herm-epicurus-metrodorus-tds-vienna": {
+    "url": "/models/previews/greek/double-herm-epicurus-metrodorus-tds-vienna/preview.glb",
+    "bytes": 252828,
+    "sourceBytes": 60750969,
+    "sourceFormat": "zip",
+    "faces": 14000,
+    "sourceFaces": 2093952
+  },
+  "greek/double-herm-socrates-seneca-tds-vienna": {
+    "url": "/models/previews/greek/double-herm-socrates-seneca-tds-vienna/preview.glb",
+    "bytes": 252828,
+    "sourceBytes": 32392952,
+    "sourceFormat": "zip",
+    "faces": 14000,
+    "sourceFaces": 975030
+  },
+  "greek/hermes-fastening-his-sandal-tds-vienna": {
+    "url": "/models/previews/greek/hermes-fastening-his-sandal-tds-vienna/preview.glb",
+    "bytes": 252536,
+    "sourceBytes": 38253168,
+    "sourceFormat": "zip",
+    "faces": 14000,
+    "sourceFaces": 2000022
   }
 }
