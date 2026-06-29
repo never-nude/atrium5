@@ -187,11 +187,13 @@ const collectionGeography: Record<string, string> = {
   assyrian: 'Ancient Near East',
   bouchardon: 'Europe',
   donatello: 'Europe',
+  egyptian: 'Ancient Near East and Egypt',
   greek: 'Mediterranean',
   lorenzi: 'Europe',
   michelangelo: 'Europe',
   palmyra: 'Ancient Near East',
   rodin: 'Europe',
+  roman: 'Mediterranean',
   'sub-saharan-africa': 'Sub-Saharan Africa',
   verrocchio: 'Europe',
 };
