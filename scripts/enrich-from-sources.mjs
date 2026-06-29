@@ -198,13 +198,18 @@ function smkYear(item) {
   return note.replace(/\s+/g, ' ');
 }
 
+function yearSortFromCentury(century, bce) {
+  const midpoint = (100 * Number(century)) - 50;
+  return bce ? -midpoint : midpoint;
+}
+
 // Sortable year from a display string, matching catalog conventions
-// ("883–859 BCE" → -883, "c. 330 BCE" → -330, "2nd century BCE" → -2).
+// ("883–859 BCE" → -883, "c. 330 BCE" → -330, "2nd century BCE" → -150).
 function yearSortFromDisplay(display) {
   const text = clean(display);
   if (!text) return null;
-  const century = text.match(/(\d{1,2})(?:st|nd|rd|th)\s+century\s*(BCE)?/i);
-  if (century) return century[2] ? -Number(century[1]) : Number(century[1]);
+  const century = text.match(/(\d{1,2})(?:st|nd|rd|th)\s+century\s*(BCE|CE)?/i);
+  if (century) return yearSortFromCentury(century[1], /^BCE$/i.test(century[2] || ''));
   const leading = text.match(/(\d{1,4})/);
   if (!leading) return null;
   return /BCE/i.test(text) ? -Number(leading[1]) : Number(leading[1]);

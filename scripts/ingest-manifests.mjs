@@ -50,10 +50,79 @@ function periodFor(yearSort) {
 }
 
 function searchText(m) {
-  return [m.title, m.artist, m.year, m.material, m.dimensions, m.museum, m.source_institution, m.scan_source, m.slug.split('/')[0], m.note]
+  return [
+    m.title,
+    m.artist,
+    sourceField(m, 'year'),
+    sourceField(m, 'material'),
+    sourceField(m, 'dimensions'),
+    sourceField(m, 'museum'),
+    m.source_institution,
+    m.scan_source,
+    m.slug.split('/')[0],
+    m.note,
+  ]
     .filter(Boolean)
     .join(' ')
     .toLowerCase();
+}
+
+const SOURCE_FIELD_ALIASES = {
+  year: ['date', 'objectDate', 'production_date', 'productionDate', 'production_date_notes', 'dated'],
+  material: ['medium', 'materials', 'technique'],
+  dimensions: ['dimension', 'measurements', 'measurement'],
+  museum: ['held', 'repository', 'current_owner', 'currentOwner', 'current_location', 'currentLocation', 'original_location', 'originalLocation', 'holding_institution', 'holdingInstitution'],
+};
+
+const SOURCE_RECORD_KEYS = ['source_record', 'sourceRecord', 'source', 'metadata', 'object', 'original'];
+
+function textValue(value) {
+  if (typeof value === 'string') return value.trim();
+  if (typeof value === 'number') return String(value);
+  if (Array.isArray(value)) return value.map(textValue).filter(Boolean).join(', ');
+  if (value && typeof value === 'object') {
+    return textValue(value.label || value.name || value.title || value.value || value.text || value.display);
+  }
+  return '';
+}
+
+function sourceField(m, field) {
+  const aliases = SOURCE_FIELD_ALIASES[field] || [];
+  const records = [m, ...SOURCE_RECORD_KEYS.map((key) => m[key]).filter((record) => record && typeof record === 'object')];
+
+  for (const record of records) {
+    for (const key of [field, ...aliases]) {
+      const value = textValue(record[key]);
+      if (value) return value;
+    }
+  }
+  return '';
+}
+
+function sourceYearSort(m) {
+  for (const record of [m, ...SOURCE_RECORD_KEYS.map((key) => m[key]).filter((r) => r && typeof r === 'object')]) {
+    for (const key of ['year_sort', 'yearSort']) {
+      if (record[key] === null || record[key] === undefined || record[key] === '') continue;
+      const value = Number(record[key]);
+      if (Number.isFinite(value)) return value;
+    }
+  }
+  return yearSortFromDisplay(sourceField(m, 'year'));
+}
+
+function yearSortFromCentury(century, bce) {
+  const midpoint = (100 * Number(century)) - 50;
+  return bce ? -midpoint : midpoint;
+}
+
+function yearSortFromDisplay(display) {
+  const text = textValue(display);
+  if (!text) return null;
+  const century = text.match(/(\d{1,2})(?:st|nd|rd|th)\s+century\s*(BCE|CE)?/i);
+  if (century) return yearSortFromCentury(century[1], /^BCE$/i.test(century[2] || ''));
+  const leading = text.match(/(\d{1,4})/);
+  if (!leading) return null;
+  return /BCE/i.test(text) ? -Number(leading[1]) : Number(leading[1]);
 }
 
 function licenseLooksLike(license, needles) {
@@ -186,6 +255,11 @@ for (const m of additions) {
   const primary = m.files.find((f) => f.role === 'source') || m.files[0];
   const destRel = path.join(m.slug, primary.name);
   const destAbs = path.join(sourcesDir, destRel);
+  const year = sourceField(m, 'year');
+  const yearSort = sourceYearSort(m);
+  const material = sourceField(m, 'material');
+  const museum = sourceField(m, 'museum');
+  const dimensions = sourceField(m, 'dimensions');
   let sizeBytes = primary.sizeBytes || 0;
   if (!noDownload) {
     process.stdout.write(`  ↓ ${m.slug} ← ${primary.name} ... `);
@@ -203,10 +277,10 @@ for (const m of additions) {
     collection: m.slug.split('/')[0],
     title: m.title,
     artist: m.artist || '',
-    year: m.year || '',
-    year_sort: m.year_sort ?? null,
-    material: m.material || '',
-    museum: m.museum || '',
+    year,
+    year_sort: yearSort ?? null,
+    material,
+    museum,
     source_institution: m.source_institution || '',
     scan_source: m.scan_source || '',
     source_url: m.source_url,
@@ -221,10 +295,10 @@ for (const m of additions) {
     ingested: new Date().toISOString().slice(0, 10),
     index: 0,
     total: 0,
-    period: periodFor(m.year_sort),
+    period: periodFor(yearSort),
     model: { sourcePath: destRel, format: primary.format, sizeBytes },
     search: searchText(m),
-    ...(m.dimensions ? { dimensions: m.dimensions } : {}),
+    ...(dimensions ? { dimensions } : {}),
   });
   report.added.push(m.slug);
   known.add(m.slug);
