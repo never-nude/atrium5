@@ -36,10 +36,10 @@ refuses to run if it detects ingested entries.
 
 ## Automated open-scan pipeline
 
-The scheduled path in `.github/workflows/ingest.yml` discovers CC0/Public Domain/CC BY
-sculpture scans from whitelisted sources, stages downloads under `.atrium-ingest/`,
-generates Atrium previews, and opens a draft PR. It never merges or publishes by
-itself.
+The weekly scheduled path in `.github/workflows/ingest.yml` discovers CC0/Public
+Domain/CC BY sculpture scans from whitelisted sources, stages downloads under
+`.atrium-ingest/`, generates Atrium previews and WebP thumbnails, and opens a draft
+PR. It never merges or publishes by itself.
 
 Local dry run:
 
@@ -47,6 +47,12 @@ Local dry run:
 npm run ingest:discover -- --limit=3
 npm run ingest:fetch -- --limit=3
 SOURCE_ATRIUM_DIR=.atrium-ingest/source-archive npm run ingest:assemble
+npx playwright install chromium
+SLUGS="$(paste -sd, .atrium-ingest/new-slugs.txt)"
+CHROME_BIN="$(node -e 'console.log(require("playwright").chromium.executablePath())')" \
+  CHROME_EXTRA_ARGS="--no-sandbox --enable-unsafe-swiftshader --use-angle=swiftshader" \
+  ONLY="$SLUGS" npm run images:renders
+npm run images:mark-renders -- --input=.atrium-ingest/new-slugs.txt
 npm run verify:assets
 ```
 

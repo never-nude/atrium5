@@ -12,6 +12,7 @@
     "audit:orientation": "node ./scripts/audit-model-orientation.mjs",
     "images:posters": "node ./scripts/generate-posters.mjs",
     "images:renders": "node ./scripts/render-thumbnails.mjs",
+    "images:mark-renders": "node ./scripts/mark-rendered-slugs.mjs",
     "models:preview": ".venv/bin/python ./scripts/generate-previews.py",
     "import:catalog:legacy": "node ./scripts/import-catalog.mjs",
     "ingest": "node ./scripts/ingest-manifests.mjs",
@@ -22,7 +23,8 @@
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.7.2",
-    "astro": "^6.1.10"
+    "astro": "^6.1.10",
+    "playwright": "^1.61.1"
   },
   "dependencies": {
     "@google/model-viewer": "^4.2.0",

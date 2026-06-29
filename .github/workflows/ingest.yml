@@ -2,7 +2,7 @@ name: Discover open 3D scans
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 9 * * 1'
   workflow_dispatch:
     inputs:
       batch_size:
@@ -41,12 +41,14 @@ jobs:
           python-version: '3.12'
           cache: pip
 
-      - name: Setup Chrome
-        id: setup-chrome
-        uses: browser-actions/setup-chrome@v2
-
       - name: Install Node dependencies
         run: npm ci
+
+      - name: Install Playwright Chromium
+        id: playwright
+        run: |
+          npx playwright install --with-deps chromium
+          echo "chrome-path=$(node -e 'console.log(require(\"playwright\").chromium.executablePath())')" >> "$GITHUB_OUTPUT"
 
       - name: Install Python dependencies
         run: |
@@ -69,14 +71,26 @@ jobs:
       - name: Assemble catalog pieces
         run: npm run ingest:assemble
         env:
-          CHROME_BIN: ${{ steps.setup-chrome.outputs.chrome-path }}
-          CHROME_EXTRA_ARGS: '--no-sandbox --disable-dev-shm-usage --enable-unsafe-swiftshader --use-angle=swiftshader'
           PYTHON: python
+
+      - name: Render thumbnails
+        run: |
+          if [ ! -s .atrium-ingest/new-slugs.txt ]; then
+            echo "No accepted new slugs to render."
+            exit 0
+          fi
+          SLUGS="$(paste -sd, .atrium-ingest/new-slugs.txt)"
+          echo "Rendering thumbnails for: ${SLUGS}"
+          ONLY="${SLUGS}" npm run images:renders
+          npm run images:mark-renders -- --input=.atrium-ingest/new-slugs.txt
+        env:
+          CHROME_BIN: ${{ steps.playwright.outputs.chrome-path }}
+          CHROME_EXTRA_ARGS: '--no-sandbox --enable-unsafe-swiftshader --use-angle=swiftshader'
 
       - name: Detect changes
         id: changes
         run: |
-          if git diff --quiet; then
+          if [ -z "$(git status --porcelain)" ]; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
             echo "has_changes=true" >> "$GITHUB_OUTPUT"

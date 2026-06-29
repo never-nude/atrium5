@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { copyFile, mkdir } from 'node:fs/promises';
+import { copyFile, mkdir, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import {
@@ -18,7 +18,6 @@ import {
   previewsPath,
   readJson,
   relativeToRepo,
-  rendersPath,
   repoRoot,
   run,
   searchText,
@@ -31,6 +30,7 @@ const stageDir = path.resolve(repoRoot, args.stage || process.env.ATRIUM_INGEST_
 const inputPath = path.resolve(repoRoot, args.input || path.join(stageDir, 'fetched.json'));
 const reportPath = path.resolve(repoRoot, args.report || path.join(stageDir, 'last-report.md'));
 const reportJsonPath = path.resolve(repoRoot, args['report-json'] || path.join(stageDir, 'last-report.json'));
+const newSlugsPath = path.resolve(repoRoot, args['new-slugs'] || path.join(stageDir, 'new-slugs.txt'));
 const sourceArchive = path.resolve(repoRoot, args['source-archive'] || process.env.SOURCE_ATRIUM_DIR || path.join(stageDir, 'source-archive'));
 const targetFaces = Number(args['target-faces'] || process.env.ATRIUM_PREVIEW_TARGET_FACES || 400000);
 const skipAssets = Boolean(args['skip-assets']);
@@ -145,13 +145,6 @@ function catalogEntry(candidate, archiveRel, sizeBytes) {
   return entry;
 }
 
-async function updateRenders(catalog, slugs) {
-  const existing = await readJson(rendersPath, []);
-  const set = new Set(existing);
-  for (const slug of slugs) set.add(slug);
-  return catalog.map((work) => work.slug).filter((slug) => set.has(slug));
-}
-
 async function generateAssets(slugs) {
   if (skipAssets || !slugs.length) return;
   const env = { SOURCE_ATRIUM_DIR: sourceArchive };
@@ -166,7 +159,6 @@ async function generateAssets(slugs) {
     ...slugs.flatMap((slug) => ['--slug', slug]),
   ], { env });
   await run('node', ['scripts/generate-posters.mjs']);
-  await run('npm', ['run', 'images:renders'], { env: { ONLY: slugs.join(',') } });
 }
 
 function orientationForJson(proposal) {
@@ -259,6 +251,8 @@ const acceptedSlugs = [];
 if (!candidates.length) {
   await writeJson(reportJsonPath, report);
   await mkdir(path.dirname(reportPath), { recursive: true });
+  await mkdir(path.dirname(newSlugsPath), { recursive: true });
+  await writeFile(newSlugsPath, '');
   await import('node:fs/promises').then(({ writeFile }) => writeFile(reportPath, markdownReport(report)));
   console.log('No fetched candidates to assemble.');
   process.exit(0);
@@ -374,12 +368,14 @@ if (!dryRun && additions.length) {
     }
   }
   await writeJson(previewsPath, previews);
-  await writeJson(rendersPath, await updateRenders(catalog, acceptedSlugs));
 }
 
 await writeJson(reportJsonPath, report);
 await mkdir(path.dirname(reportPath), { recursive: true });
+await mkdir(path.dirname(newSlugsPath), { recursive: true });
+await writeFile(newSlugsPath, acceptedSlugs.length ? `${acceptedSlugs.join('\n')}\n` : '');
 await import('node:fs/promises').then(({ writeFile }) => writeFile(reportPath, markdownReport(report)));
 
 console.log(`Accepted ${report.accepted.length}; rejected ${report.rejected.length}; needs orientation ${report.needs_orientation.length}.`);
+console.log(`Wrote ${newSlugsPath}`);
 console.log(`Wrote ${reportPath}`);
