@@ -63,7 +63,7 @@
     "year": "460–450 BCE",
     "year_sort": -460,
     "material": "Bronze (lost original)",
-    "museum": "",
+    "museum": "Museo Pio-Clementino, Vatican Museums",
     "source_institution": "SMK Open",
     "source_url": "https://open.smk.dk/artwork/image/KAS1549",
     "license": "Public Domain Mark 1.0",
@@ -77,7 +77,7 @@
       "format": "stl",
       "sizeBytes": 9988284
     },
-    "search": "discobolus myron 460–450 bce bronze (lost original) h 170 cm × w 115 cm × d 50 cm smk open plaster cast, room 120, royal cast collection (smk), copenhagen the smk record identifies this version as the discobolus type with a modern restored head.",
+    "search": "discobolus myron 460–450 bce bronze (lost original) h 170 cm × w 115 cm × d 50 cm museo pio-clementino, vatican museums smk open plaster cast, room 120, royal cast collection (smk), copenhagen the smk record identifies this version as the discobolus type with a modern restored head.",
     "dimensions": "H 170 cm × W 115 cm × D 50 cm",
     "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
     "accession": "KAS1549",
@@ -92,7 +92,7 @@
     "year": "c. 440 BCE",
     "year_sort": -450,
     "material": "Marble",
-    "museum": "",
+    "museum": "Skulpturensammlung, Dresden, and Museo Civico Archeologico, Bologna",
     "source_institution": "SMK Open",
     "source_url": "https://open.smk.dk/artwork/image/KAS40",
     "license": "Public Domain Mark 1.0",
@@ -106,7 +106,7 @@
       "format": "stl",
       "sizeBytes": 19999884
     },
-    "search": "athena lemnia phidias c. 440 bce marble h 208 cm × w 81.5 cm × d 50 cm smk open plaster cast, royal cast collection (smk), copenhagen smk catalogs the work as furtwangler's reconstruction of the athena lemnia type using the dresden torso and the palagi head in bologna.",
+    "search": "athena lemnia phidias c. 440 bce marble h 208 cm × w 81.5 cm × d 50 cm skulpturensammlung, dresden, and museo civico archeologico, bologna smk open plaster cast, royal cast collection (smk), copenhagen smk catalogs the work as furtwangler's reconstruction of the athena lemnia type using the dresden torso and the palagi head in bologna.",
     "dimensions": "H 208 cm × W 81.5 cm × D 50 cm",
     "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
     "accession": "KAS40",
@@ -280,11 +280,12 @@
       "format": "stl",
       "sizeBytes": 13713684
     },
-    "search": "venus de milo 2nd century bce parian marble musée du louvre, paris smk open plaster cast, royal cast collection (smk), copenhagen",
+    "search": "venus de milo 2nd century bce parian marble h 202 cm musée du louvre, paris smk open plaster cast, royal cast collection (smk), copenhagen",
     "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
     "accession": "KAS434",
     "scan_source": "Plaster cast, Royal Cast Collection (SMK), Copenhagen",
-    "wikidata": "https://www.wikidata.org/wiki/Q151952"
+    "wikidata": "https://www.wikidata.org/wiki/Q151952",
+    "dimensions": "H 202 cm"
   },
   {
     "slug": "capitoline-venus",
@@ -463,8 +464,8 @@
     "artist": "Michelangelo",
     "year": "1501-1504",
     "year_sort": 1501,
-    "material": "",
-    "museum": "",
+    "material": "Marble",
+    "museum": "Galleria dell'Accademia, Florence",
     "source_institution": "Scan the World / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:David_(Michelangelo).stl",
     "license": "",
@@ -478,7 +479,8 @@
       "format": "stl",
       "sizeBytes": 8000084
     },
-    "search": "david michelangelo 1501-1504 scan the world / wikimedia commons michelangelo this viewer uses the source stl directly with museum-style lighting and mobile-friendly controls."
+    "search": "david michelangelo 1501-1504 marble h 517 cm galleria dell'accademia, florence scan the world / wikimedia commons michelangelo this viewer uses the source stl directly with museum-style lighting and mobile-friendly controls.",
+    "dimensions": "H 517 cm"
   },
   {
     "slug": "michelangelo/tondo-pitti",
@@ -737,8 +739,8 @@
     "artist": "Michelangelo",
     "year": "1524-1531",
     "year_sort": 1524,
-    "material": "",
-    "museum": "",
+    "material": "Marble",
+    "museum": "San Lorenzo, Sagrestia Nuova, Florence",
     "source_institution": "SMK Open",
     "source_url": "https://api.smk.dk/api/v1/download-3d/k643b617z_smk-kas113-3-allegory-of-dawn.stl",
     "license": "",
@@ -752,7 +754,7 @@
       "format": "stl",
       "sizeBytes": 20005084
     },
-    "search": "dawn michelangelo 1524-1531 smk open michelangelo"
+    "search": "dawn michelangelo 1524-1531 marble san lorenzo, sagrestia nuova, florence smk open michelangelo"
   },
   {
     "slug": "michelangelo/lorenzo-duke-of-urbino",
@@ -761,8 +763,8 @@
     "artist": "Michelangelo",
     "year": "1526-1534",
     "year_sort": 1526,
-    "material": "",
-    "museum": "",
+    "material": "Marble",
+    "museum": "San Lorenzo, Sagrestia Nuova, Florence",
     "source_institution": "SMK Open",
     "source_url": "https://api.smk.dk/api/v1/download-3d/df65vd372_smk-kas113-1-lorenzo-de-medici-decimated.stl",
     "license": "",
@@ -776,7 +778,7 @@
       "format": "stl",
       "sizeBytes": 20000784
     },
-    "search": "lorenzo, duke of urbino michelangelo 1526-1534 smk open michelangelo"
+    "search": "lorenzo, duke of urbino michelangelo 1526-1534 marble san lorenzo, sagrestia nuova, florence smk open michelangelo"
   },
   {
     "slug": "michelangelo/giuliano-duke-of-nemours",
@@ -785,8 +787,8 @@
     "artist": "Michelangelo",
     "year": "1526-1534",
     "year_sort": 1526,
-    "material": "",
-    "museum": "",
+    "material": "Marble",
+    "museum": "San Lorenzo, Sagrestia Nuova, Florence",
     "source_institution": "SMK Open",
     "source_url": "https://api.smk.dk/api/v1/download-3d/dn39x6162_smk-kas112-1-guiliano-de-medici-decimated.stl",
     "license": "",
@@ -800,7 +802,7 @@
       "format": "stl",
       "sizeBytes": 20002084
     },
-    "search": "giuliano, duke of nemours michelangelo 1526-1534 smk open michelangelo"
+    "search": "giuliano, duke of nemours michelangelo 1526-1534 marble san lorenzo, sagrestia nuova, florence smk open michelangelo"
   },
   {
     "slug": "michelangelo/night",
@@ -809,8 +811,8 @@
     "artist": "Michelangelo",
     "year": "Notte) (1526-1531",
     "year_sort": 1526,
-    "material": "",
-    "museum": "",
+    "material": "Marble",
+    "museum": "San Lorenzo, Sagrestia Nuova, Florence",
     "source_institution": "SMK Open",
     "source_url": "https://api.smk.dk/api/v1/download-3d/mg74qr55m_smk-kas112-2-night.stl",
     "license": "",
@@ -824,7 +826,7 @@
       "format": "stl",
       "sizeBytes": 20001684
     },
-    "search": "night michelangelo notte) (1526-1531 smk open michelangelo"
+    "search": "night michelangelo notte) (1526-1531 marble san lorenzo, sagrestia nuova, florence smk open michelangelo"
   },
   {
     "slug": "michelangelo/apollo",
@@ -916,8 +918,8 @@
     "artist": "Auguste Rodin",
     "year": "1889",
     "year_sort": 1889,
-    "material": "",
-    "museum": "",
+    "material": "Terracotta",
+    "museum": "Nationalmuseum, Stockholm",
     "source_institution": "Wikimedia Commons / Nationalmuseum",
     "source_url": "https://commons.wikimedia.org/wiki/File:Danaid_NMSk_1854_(Auguste_Rodin)_-_Nationalmuseum_-_76c5c234c6074b13a94bf793c276a509.stl",
     "license": "CC BY 4.0",
@@ -931,7 +933,8 @@
       "format": "stl",
       "sizeBytes": 19895954
     },
-    "search": "danaid auguste rodin 1889 wikimedia commons / nationalmuseum rodin"
+    "search": "danaid auguste rodin 1889 terracotta h 20.2 cm × w 36.5 cm × d 27.5 cm nationalmuseum, stockholm wikimedia commons / nationalmuseum rodin",
+    "dimensions": "H 20.2 cm × W 36.5 cm × D 27.5 cm"
   },
   {
     "slug": "rodin/the-walking-man",
@@ -940,8 +943,8 @@
     "artist": "Auguste Rodin",
     "year": "conceived 1899-1900",
     "year_sort": 1899,
-    "material": "",
-    "museum": "",
+    "material": "Bronze",
+    "museum": "Musée Rodin, Paris",
     "source_institution": "Wikimedia Commons / Thingiverse",
     "source_url": "https://commons.wikimedia.org/wiki/File:Auguste_Rodin_-_L'Homme_qui_marche_-_3D_model_Thingiverse.stl",
     "license": "CC BY 4.0",
@@ -955,7 +958,8 @@
       "format": "stl",
       "sizeBytes": 18119205
     },
-    "search": "the walking man auguste rodin conceived 1899-1900 wikimedia commons / thingiverse rodin"
+    "search": "the walking man auguste rodin conceived 1899-1900 bronze h 213.5 cm × w 71.7 cm × d 156.5 cm musée rodin, paris wikimedia commons / thingiverse rodin",
+    "dimensions": "H 213.5 cm × W 71.7 cm × D 156.5 cm"
   },
   {
     "slug": "adolescent-torso",
@@ -965,7 +969,7 @@
     "year": "",
     "year_sort": null,
     "material": "Marble",
-    "museum": "",
+    "museum": "Musée Saint-Raymond, Toulouse",
     "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:Msr-adolescent-torso-repaired-repaired.stl",
     "license": "",
@@ -979,7 +983,8 @@
       "format": "stl",
       "sizeBytes": 36364384
     },
-    "search": "adolescent torso marble musée saint-raymond / wikimedia commons"
+    "search": "adolescent torso marble h 58 cm × l 38.5 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons",
+    "dimensions": "H 58 cm × L 38.5 cm"
   },
   {
     "slug": "americas/atingting-kon-slit-gong",
@@ -1569,10 +1574,10 @@
     "collection": "",
     "title": "Apollo Lykeios",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "330–320 BCE",
+    "year_sort": -330,
     "material": "Marble copy",
-    "museum": "",
+    "museum": "Musée du Louvre, Paris",
     "source_institution": "SMK Open",
     "source_url": "https://open.smk.dk/en/artwork/image/KAS1026",
     "license": "Public Domain Mark 1.0",
@@ -1586,7 +1591,7 @@
       "format": "stl",
       "sizeBytes": 20001484
     },
-    "search": "apollo lykeios marble copy h 231.5 cm × w 90 cm × d 72 cm smk open plaster cast, royal cast collection (smk), copenhagen",
+    "search": "apollo lykeios 330–320 bce marble copy h 231.5 cm × w 90 cm × d 72 cm musée du louvre, paris smk open plaster cast, royal cast collection (smk), copenhagen",
     "scan_source": "Plaster cast, Royal Cast Collection (SMK), Copenhagen",
     "wikidata": "https://www.wikidata.org/wiki/Q3814239",
     "dimensions": "H 231.5 cm × W 90 cm × D 72 cm",
@@ -1855,10 +1860,10 @@
     "collection": "",
     "title": "Attis",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "End of the 3rd century CE",
+    "year_sort": 275,
     "material": "Terracotta",
-    "museum": "",
+    "museum": "Musée Saint-Raymond, Toulouse",
     "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:Saint-raymond-attis-5.stl",
     "license": "",
@@ -1872,17 +1877,18 @@
       "format": "stl",
       "sizeBytes": 35002384
     },
-    "search": "attis terracotta musée saint-raymond / wikimedia commons"
+    "search": "attis end of the 3rd century ce terracotta h 95 cm × w 79 cm × d 43 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons",
+    "dimensions": "H 95 cm × W 79 cm × D 43 cm"
   },
   {
     "slug": "augustus-of-prima-porta",
     "collection": "",
     "title": "Augustus Of Prima Porta",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "c. 20 BCE",
+    "year_sort": -20,
     "material": "Marble",
-    "museum": "",
+    "museum": "Vatican Museums, Vatican City",
     "source_institution": "Internet Archive / Thingiverse",
     "source_url": "https://archive.org/details/thingiverse-4973766",
     "license": "",
@@ -1896,7 +1902,8 @@
       "format": "stl",
       "sizeBytes": 15661384
     },
-    "search": "augustus of prima porta marble internet archive / thingiverse"
+    "search": "augustus of prima porta c. 20 bce marble h 207 cm × w 130 cm vatican museums, vatican city internet archive / thingiverse",
+    "dimensions": "H 207 cm × W 130 cm"
   },
   {
     "slug": "barberini-faun",
@@ -1932,10 +1939,10 @@
     "collection": "",
     "title": "Bearded Hercules Head",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "End of the 3rd century CE",
+    "year_sort": 275,
     "material": "Saint-Beat marble",
-    "museum": "",
+    "museum": "Musée Saint-Raymond, Toulouse",
     "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:Msr-bearded-hercules-head-5.stl",
     "license": "",
@@ -1949,7 +1956,8 @@
       "format": "stl",
       "sizeBytes": 35000084
     },
-    "search": "bearded hercules head saint-beat marble musée saint-raymond / wikimedia commons"
+    "search": "bearded hercules head end of the 3rd century ce saint-beat marble h 29.5 cm × w 23.5 cm × d 22 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons",
+    "dimensions": "H 29.5 cm × W 23.5 cm × D 22 cm"
   },
   {
     "slug": "block-470953",
@@ -1985,10 +1993,10 @@
     "collection": "",
     "title": "Borghese Gladiator",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "c. 100 BCE",
+    "year_sort": -100,
     "material": "Marble",
-    "museum": "",
+    "museum": "Musée du Louvre, Paris",
     "source_institution": "Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:Den_borghesiske_F%C3%A6gter,_Agasias_fra_Ephesos_-_KAS499.stl",
     "license": "",
@@ -2002,17 +2010,18 @@
       "format": "stl",
       "sizeBytes": 20000684
     },
-    "search": "borghese gladiator marble wikimedia commons"
+    "search": "borghese gladiator c. 100 bce marble h 166 cm × w 131.5 cm × d 152.5 cm musée du louvre, paris wikimedia commons",
+    "dimensions": "H 166 cm × W 131.5 cm × D 152.5 cm"
   },
   {
     "slug": "bouchardon/cupid",
     "collection": "bouchardon",
     "title": "Cupid",
     "artist": "Bouchardon",
-    "year": "",
-    "year_sort": null,
-    "material": "",
-    "museum": "",
+    "year": "1750",
+    "year_sort": 1750,
+    "material": "Marble",
+    "museum": "Musée du Louvre, Paris",
     "source_institution": "",
     "source_url": "",
     "license": "",
@@ -2026,7 +2035,8 @@
       "format": "stl",
       "sizeBytes": 12688084
     },
-    "search": "cupid bouchardon bouchardon this version renders the original stl directly (instead of a decimated proxy mesh) for better form readability."
+    "search": "cupid bouchardon 1750 marble h 173 cm × w 75 cm musée du louvre, paris bouchardon this version renders the original stl directly (instead of a decimated proxy mesh) for better form readability.",
+    "dimensions": "H 173 cm × W 75 cm"
   },
   {
     "slug": "bronze-figure-boy-eastern-dress",
@@ -2065,7 +2075,7 @@
     "year": "",
     "year_sort": null,
     "material": "Bronze",
-    "museum": "",
+    "museum": "National Archaeological Museum of Naples",
     "source_institution": "Archeologia e Calcolatori / ATON",
     "source_url": "https://www.archcalc.cnr.it/resources/3dmodels/33",
     "license": "",
@@ -2079,17 +2089,17 @@
       "format": "gltf",
       "sizeBytes": 20231
     },
-    "search": "bronze horse head herculaneum bronze archeologia e calcolatori / aton"
+    "search": "bronze horse head herculaneum bronze national archaeological museum of naples archeologia e calcolatori / aton"
   },
   {
     "slug": "bust-of-marcus-aurelius",
     "collection": "",
     "title": "Bust Of Marcus Aurelius",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "144–147 CE",
+    "year_sort": 144,
     "material": "Marble",
-    "museum": "",
+    "museum": "Musée Saint-Raymond, Toulouse",
     "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:Msr-bust-of-marcus-aurelius-cesar.stl",
     "license": "",
@@ -2103,7 +2113,8 @@
       "format": "stl",
       "sizeBytes": 74127284
     },
-    "search": "bust of marcus aurelius marble musée saint-raymond / wikimedia commons"
+    "search": "bust of marcus aurelius 144–147 ce marble h 78.5 cm × w 56.5 cm × d 32.5 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons",
+    "dimensions": "H 78.5 cm × W 56.5 cm × D 32.5 cm"
   },
   {
     "slug": "capitoline-wolf",
@@ -2166,10 +2177,10 @@
     "collection": "",
     "title": "Cleopatra V Tryphaena",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "First half of the 1st century BCE",
+    "year_sort": -100,
     "material": "Marble",
-    "museum": "",
+    "museum": "Musée Saint-Raymond, Toulouse",
     "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:25-msr-cleopatre-v-5.stl",
     "license": "",
@@ -2183,7 +2194,8 @@
       "format": "stl",
       "sizeBytes": 35001384
     },
-    "search": "cleopatra v tryphaena marble musée saint-raymond / wikimedia commons"
+    "search": "cleopatra v tryphaena first half of the 1st century bce marble h 32 cm × w 21 cm × d 24 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons",
+    "dimensions": "H 32 cm × W 21 cm × D 24 cm"
   },
   {
     "slug": "corbel-25-120-599",
@@ -2304,10 +2316,10 @@
     "collection": "",
     "title": "Cybele Ra 34 I",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "End of the 3rd century CE",
+    "year_sort": 275,
     "material": "Marble",
-    "museum": "",
+    "museum": "Musée Saint-Raymond, Toulouse",
     "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:Saint-raymond-cybele-5.stl",
     "license": "",
@@ -2321,17 +2333,18 @@
       "format": "stl",
       "sizeBytes": 34999984
     },
-    "search": "cybele ra 34 i marble musée saint-raymond / wikimedia commons"
+    "search": "cybele ra 34 i end of the 3rd century ce marble h 91 cm × w 72 cm × d 40 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons",
+    "dimensions": "H 91 cm × W 72 cm × D 40 cm"
   },
   {
     "slug": "cycladic-marble-female-figure",
     "collection": "",
     "title": "Cycladic Marble Female Figure",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "ca. 2700–2400/2300 BCE",
+    "year_sort": -2700,
     "material": "Marble",
-    "museum": "",
+    "museum": "The Metropolitan Museum of Art, New York",
     "source_institution": "The Met",
     "source_url": "https://www.metmuseum.org/art/collection/search/854724",
     "license": "",
@@ -2345,7 +2358,8 @@
       "format": "glb",
       "sizeBytes": 715524
     },
-    "search": "cycladic marble female figure marble the met"
+    "search": "cycladic marble female figure ca. 2700–2400/2300 bce marble h 86.5 cm × w 21 cm × d 6.2 cm the metropolitan museum of art, new york the met",
+    "dimensions": "H 86.5 cm × W 21 cm × D 6.2 cm"
   },
   {
     "slug": "cypriot-limestone-priest",
@@ -2437,10 +2451,10 @@
     "collection": "",
     "title": "Diana Of Villa Bartholoni",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "1831",
+    "year_sort": 1831,
     "material": "Marble",
-    "museum": "",
+    "museum": "Villa Bartholoni, Geneva",
     "source_institution": "Wikimedia Commons / MAHG",
     "source_url": "https://commons.wikimedia.org/wiki/File:Diana_of_Villa_Bartholoni-High_poly-001.stl",
     "license": "",
@@ -2454,17 +2468,17 @@
       "format": "stl",
       "sizeBytes": 26734884
     },
-    "search": "diana of villa bartholoni marble wikimedia commons / mahg"
+    "search": "diana of villa bartholoni 1831 marble villa bartholoni, geneva wikimedia commons / mahg"
   },
   {
     "slug": "diana-ra-34-h",
     "collection": "",
     "title": "Diana Ra 34 H",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "End of the 3rd century CE",
+    "year_sort": 275,
     "material": "Marble",
-    "museum": "",
+    "museum": "Musée Saint-Raymond, Toulouse",
     "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:Saint-raymond-diane-5.stl",
     "license": "",
@@ -2478,7 +2492,8 @@
       "format": "stl",
       "sizeBytes": 34350484
     },
-    "search": "diana ra 34 h marble musée saint-raymond / wikimedia commons"
+    "search": "diana ra 34 h end of the 3rd century ce marble h 86 cm × w 74 cm × d 38 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons",
+    "dimensions": "H 86 cm × W 74 cm × D 38 cm"
   },
   {
     "slug": "dionysos-farnese",
@@ -2512,10 +2527,10 @@
     "collection": "donatello",
     "title": "David",
     "artist": "Donatello",
-    "year": "",
-    "year_sort": null,
+    "year": "c. 1440",
+    "year_sort": 1440,
     "material": "Bronze",
-    "museum": "",
+    "museum": "Museo Nazionale del Bargello, Florence",
     "source_institution": "Wikimedia Commons / Scan the World",
     "source_url": "https://commons.wikimedia.org/wiki/File:Scan_the_World_-_SMK17_-_KAS2036_-_David_With_The_Head_of_Goliath_(Donatello).stl",
     "license": "",
@@ -2529,7 +2544,8 @@
       "format": "stl",
       "sizeBytes": 20000084
     },
-    "search": "david donatello bronze wikimedia commons / scan the world donatello"
+    "search": "david donatello c. 1440 bronze h 158 cm museo nazionale del bargello, florence wikimedia commons / scan the world donatello",
+    "dimensions": "H 158 cm"
   },
   {
     "slug": "donatello/john-the-baptist-as-a-boy",
@@ -2789,10 +2805,10 @@
     "collection": "",
     "title": "Galeria Valeria Eutropia",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "Late 3rd–early 4th century CE",
+    "year_sort": 275,
     "material": "Marble",
-    "museum": "",
+    "museum": "Musée Saint-Raymond, Toulouse",
     "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:35-msr-galeria-valeria-eutropia-5.stl",
     "license": "",
@@ -2806,17 +2822,18 @@
       "format": "stl",
       "sizeBytes": 34999884
     },
-    "search": "galeria valeria eutropia marble musée saint-raymond / wikimedia commons"
+    "search": "galeria valeria eutropia late 3rd–early 4th century ce marble h 31 cm × w 28 cm × d 25 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons",
+    "dimensions": "H 31 cm × W 28 cm × D 25 cm"
   },
   {
     "slug": "ganymede",
     "collection": "",
     "title": "Ganymede",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "3rd–2nd century BCE",
+    "year_sort": -300,
     "material": "Terracotta",
-    "museum": "",
+    "museum": "Musée Saint-Raymond, Toulouse",
     "source_institution": "Scan the World / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:Scan-the-World-msr-2002_3_1-Ganymede.stl",
     "license": "",
@@ -2830,7 +2847,8 @@
       "format": "stl",
       "sizeBytes": 34999984
     },
-    "search": "ganymede terracotta scan the world / wikimedia commons"
+    "search": "ganymede 3rd–2nd century bce terracotta h 40 cm × w 20 cm musée saint-raymond, toulouse scan the world / wikimedia commons",
+    "dimensions": "H 40 cm × W 20 cm"
   },
   {
     "slug": "head-from-farnese-hercules-type",
@@ -2977,10 +2995,10 @@
     "collection": "",
     "title": "Head Of Maxence",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "After 293 CE",
+    "year_sort": 293,
     "material": "Saint-Beat marble",
-    "museum": "",
+    "museum": "Musée Saint-Raymond, Toulouse",
     "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:Msr-young-maxence-head-5.stl",
     "license": "",
@@ -2994,7 +3012,8 @@
       "format": "stl",
       "sizeBytes": 34999884
     },
-    "search": "head of maxence saint-beat marble musée saint-raymond / wikimedia commons"
+    "search": "head of maxence after 293 ce saint-beat marble h 33 cm × w 22 cm × d 23 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons",
+    "dimensions": "H 33 cm × W 22 cm × D 23 cm"
   },
   {
     "slug": "herakles-lansdowne",
@@ -3111,10 +3130,10 @@
     "collection": "",
     "title": "Juno Ludovisi",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "1st century CE",
+    "year_sort": 1,
     "material": "Marble",
-    "museum": "",
+    "museum": "National Roman Museum, Palazzo Altemps, Rome",
     "source_institution": "Scan the World / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:Scan_the_World_-_Juno_Ludovisi.stl",
     "license": "",
@@ -3128,7 +3147,7 @@
       "format": "stl",
       "sizeBytes": 32149284
     },
-    "search": "juno ludovisi marble scan the world / wikimedia commons"
+    "search": "juno ludovisi 1st century ce marble national roman museum, palazzo altemps, rome scan the world / wikimedia commons"
   },
   {
     "slug": "kneeling-youth",
@@ -3644,10 +3663,10 @@
     "collection": "michelangelo",
     "title": "Madonna Of The Stairs",
     "artist": "Michelangelo",
-    "year": "",
-    "year_sort": null,
-    "material": "",
-    "museum": "",
+    "year": "c. 1490–1492",
+    "year_sort": 1490,
+    "material": "Marble",
+    "museum": "Casa Buonarroti, Florence",
     "source_institution": "SMK Open",
     "source_url": "https://open.smk.dk/en/artwork/3d/KAS2358",
     "license": "",
@@ -3661,7 +3680,8 @@
       "format": "stl",
       "sizeBytes": 19917534
     },
-    "search": "madonna of the stairs michelangelo smk open michelangelo"
+    "search": "madonna of the stairs michelangelo c. 1490–1492 marble h 56 cm × w 40 cm casa buonarroti, florence smk open michelangelo",
+    "dimensions": "H 56 cm × W 40 cm"
   },
   {
     "slug": "mourning-victory-melvin-memorial",
@@ -3781,10 +3801,10 @@
     "collection": "palmyra",
     "title": "Haliphat",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "231 CE",
+    "year_sort": 231,
     "material": "Limestone",
-    "museum": "",
+    "museum": "Freer Gallery of Art, Smithsonian National Museum of Asian Art, Washington, DC",
     "source_institution": "Smithsonian 3D / Freer Gallery of Art",
     "source_url": "https://3d.si.edu/object/3d/funerary-relief-bust%3A7bc195a7-385f-43be-93c8-79a6bb46ff4b",
     "license": "",
@@ -3798,17 +3818,18 @@
       "format": "glb",
       "sizeBytes": 10600076
     },
-    "search": "haliphat limestone smithsonian 3d / freer gallery of art palmyra"
+    "search": "haliphat 231 ce limestone h 58.5 cm × w 43 cm × d 20 cm freer gallery of art, smithsonian national museum of asian art, washington, dc smithsonian 3d / freer gallery of art palmyra",
+    "dimensions": "H 58.5 cm × W 43 cm × D 20 cm"
   },
   {
     "slug": "pandora-james-pradier",
     "collection": "",
     "title": "Pandora James Pradier",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "1845",
+    "year_sort": 1845,
     "material": "Marble",
-    "museum": "",
+    "museum": "Museum of Art and History, Geneva",
     "source_institution": "Wikimedia Commons / MAHG",
     "source_url": "https://commons.wikimedia.org/wiki/File:Pandora-James_Pradier-MAHG_Inv_1991-0006-High_poly.stl",
     "license": "",
@@ -3822,7 +3843,8 @@
       "format": "stl",
       "sizeBytes": 21652934
     },
-    "search": "pandora james pradier marble wikimedia commons / mahg"
+    "search": "pandora james pradier 1845 marble h 96 cm museum of art and history, geneva wikimedia commons / mahg",
+    "dimensions": "H 96 cm"
   },
   {
     "slug": "penelope",
@@ -4078,10 +4100,10 @@
     "collection": "rodin",
     "title": "Heroic Head Of Pierre De Wissant",
     "artist": "Rodin",
-    "year": "",
-    "year_sort": null,
+    "year": "1886",
+    "year_sort": 1886,
     "material": "Plaster",
-    "museum": "",
+    "museum": "The Cleveland Museum of Art, Cleveland",
     "source_institution": "Wikimedia Commons / Cleveland Museum of Art",
     "source_url": "https://commons.wikimedia.org/wiki/File:1917.722_Heroic_Head_of_Pierre_de_Wissant_-_3D_model.stl",
     "license": "",
@@ -4095,17 +4117,18 @@
       "format": "stl",
       "sizeBytes": 31168384
     },
-    "search": "heroic head of pierre de wissant rodin plaster wikimedia commons / cleveland museum of art rodin"
+    "search": "heroic head of pierre de wissant rodin 1886 plaster h 85.1 cm × w 61 cm × d 50.8 cm the cleveland museum of art, cleveland wikimedia commons / cleveland museum of art rodin",
+    "dimensions": "H 85.1 cm × W 61 cm × D 50.8 cm"
   },
   {
     "slug": "rodin/the-thinker",
     "collection": "rodin",
     "title": "The Thinker",
     "artist": "Auguste Rodin",
-    "year": "",
-    "year_sort": null,
+    "year": "1903",
+    "year_sort": 1903,
     "material": "Bronze",
-    "museum": "",
+    "museum": "Musée Rodin, Paris",
     "source_institution": "Wikimedia Commons / Scan the World",
     "source_url": "https://commons.wikimedia.org/wiki/File:Scan_the_World_-_The_Thinker_(Auguste_Rodin).stl",
     "license": "CC BY-SA 4.0",
@@ -4119,7 +4142,8 @@
       "format": "stl",
       "sizeBytes": 41874184
     },
-    "search": "the thinker auguste rodin bronze wikimedia commons / scan the world rodin"
+    "search": "the thinker auguste rodin 1903 bronze h 189 cm × w 98 cm × d 140 cm musée rodin, paris wikimedia commons / scan the world rodin",
+    "dimensions": "H 189 cm × W 98 cm × D 140 cm"
   },
   {
     "slug": "silver-bowl-isis-medallion",
@@ -4213,10 +4237,10 @@
     "collection": "",
     "title": "Sphinx",
     "artist": "",
-    "year": "",
-    "year_sort": null,
-    "material": "",
-    "museum": "",
+    "year": "c. 2559 BCE",
+    "year_sort": -2559,
+    "material": "Limestone",
+    "museum": "Giza Necropolis, Giza",
     "source_institution": "Internet Archive / Thingiverse",
     "source_url": "https://archive.org/details/thingiverse-4940233",
     "license": "",
@@ -4230,7 +4254,8 @@
       "format": "stl",
       "sizeBytes": 16505584
     },
-    "search": "sphinx internet archive / thingiverse"
+    "search": "sphinx c. 2559 bce limestone h 20.2 m × w 19 m giza necropolis, giza internet archive / thingiverse",
+    "dimensions": "H 20.2 m × W 19 m"
   },
   {
     "slug": "statue-of-ur-ningirsu",
@@ -4570,8 +4595,8 @@
     "collection": "",
     "title": "The Wrestlers",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "3rd century BCE",
+    "year_sort": -300,
     "material": "Marble group",
     "museum": "Uffizi Gallery, Florence",
     "source_institution": "SMK Open",
@@ -4587,7 +4612,7 @@
       "format": "stl",
       "sizeBytes": 20001284
     },
-    "search": "the wrestlers marble group h 95.5 cm × w 117 cm × d 70 cm uffizi gallery, florence smk open plaster cast, royal cast collection (smk), copenhagen",
+    "search": "the wrestlers 3rd century bce marble group h 95.5 cm × w 117 cm × d 70 cm uffizi gallery, florence smk open plaster cast, royal cast collection (smk), copenhagen",
     "scan_source": "Plaster cast, Royal Cast Collection (SMK), Copenhagen",
     "wikidata": "https://www.wikidata.org/wiki/Q3918710",
     "dimensions": "H 95.5 cm × W 117 cm × D 70 cm",
@@ -4715,10 +4740,10 @@
     "collection": "",
     "title": "Vulcan",
     "artist": "",
-    "year": "",
-    "year_sort": null,
+    "year": "Late 3rd–first third of 4th century CE",
+    "year_sort": 275,
     "material": "Bronze",
-    "museum": "",
+    "museum": "Musée Saint-Raymond, Toulouse",
     "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:Saint-raymond-vulcain-5.stl",
     "license": "",
@@ -4732,7 +4757,8 @@
       "format": "stl",
       "sizeBytes": 35004084
     },
-    "search": "vulcan bronze musée saint-raymond / wikimedia commons"
+    "search": "vulcan late 3rd–first third of 4th century ce bronze h 47 cm × w 31 cm × d 30 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons",
+    "dimensions": "H 47 cm × W 31 cm × D 30 cm"
   },
   {
     "slug": "young-bacchus-bronze",
@@ -4742,7 +4768,7 @@
     "year": "",
     "year_sort": null,
     "material": "Bronze",
-    "museum": "",
+    "museum": "Musée Saint-Raymond, Toulouse",
     "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
     "source_url": "https://commons.wikimedia.org/wiki/File:Msr-young-bacchus-bronze-10.stl",
     "license": "",
@@ -4756,7 +4782,8 @@
       "format": "stl",
       "sizeBytes": 33062884
     },
-    "search": "young bacchus bronze bronze musée saint-raymond / wikimedia commons"
+    "search": "young bacchus bronze bronze h 30 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons",
+    "dimensions": "H 30 cm"
   },
   {
     "slug": "greek/portrait-of-demosthenes-smk-cast",
