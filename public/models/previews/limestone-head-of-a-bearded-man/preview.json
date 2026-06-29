@@ -2,7 +2,8 @@
   "slug": "limestone-head-of-a-bearded-man",
   "source": "limestone-head-of-a-bearded-man/limestone_head_of_a_bearded_man.glb",
   "sourceBytes": 5796892,
-  "sourceFaces": 99988,
-  "faces": 99988,
-  "targetFaces": 400000
+  "sourceFaces": 100000,
+  "faces": 100000,
+  "targetFaces": 100000,
+  "directCopy": true
 }

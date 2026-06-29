@@ -30,14 +30,18 @@ SOURCE_OVERRIDES = {
     "neoclassical/model-of-the-greek-slave-smithsonian": "neoclassical/model-of-the-greek-slave-smithsonian/greek-slave-smithsonian_preview.glb",
 }
 DIRECT_COPY_PREVIEWS = {
+    "americas/atingting-kon-slit-gong",
     "americas/key-marco-cat",
     "americas/stirrup-spout-bottle-mountain-sacrifice-met",
+    "ancestor-figure-sawos",
     "asia/cosmic-buddha",
     "asia/brazier-of-rasulid-sultan-met",
     "asia/tile-panel-architectural-niche-met",
+    "limestone-head-of-a-bearded-man",
     "neoclassical/model-of-the-greek-slave-smithsonian",
     "sub-saharan-africa/kongo-maternity-figure",
     "sub-saharan-africa/sapi-portuguese-hunting-horn",
+    "sub-saharan-africa/seated-figure-middle-niger",
 }
 
 
@@ -111,13 +115,13 @@ def export_preview(work, source_root: Path, repo_root: Path, target_faces: int):
     mesh = as_mesh(loaded)
     source_faces = int(len(mesh.faces))
 
-    if work["slug"] in DIRECT_COPY_PREVIEWS:
+    if source_path.suffix.lower() == ".glb" or work["slug"] in DIRECT_COPY_PREVIEWS:
         shutil.copyfile(source_path, output_path)
         meta_path.write_text(
             json.dumps(
                 {
                     "slug": work["slug"],
-                    "source": str(source_path),
+                    "source": source_rel,
                     "sourceBytes": source_path.stat().st_size,
                     "sourceFaces": source_faces,
                     "faces": source_faces,
@@ -136,7 +140,7 @@ def export_preview(work, source_root: Path, repo_root: Path, target_faces: int):
         json.dumps(
             {
                 "slug": work["slug"],
-                "source": str(source_path),
+                "source": source_rel,
                 "sourceBytes": source_path.stat().st_size,
                 "sourceFaces": source_faces,
                 "faces": int(len(preview.faces)),

@@ -2,7 +2,8 @@
   "slug": "americas/atingting-kon-slit-gong",
   "source": "americas/atingting-kon-slit-gong/atingting_kon_slit_gong.glb",
   "sourceBytes": 1573752,
-  "sourceFaces": 99893,
-  "faces": 99893,
-  "targetFaces": 400000
+  "sourceFaces": 99985,
+  "faces": 99985,
+  "targetFaces": 99985,
+  "directCopy": true
 }
