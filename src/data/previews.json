@@ -1686,5 +1686,45 @@
     "sourceFormat": "stl",
     "faces": 400000,
     "sourceFaces": 1943262
+  },
+  "roman/bust-of-augustus-oak-crown-msr": {
+    "url": "/models/previews/roman/bust-of-augustus-oak-crown-msr/preview.glb",
+    "bytes": 7200588,
+    "sourceBytes": 23847284,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 476944
+  },
+  "roman/bacchus-ra-134-137-msr": {
+    "url": "/models/previews/roman/bacchus-ra-134-137-msr/preview.glb",
+    "bytes": 6301304,
+    "sourceBytes": 17501184,
+    "sourceFormat": "stl",
+    "faces": 350022,
+    "sourceFaces": 350022
+  },
+  "roman/bust-of-a-satyr-msr": {
+    "url": "/models/previews/roman/bust-of-a-satyr-msr/preview.glb",
+    "bytes": 1800988,
+    "sourceBytes": 4999884,
+    "sourceFormat": "stl",
+    "faces": 99996,
+    "sourceFaces": 99996
+  },
+  "roman/hercules-and-geryon-msr": {
+    "url": "/models/previews/roman/hercules-and-geryon-msr/preview.glb",
+    "bytes": 2161096,
+    "sourceBytes": 6000284,
+    "sourceFormat": "stl",
+    "faces": 120004,
+    "sourceFaces": 120004
+  },
+  "roman/bust-of-trajan-msr": {
+    "url": "/models/previews/roman/bust-of-trajan-msr/preview.glb",
+    "bytes": 5247840,
+    "sourceBytes": 14574484,
+    "sourceFormat": "stl",
+    "faces": 291488,
+    "sourceFaces": 291488
   }
 }
