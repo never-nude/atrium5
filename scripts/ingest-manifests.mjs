@@ -50,7 +50,7 @@ function periodFor(yearSort) {
 }
 
 function searchText(m) {
-  return [m.title, m.artist, m.year, m.material, m.dimensions, m.museum, m.source_institution, m.slug.split('/')[0], m.note]
+  return [m.title, m.artist, m.year, m.material, m.dimensions, m.museum, m.source_institution, m.scan_source, m.slug.split('/')[0], m.note]
     .filter(Boolean)
     .join(' ')
     .toLowerCase();
@@ -208,6 +208,7 @@ for (const m of additions) {
     material: m.material || '',
     museum: m.museum || '',
     source_institution: m.source_institution || '',
+    scan_source: m.scan_source || '',
     source_url: m.source_url,
     license: m.license || '',
     license_url: m.license_url || '',
