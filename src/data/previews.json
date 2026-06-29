@@ -1662,5 +1662,29 @@
     "sourceFormat": "obj",
     "faces": 79999,
     "sourceFaces": 234870
+  },
+  "egyptian/portrait-of-pharaoh-amasis-smk-cast": {
+    "url": "/models/previews/egyptian/portrait-of-pharaoh-amasis-smk-cast/preview.glb",
+    "bytes": 7200848,
+    "sourceBytes": 56388784,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 1127774
+  },
+  "roman/julia-domna-smk-cast": {
+    "url": "/models/previews/roman/julia-domna-smk-cast/preview.glb",
+    "bytes": 7200068,
+    "sourceBytes": 74304984,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 1486098
+  },
+  "roman/julia-mamaea-smk-cast": {
+    "url": "/models/previews/roman/julia-mamaea-smk-cast/preview.glb",
+    "bytes": 7200708,
+    "sourceBytes": 97163184,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 1943262
   }
 }
