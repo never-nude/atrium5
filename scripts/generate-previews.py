@@ -149,7 +149,9 @@ def main():
     parser = argparse.ArgumentParser(description="Generate low-poly GLB previews from the atrium source scans.")
     parser.add_argument("--source", type=Path, default=Path(os.environ.get("SOURCE_ATRIUM_DIR", DEFAULT_SOURCE)))
     parser.add_argument("--limit", type=int, default=12)
-    parser.add_argument("--target-faces", type=int, default=14000)
+    # ~400k faces lands previews near the ~20 MB sweet spot (was 14k, which
+    # over-decimated meshes into low quality and shattered imperfect sources).
+    parser.add_argument("--target-faces", type=int, default=400000)
     parser.add_argument("--slug", action="append", default=[])
     args = parser.parse_args()
 

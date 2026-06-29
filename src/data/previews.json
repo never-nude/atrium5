@@ -241,11 +241,11 @@
   },
   "sub-saharan-africa/seated-figure-middle-niger": {
     "url": "/models/previews/sub-saharan-africa/seated-figure-middle-niger/preview.glb",
-    "bytes": 1025080,
+    "bytes": 361968,
     "sourceBytes": 4337656,
     "sourceFormat": "glb",
-    "faces": null,
-    "sourceFaces": null
+    "faces": 99994,
+    "sourceFaces": 99994
   },
   "limestone-statue-of-herakles": {
     "url": "/models/previews/limestone-statue-of-herakles/preview.glb",
@@ -657,11 +657,11 @@
   },
   "americas/atingting-kon-slit-gong": {
     "url": "/models/previews/americas/atingting-kon-slit-gong/preview.glb",
-    "bytes": 896868,
+    "bytes": 334060,
     "sourceBytes": 1573752,
     "sourceFormat": "glb",
-    "faces": null,
-    "sourceFaces": null
+    "faces": 99893,
+    "sourceFaces": 99893
   },
   "americas/shield-with-owl-figure": {
     "url": "/models/previews/americas/shield-with-owl-figure/preview.glb",
@@ -777,11 +777,11 @@
   },
   "ancestor-figure-sawos": {
     "url": "/models/previews/ancestor-figure-sawos/preview.glb",
-    "bytes": 1242316,
+    "bytes": 324624,
     "sourceBytes": 2349692,
     "sourceFormat": "glb",
-    "faces": null,
-    "sourceFaces": null
+    "faces": 98272,
+    "sourceFaces": 98272
   },
   "cybele-ra-34-i": {
     "url": "/models/previews/cybele-ra-34-i/preview.glb",
@@ -913,11 +913,11 @@
   },
   "limestone-head-of-a-bearded-man": {
     "url": "/models/previews/limestone-head-of-a-bearded-man/preview.glb",
-    "bytes": 1504016,
+    "bytes": 427624,
     "sourceBytes": 5796892,
     "sourceFormat": "glb",
-    "faces": null,
-    "sourceFaces": null
+    "faces": 99988,
+    "sourceFaces": 99988
   },
   "corbel-25-120-601": {
     "url": "/models/previews/corbel-25-120-601/preview.glb",
@@ -1217,18 +1217,18 @@
   },
   "egyptian/portrait-of-kaaper-sheik-el-beled-smk-cast": {
     "url": "/models/previews/egyptian/portrait-of-kaaper-sheik-el-beled-smk-cast/preview.glb",
-    "bytes": 3081156,
+    "bytes": 1236868,
     "sourceBytes": 253576080,
     "sourceFormat": "obj",
-    "faces": 149999,
+    "faces": 399994,
     "sourceFaces": 2000002
   },
   "egyptian/head-of-merytaten-smk-cast": {
     "url": "/models/previews/egyptian/head-of-merytaten-smk-cast/preview.glb",
-    "bytes": 2908136,
+    "bytes": 1244616,
     "sourceBytes": 72181026,
     "sourceFormat": "obj",
-    "faces": 150000,
+    "faces": 400000,
     "sourceFaces": 999996
   },
   "final-neolithic-marble-female-figure": {

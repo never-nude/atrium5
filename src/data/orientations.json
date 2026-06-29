@@ -4,5 +4,9 @@
  "greek/lying-wounded-warrior-aphaia-smk-cast": "z",
  "greek/kneeling-archer-figure-xii-aphaia-smk-cast": "z::180",
  "egyptian/portrait-of-kaaper-sheik-el-beled-smk-cast": "y::180",
- "egyptian/woman-grinding-flour-smk-cast": "z"
+ "egyptian/woman-grinding-flour-smk-cast": "z",
+ "porcellino": { "upAxis": "y", "modelRotation": [-90, 0, -83], "status": "fixed", "note": "Sit the seated boar level on its plinth (raw scan rests ~48deg off-axis); rotation from stable-pose analysis." },
+ "greek/kneeling-archer-figure-xii-aphaia-smk-cast": { "upAxis": "y", "modelRotation": [-90, 0, -93], "status": "fixed", "note": "Stand the crouching archer upright on its plinth (raw scan was inverted, plinth on top)." },
+ "rodin/heroic-head-of-pierre-de-wissant": { "upAxis": "y", "modelRotation": [0, 0, 180], "status": "fixed", "note": "Flip 180deg so the mount stump is the base and the face points to the camera (raw scan was upside-down)." },
+ "americas/bisj-ancestor-pole-jiem": { "upAxis": "y", "modelRotation": [-6.2, 0, -0.7], "status": "fixed", "note": "Stand the bisj pole vertical to match its upright siblings (raw scan leaned ~6deg)." }
 }
