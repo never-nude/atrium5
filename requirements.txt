@@ -1,2 +1,4 @@
 trimesh==4.12.1
 fast-simplification==0.1.12
+scipy>=1.13.1
+networkx>=3.2.1
