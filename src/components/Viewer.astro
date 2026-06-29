@@ -108,6 +108,8 @@ const transformJson = JSON.stringify(modelTransform);
     hemiLightIntensity?: number;
   };
 
+  const WIREFRAME_COLOR = 0xE3DAC9;
+
   const defaultAppearance: Appearance = {
     baseColor: '#9F9689',
     secondaryColor: '#7A7268',
@@ -211,6 +213,14 @@ const transformJson = JSON.stringify(modelTransform);
     });
     prepared.needsUpdate = true;
     return prepared;
+  }
+
+  function createWireframeMaterial(THREE: any, source: any) {
+    return new THREE.MeshBasicMaterial({
+      color: WIREFRAME_COLOR,
+      wireframe: true,
+      side: source.side,
+    });
   }
 
   function applyMapLift(THREE: any, material: any, appearance: Appearance) {
@@ -327,6 +337,7 @@ ${shader.fragmentShader.replace('#include <map_fragment>', `
 
     const scanHelpers: any[] = [];
     const materials: any[] = [];
+    const wireframeMeshes: any[] = [];
     model.traverse((obj: any) => {
       if (/^(?:cubo|disco)(?:_|\.|$)/i.test(obj.name || '') || /^(?:cubo|disco)(?:_|\.|$)/i.test(obj.material?.name || '')) {
         scanHelpers.push(obj);
@@ -334,9 +345,14 @@ ${shader.fragmentShader.replace('#include <map_fragment>', `
       }
       if (obj.isMesh && obj.material) {
         obj.castShadow = true;
-        const list = Array.isArray(obj.material) ? obj.material : [obj.material];
+        const hasMaterialArray = Array.isArray(obj.material);
+        const list = hasMaterialArray ? obj.material : [obj.material];
         const prepared = list.map((m: any) => prepareMaterial(THREE, m));
-        obj.material = Array.isArray(obj.material) ? prepared : prepared[0];
+        const wireframes = prepared.map((m: any) => createWireframeMaterial(THREE, m));
+        const solidMaterial = hasMaterialArray ? prepared : prepared[0];
+        const wireframeMaterial = hasMaterialArray ? wireframes : wireframes[0];
+        obj.material = solidMaterial;
+        wireframeMeshes.push({ mesh: obj, solidMaterial, wireframeMaterial });
         for (const m of prepared) {
           applyMaterialAppearance(THREE, obj, m, appearance);
           materials.push(m);
@@ -412,7 +428,7 @@ ${shader.fragmentShader.replace('#include <map_fragment>', `
       // Slider runs rough (0) → shiny (100); roughness is the inverse.
       setTexture: (pct) => { const r = 1 - pct / 100; for (const m of materials) { m.roughness = r; m.needsUpdate = true; } },
       setLightAngle: (pct) => placeKey(pct),
-      setWireframe: (on) => { for (const m of materials) { m.wireframe = on; } },
+      setWireframe: (on) => { for (const item of wireframeMeshes) item.mesh.material = on ? item.wireframeMaterial : item.solidMaterial; },
       setAutoRotate: (on) => { controls.autoRotate = on; },
       reset: () => { camera.position.copy(home.pos); controls.target.copy(home.tgt); controls.update(); },
       defaults: { exposure: Math.round(appearance.exposure * 100), texture: appearance.textureDefault },
