@@ -1,0 +1,119 @@
+name: Discover open 3D scans
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Maximum number of works to propose'
+        required: false
+        default: '10'
+      sources:
+        description: 'Comma-separated source adapters'
+        required: false
+        default: 'smk,smithsonian,sketchfab,threedscans'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: auto-ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        id: playwright
+        run: |
+          npx playwright install --with-deps chromium
+          echo "chrome-path=$(node -e 'console.log(require(\"playwright\").chromium.executablePath())')" >> "$GITHUB_OUTPUT"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Discover candidates
+        run: npm run ingest:discover -- --limit="${BATCH_SIZE}" --sources="${SOURCES}"
+        env:
+          BATCH_SIZE: ${{ inputs.batch_size || '10' }}
+          SOURCES: ${{ inputs.sources || 'smk,smithsonian,sketchfab,threedscans' }}
+          SKETCHFAB_TOKEN: ${{ secrets.SKETCHFAB_TOKEN }}
+
+      - name: Fetch source meshes
+        run: npm run ingest:fetch -- --limit="${BATCH_SIZE}"
+        env:
+          BATCH_SIZE: ${{ inputs.batch_size || '10' }}
+          SKETCHFAB_TOKEN: ${{ secrets.SKETCHFAB_TOKEN }}
+
+      - name: Assemble catalog pieces
+        run: npm run ingest:assemble
+        env:
+          PYTHON: python
+
+      - name: Render thumbnails
+        run: |
+          if [ ! -s .atrium-ingest/new-slugs.txt ]; then
+            echo "No accepted new slugs to render."
+            exit 0
+          fi
+          SLUGS="$(paste -sd, .atrium-ingest/new-slugs.txt)"
+          echo "Rendering thumbnails for: ${SLUGS}"
+          ONLY="${SLUGS}" npm run images:renders
+          npm run images:mark-renders -- --input=.atrium-ingest/new-slugs.txt
+        env:
+          CHROME_BIN: ${{ steps.playwright.outputs.chrome-path }}
+          CHROME_EXTRA_ARGS: '--no-sandbox --enable-unsafe-swiftshader --use-angle=swiftshader'
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Verify assets
+        if: steps.changes.outputs.has_changes == 'true'
+        run: npm run verify:assets
+
+      - name: Build
+        if: steps.changes.outputs.has_changes == 'true'
+        run: npm run build
+        env:
+          SITE: https://atrium.earth
+
+      - name: Open draft PR
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: codex/auto-ingest-${{ github.run_id }}
+          commit-message: Add automated open-scan ingest batch
+          title: '[auto-ingest] Add open 3D scan batch'
+          body-path: .atrium-ingest/last-report.md
+          draft: true
+          delete-branch: true
