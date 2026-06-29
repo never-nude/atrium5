@@ -145,8 +145,29 @@ ${shader.fragmentShader.replace('#include <map_fragment>', `
   };
   material.customProgramCacheKey=()=>`atrium-map-lift-${mapLift}-${mapFloor}-${liftColor.getHexString()}`;
 }
+function hasSourceTexture(material) {
+  return Boolean(
+    material.map
+    || material.normalMap
+    || material.aoMap
+    || material.alphaMap
+    || material.emissiveMap
+    || material.metalnessMap
+    || material.roughnessMap
+    || material.bumpMap
+    || material.displacementMap
+  );
+}
 function applyMaterialAppearance(mesh, material, appearance) {
   if(!('color' in material)) return;
+  if(hasSourceTexture(material)){
+    if('envMapIntensity' in material && material.envMapIntensity == null){
+      material.envMapIntensity=appearance.envMapIntensity;
+    }
+    material.needsUpdate=true;
+    return;
+  }
+
   const target=new THREE.Color(appearance.baseColor);
   material.color.lerp(target, appearance.tintStrength);
   if('metalness' in material) material.metalness=appearance.metalness;
