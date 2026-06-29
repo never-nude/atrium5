@@ -14,5 +14,6 @@
  "roman/jupiter-with-thunderbolt-msr": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "note": "Keep the source mesh's Y-up orientation; stable-pose auto-orientation laid the figurine down." },
  "roman/satyr-mask-ra-36d-msr": { "upAxis": "z", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "note": "Use the scan's Z-up axis; stable-pose auto-orientation presented the rear/side of the mask." },
  "greek/terracotta-dancer-msr": { "upAxis": "y", "modelRotation": [-90, 0, 92.82], "yaw": 0, "status": "auto", "confidence": 0.82, "note": "Stable-pose solve (pose 3, p=0.12, margin 0.71); confident." },
- "roman/portrait-of-an-unknown-woman-msr": { "upAxis": "z", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "note": "Use the scan's Z-up axis; stable-pose auto-orientation placed the portrait head on its side." }
+ "roman/portrait-of-an-unknown-woman-msr": { "upAxis": "z", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "note": "Use the scan's Z-up axis; stable-pose auto-orientation placed the portrait head on its side." },
+ "asia/cosmic-buddha": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "viewDirection": [0.55, 0.34, -0.9], "status": "reviewed", "confidence": 1, "note": "Open on the carved front face of the relief; source GLB is already Y-up." }
 }

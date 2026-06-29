@@ -30,10 +30,14 @@ SOURCE_OVERRIDES = {
     "neoclassical/model-of-the-greek-slave-smithsonian": "neoclassical/model-of-the-greek-slave-smithsonian/greek-slave-smithsonian_preview.glb",
 }
 DIRECT_COPY_PREVIEWS = {
+    "americas/key-marco-cat",
     "americas/stirrup-spout-bottle-mountain-sacrifice-met",
+    "asia/cosmic-buddha",
     "asia/brazier-of-rasulid-sultan-met",
     "asia/tile-panel-architectural-niche-met",
     "neoclassical/model-of-the-greek-slave-smithsonian",
+    "sub-saharan-africa/kongo-maternity-figure",
+    "sub-saharan-africa/sapi-portuguese-hunting-horn",
 }
 
 

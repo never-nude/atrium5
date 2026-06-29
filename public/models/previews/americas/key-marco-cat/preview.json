@@ -1,0 +1,9 @@
+{
+  "slug": "americas/key-marco-cat",
+  "source": ".atrium-ingest/batch-5/source-archive/americas/key-marco-cat/key-marco-cat_source.glb",
+  "sourceBytes": 9595724,
+  "sourceFaces": 150000,
+  "faces": 150000,
+  "targetFaces": 150000,
+  "directCopy": true
+}

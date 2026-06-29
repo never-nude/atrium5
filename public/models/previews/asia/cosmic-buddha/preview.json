@@ -1,0 +1,9 @@
+{
+  "slug": "asia/cosmic-buddha",
+  "source": ".atrium-ingest/batch-5/source-archive/asia/cosmic-buddha/buddha-draped-in-robes-portraying-the-realms-of-desire_source.glb",
+  "sourceBytes": 10708252,
+  "sourceFaces": 150000,
+  "faces": 150000,
+  "targetFaces": 150000,
+  "directCopy": true
+}
