@@ -14,7 +14,7 @@
     "note": "The underlying original is in the British Museum and comes from the Northwest Palace at Nimrud.",
     "tier": 2,
     "index": 1,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "assyrian/ashurnasirpal-lion-hunt/ashurnasirpal_lion_hunt_source_small.stl",
@@ -42,7 +42,7 @@
     "note": "The underlying original is in the British Museum and comes from Ashurbanipal's North Palace at Nineveh.",
     "tier": 2,
     "index": 2,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "assyrian/lion-released-from-cage/lion_released_from_cage_source_small.stl",
@@ -70,7 +70,7 @@
     "note": "The SMK record identifies this version as the Discobolus type with a modern restored head.",
     "tier": 1,
     "index": 3,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "discobolus/discobolus_source_small.stl",
@@ -99,7 +99,7 @@
     "note": "SMK catalogs the work as Furtwangler's reconstruction of the Athena Lemnia type using the Dresden torso and the Palagi head in Bologna.",
     "tier": 2,
     "index": 4,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "athena-lemnia/athena_lemnia_source_small.stl",
@@ -128,7 +128,7 @@
     "note": "The traditional attribution to Leochares is historical rather than certain.",
     "tier": 1,
     "index": 5,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "apollo-belvedere/apollo_belvedere_source_small.stl",
@@ -157,7 +157,7 @@
     "note": "",
     "tier": 1,
     "index": 6,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "dying-gaul/dying_gaul_source_small.stl",
@@ -186,7 +186,7 @@
     "note": "SMK catalogs the cast as `Galler draber sin hustru og sig selv, Paetus og Arria`, preserving an older identification of the group.",
     "tier": 2,
     "index": 7,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "ludovisi-gaul/ludovisi_gaul_source_small.stl",
@@ -215,7 +215,7 @@
     "note": "The mesh is derived from SMK's public-domain plaster-cast scan after the Vatican group.",
     "tier": 1,
     "index": 8,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "laocoon/laocoon_source_small.stl",
@@ -244,7 +244,7 @@
     "note": "SMK titles the work as a standing nude man, Germanicus, Octavian?, so the identification remains open rather than fixed.",
     "tier": 2,
     "index": 9,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "germanicus/germanicus_source_small.stl",
@@ -273,7 +273,7 @@
     "note": "",
     "tier": 1,
     "index": 10,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "venus-de-milo/venus_de_milo_source_small.stl",
@@ -302,7 +302,7 @@
     "note": "SMK identifies this as the Capitoline Venus type, a Roman copy after a Hellenistic original.",
     "tier": 2,
     "index": 11,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "capitoline-venus/capitoline_venus_source_small.stl",
@@ -331,7 +331,7 @@
     "note": "SMK's cast record identifies the figure as Ajax(?) and notes the missing lower base with signature.",
     "tier": 1,
     "index": 12,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "belvedere-torso/belvedere_torso_source_small.stl",
@@ -360,7 +360,7 @@
     "note": "This page uses a mirrored museum STL locally in the same canon viewer pipeline for reliable loading.",
     "tier": 2,
     "index": 13,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/battle-of-the-centaurs/battle_of_the_centaurs_source.stl",
@@ -389,7 +389,7 @@
     "note": "This viewer uses an optimized STL for the public route, while keeping the full source STL in the folder for provenance and future processing.",
     "tier": 1,
     "index": 14,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/bacchus/bacchus_tour.stl",
@@ -416,7 +416,7 @@
     "note": "",
     "tier": 2,
     "index": 15,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/pieta/pieta_source_small.stl",
@@ -443,7 +443,7 @@
     "note": "",
     "tier": 2,
     "index": 16,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/bruges-madonna/bruges_madonna_tour.stl",
@@ -472,7 +472,7 @@
     "note": "This viewer uses the source STL directly with museum-style lighting and mobile-friendly controls.",
     "tier": 1,
     "index": 17,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/david/david_tour.stl",
@@ -497,7 +497,7 @@
     "note": "Source mesh is already upright in this viewer basis; no post-load rotation is applied (camera unchanged).",
     "tier": 2,
     "index": 18,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/tondo-pitti/tondo_pitti_source_small.stl",
@@ -526,7 +526,7 @@
     "note": "Source mesh is already upright in this viewer basis; no post-load rotation is applied (camera unchanged).",
     "tier": 2,
     "index": 19,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/tondo-taddei/tondo_taddei_source_small.stl",
@@ -555,7 +555,7 @@
     "note": "",
     "tier": 2,
     "index": 20,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/dying-slave/dying_slave_source_small.stl",
@@ -584,7 +584,7 @@
     "note": "",
     "tier": 2,
     "index": 21,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/rebellious-slave/rebellious_slave_source_small.stl",
@@ -611,7 +611,7 @@
     "note": "",
     "tier": 2,
     "index": 22,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/moses/moses_tour.stl",
@@ -638,7 +638,7 @@
     "note": "",
     "tier": 2,
     "index": 23,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/risen-christ/risen_christ_tour.stl",
@@ -665,7 +665,7 @@
     "note": "",
     "tier": 2,
     "index": 24,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/prisoner/prisoner_source_small.stl",
@@ -692,7 +692,7 @@
     "note": "Orientation correction is applied to the loaded geometry (not camera).",
     "tier": 2,
     "index": 25,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/medici-madonna/medici_madonna_source_small.stl",
@@ -721,7 +721,7 @@
     "note": "",
     "tier": 2,
     "index": 26,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/dusk/dusk_source_small.stl",
@@ -747,7 +747,7 @@
     "note": "",
     "tier": 2,
     "index": 27,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/dawn/dawn_source_small.stl",
@@ -771,7 +771,7 @@
     "note": "",
     "tier": 2,
     "index": 28,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/lorenzo-duke-of-urbino/lorenzo_source_small.stl",
@@ -795,7 +795,7 @@
     "note": "",
     "tier": 2,
     "index": 29,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/giuliano-duke-of-nemours/giuliano_source_small.stl",
@@ -819,7 +819,7 @@
     "note": "",
     "tier": 2,
     "index": 30,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/night/night_source_small.stl",
@@ -843,7 +843,7 @@
     "note": "",
     "tier": 2,
     "index": 31,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/apollo/apollo_source_small.stl",
@@ -870,7 +870,7 @@
     "note": "",
     "tier": 2,
     "index": 32,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/brutus/brutus_tour.stl",
@@ -897,7 +897,7 @@
     "note": "",
     "tier": 2,
     "index": 33,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/rondanini-pieta/rondanini_pieta_source_small.stl",
@@ -926,7 +926,7 @@
     "note": "",
     "tier": 2,
     "index": 34,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "rodin/danaid/danaid_source.stl",
@@ -951,7 +951,7 @@
     "note": "",
     "tier": 2,
     "index": 35,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "rodin/the-walking-man/walking_man_source.stl",
@@ -976,7 +976,7 @@
     "note": "",
     "tier": 3,
     "index": 36,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "adolescent-torso/adolescent_torso_source.stl",
@@ -1001,7 +1001,7 @@
     "note": "",
     "tier": 3,
     "index": 37,
-    "total": 216,
+    "total": 221,
     "period": "Modern",
     "model": {
       "sourcePath": "americas/atingting-kon-slit-gong/atingting_kon_slit_gong.glb",
@@ -1028,7 +1028,7 @@
     "note": "",
     "tier": 3,
     "index": 38,
-    "total": 216,
+    "total": 221,
     "period": "Modern",
     "model": {
       "sourcePath": "americas/bisj-ancestor-pole-1978-412-1251/bisj_ancestor_pole_1978_412_1251.glb",
@@ -1055,7 +1055,7 @@
     "note": "",
     "tier": 3,
     "index": 39,
-    "total": 216,
+    "total": 221,
     "period": "Modern",
     "model": {
       "sourcePath": "americas/bisj-ancestor-pole-jewer/bisj_ancestor_pole_jewer.glb",
@@ -1082,7 +1082,7 @@
     "note": "",
     "tier": 3,
     "index": 40,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "americas/bisj-ancestor-pole-jiem/bisj_ancestor_pole_jiem.glb",
@@ -1109,7 +1109,7 @@
     "note": "",
     "tier": 1,
     "index": 41,
-    "total": 216,
+    "total": 221,
     "period": "Modern",
     "model": {
       "sourcePath": "americas/bisj-ancestor-pole-omadesep/bisj_ancestor_pole_omadesep.glb",
@@ -1137,7 +1137,7 @@
     "note": "",
     "tier": 3,
     "index": 42,
-    "total": 216,
+    "total": 221,
     "period": "Modern",
     "model": {
       "sourcePath": "americas/body-mask-asmat/body_mask_asmat.glb",
@@ -1164,7 +1164,7 @@
     "note": "",
     "tier": 3,
     "index": 43,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "americas/female-figure-inyai-ewa/female_figure_inyai_ewa.glb",
@@ -1192,7 +1192,7 @@
     "note": "",
     "tier": 3,
     "index": 44,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "americas/headdress-effigy-hareiga/headdress_effigy_hareiga.glb",
@@ -1219,7 +1219,7 @@
     "note": "",
     "tier": 3,
     "index": 45,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "americas/house-model-nayarit/house_model.glb",
@@ -1247,7 +1247,7 @@
     "note": "",
     "tier": 3,
     "index": 46,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "americas/house-model-nayarit-2015-306/house_model_nayarit_2015_306.glb",
@@ -1275,7 +1275,7 @@
     "note": "",
     "tier": 3,
     "index": 47,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "americas/house-post-iatmul/house_post_iatmul.glb",
@@ -1302,7 +1302,7 @@
     "note": "",
     "tier": 3,
     "index": 48,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "americas/mask-le-op/mask_le_op.glb",
@@ -1330,7 +1330,7 @@
     "note": "",
     "tier": 3,
     "index": 49,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "americas/shield-with-owl-figure/shield_with_owl_figure.glb",
@@ -1358,7 +1358,7 @@
     "note": "",
     "tier": 3,
     "index": 50,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "americas/village-scene-nayarit/village_scene_nayarit.glb",
@@ -1386,7 +1386,7 @@
     "note": "",
     "tier": 3,
     "index": 51,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "americas/waka-huia-treasure-box/waka_huia_treasure_box.glb",
@@ -1414,7 +1414,7 @@
     "note": "",
     "tier": 3,
     "index": 52,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "americas/white-ogre-tihu-katsina-figure/white_ogre_tihu_katsina_figure.glb",
@@ -1443,7 +1443,7 @@
     "note": "",
     "tier": 3,
     "index": 53,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "americas/zemi-cohoba-stand/zemi_cohoba_stand.glb",
@@ -1472,7 +1472,7 @@
     "note": "",
     "tier": 1,
     "index": 54,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "ancestor-figure-sawos/ancestor_figure_sawos.glb",
@@ -1501,7 +1501,7 @@
     "note": "",
     "tier": 3,
     "index": 55,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "antinoos-farnese/antinoos_farnese_source_small.stl",
@@ -1528,7 +1528,7 @@
     "note": "",
     "tier": 3,
     "index": 56,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "aphrodite-anadyomene/aphrodite_anadyomene_source_small.stl",
@@ -1555,7 +1555,7 @@
     "note": "",
     "tier": 3,
     "index": 57,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "aphrodite-holding-winged-eros/aphrodite_holding_winged_eros.glb",
@@ -1584,7 +1584,7 @@
     "note": "",
     "tier": 2,
     "index": 58,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "apollo-lykeios/apollo_lykeios_source_small.stl",
@@ -1613,7 +1613,7 @@
     "note": "",
     "tier": 3,
     "index": 59,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "arch-keystone-470788/arch_keystone_470788.glb",
@@ -1642,7 +1642,7 @@
     "note": "",
     "tier": 3,
     "index": 60,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "aristippos-of-cyrene/aristippos_of_cyrene_source_small.stl",
@@ -1669,7 +1669,7 @@
     "note": "",
     "tier": 3,
     "index": 61,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "artemision-bronze/artemision_bronze_source_small.stl",
@@ -1698,7 +1698,7 @@
     "note": "",
     "tier": 3,
     "index": 62,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "asia/bowl-arabic-inscription/bowl_with_arabic_inscription.glb",
@@ -1727,7 +1727,7 @@
     "note": "",
     "tier": 1,
     "index": 63,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "asia/emperor-xiaowen-entourage-worshipping-buddha/emperor_xiaowen_entourage_worshipping_buddha.glb",
@@ -1756,7 +1756,7 @@
     "note": "",
     "tier": 3,
     "index": 64,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "asia/ewer-khurasan-herat/ewer_khurasan_herat.glb",
@@ -1785,7 +1785,7 @@
     "note": "",
     "tier": 3,
     "index": 65,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "asia/figure-of-an-elephant-possibly-a-chessman/figure_of_an_elephant_possibly_a_chessman.glb",
@@ -1814,7 +1814,7 @@
     "note": "",
     "tier": 3,
     "index": 66,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "asia/standing-buddha-radiate-combined-halo/standing_buddha_with_radiate_combined_halo.glb",
@@ -1843,7 +1843,7 @@
     "note": "",
     "tier": 3,
     "index": 67,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "athena-pallas-giustiniani/athena_pallas_giustiniani_source_small.stl",
@@ -1870,7 +1870,7 @@
     "note": "",
     "tier": 3,
     "index": 68,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "attis/attis_source.stl",
@@ -1895,7 +1895,7 @@
     "note": "",
     "tier": 3,
     "index": 69,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "augustus-of-prima-porta/augustus_of_prima_porta_source.stl",
@@ -1920,7 +1920,7 @@
     "note": "",
     "tier": 2,
     "index": 70,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "barberini-faun/barberini_faun_source_small.stl",
@@ -1949,7 +1949,7 @@
     "note": "",
     "tier": 3,
     "index": 71,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "bearded-hercules-head/bearded_hercules_head_source.stl",
@@ -1974,7 +1974,7 @@
     "note": "",
     "tier": 3,
     "index": 72,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "block-470953/block_470953.glb",
@@ -2003,7 +2003,7 @@
     "note": "",
     "tier": 3,
     "index": 73,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "borghese-gladiator/borghese_gladiator_source_small.stl",
@@ -2028,7 +2028,7 @@
     "note": "This version renders the original STL directly (instead of a decimated proxy mesh) for better form readability.",
     "tier": 2,
     "index": 74,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "bouchardon/cupid/cupid_source.stl",
@@ -2053,7 +2053,7 @@
     "note": "",
     "tier": 3,
     "index": 75,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "bronze-figure-boy-eastern-dress/bronze_figure_boy_eastern_dress.glb",
@@ -2082,7 +2082,7 @@
     "note": "",
     "tier": 3,
     "index": 76,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "bronze-horse-head-herculaneum/scene.gltf",
@@ -2106,7 +2106,7 @@
     "note": "",
     "tier": 3,
     "index": 77,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "bust-of-marcus-aurelius/bust_of_marcus_aurelius_source.stl",
@@ -2131,7 +2131,7 @@
     "note": "",
     "tier": 3,
     "index": 78,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "capitoline-wolf/capitoline_wolf_source_small.stl",
@@ -2158,7 +2158,7 @@
     "note": "",
     "tier": 3,
     "index": 79,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "castor-and-pollux/castor_and_pollux_source_small.stl",
@@ -2187,7 +2187,7 @@
     "note": "",
     "tier": 3,
     "index": 80,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "cleopatra-v-tryphaena/cleopatra_v_tryphaena_source.stl",
@@ -2212,7 +2212,7 @@
     "note": "",
     "tier": 3,
     "index": 81,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "corbel-25-120-599/corbel_25_120_599.glb",
@@ -2241,7 +2241,7 @@
     "note": "",
     "tier": 3,
     "index": 82,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "corbel-25-120-601/corbel_25_120_601.glb",
@@ -2270,7 +2270,7 @@
     "note": "",
     "tier": 3,
     "index": 83,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "corbel-25-120-602/corbel_25_120_602.glb",
@@ -2299,7 +2299,7 @@
     "note": "",
     "tier": 3,
     "index": 84,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "crouching-venus/crouching_venus_source_small.stl",
@@ -2326,7 +2326,7 @@
     "note": "",
     "tier": 3,
     "index": 85,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "cybele-ra-34-i/cybele_ra_34_i_source.stl",
@@ -2351,7 +2351,7 @@
     "note": "",
     "tier": 3,
     "index": 86,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "cycladic-marble-female-figure/marble_female_figure.glb",
@@ -2376,7 +2376,7 @@
     "note": "",
     "tier": 3,
     "index": 87,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "cypriot-limestone-priest/limestone_priest.glb",
@@ -2405,7 +2405,7 @@
     "note": "",
     "tier": 3,
     "index": 88,
-    "total": 216,
+    "total": 221,
     "period": "Modern",
     "model": {
       "sourcePath": "development-of-a-bottle-in-space/development_of_a_bottle_in_space.glb",
@@ -2434,7 +2434,7 @@
     "note": "",
     "tier": 3,
     "index": 89,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "diadoumenos-bust/diadoumenos_bust_source_small.stl",
@@ -2461,7 +2461,7 @@
     "note": "",
     "tier": 3,
     "index": 90,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "diana-of-villa-bartholoni/diana_of_villa_bartholoni_source.stl",
@@ -2485,7 +2485,7 @@
     "note": "",
     "tier": 3,
     "index": 91,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "diana-ra-34-h/diana_ra_34_h_source.stl",
@@ -2510,7 +2510,7 @@
     "note": "",
     "tier": 3,
     "index": 92,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "dionysos-farnese/dionysos_farnese_source_small.stl",
@@ -2537,7 +2537,7 @@
     "note": "",
     "tier": 2,
     "index": 93,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "donatello/david/donatello_david_source_small.stl",
@@ -2562,7 +2562,7 @@
     "note": "",
     "tier": 2,
     "index": 94,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "donatello/john-the-baptist-as-a-boy/john_the_baptist_as_a_boy_source_small.stl",
@@ -2589,7 +2589,7 @@
     "note": "",
     "tier": 2,
     "index": 95,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "donatello/saint-george/saint_george_source_small.stl",
@@ -2616,7 +2616,7 @@
     "note": "",
     "tier": 3,
     "index": 96,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "doryphoros/doryphoros_source_small.stl",
@@ -2643,7 +2643,7 @@
     "note": "",
     "tier": 3,
     "index": 97,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "doryphoros-torso/doryphoros_torso_source_small.stl",
@@ -2670,7 +2670,7 @@
     "note": "",
     "tier": 3,
     "index": 98,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "dying-niobid/dying_niobid_source_small.stl",
@@ -2699,7 +2699,7 @@
     "note": "",
     "tier": 3,
     "index": 99,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "entombment-of-christ/entombment_of_christ.glb",
@@ -2728,7 +2728,7 @@
     "note": "",
     "tier": 3,
     "index": 100,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "eros-flying/eros_flying.glb",
@@ -2757,7 +2757,7 @@
     "note": "",
     "tier": 3,
     "index": 101,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "figure-of-a-man-with-an-oryx/figure_of_a_man_with_an_oryx.glb",
@@ -2786,7 +2786,7 @@
     "note": "",
     "tier": 3,
     "index": 102,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "final-neolithic-marble-female-figure/final_neolithic_marble_female_figure.glb",
@@ -2815,7 +2815,7 @@
     "note": "",
     "tier": 3,
     "index": 103,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "galeria-valeria-eutropia/galeria_valeria_eutropia_source.stl",
@@ -2840,7 +2840,7 @@
     "note": "",
     "tier": 3,
     "index": 104,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "ganymede/ganymede_source.stl",
@@ -2865,7 +2865,7 @@
     "note": "",
     "tier": 3,
     "index": 105,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "head-from-farnese-hercules-type/farnese_hercules_head_source_small.stl",
@@ -2891,7 +2891,7 @@
     "note": "",
     "tier": 3,
     "index": 106,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "head-of-a-female-or-goddess-wearing-a-necklace/head_of_a_female_or_goddess_wearing_a_necklace.glb",
@@ -2919,7 +2919,7 @@
     "note": "",
     "tier": 3,
     "index": 107,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "head-of-a-male-or-female-figure/head_of_a_male_or_female_figure.glb",
@@ -2948,7 +2948,7 @@
     "note": "",
     "tier": 3,
     "index": 108,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "head-of-a-ruler/head_of_a_ruler.glb",
@@ -2977,7 +2977,7 @@
     "note": "",
     "tier": 3,
     "index": 109,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "head-of-gudea/head_of_gudea.glb",
@@ -3005,7 +3005,7 @@
     "note": "",
     "tier": 3,
     "index": 110,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "head-of-maxence/head_of_maxence_source.stl",
@@ -3030,7 +3030,7 @@
     "note": "",
     "tier": 3,
     "index": 111,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "herakles-lansdowne/herakles_lansdowne_source_small.stl",
@@ -3057,7 +3057,7 @@
     "note": "",
     "tier": 3,
     "index": 112,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "hermes-antinoos-from-belvedere/hermes_antinoos_from_belvedere_source_small.stl",
@@ -3084,7 +3084,7 @@
     "note": "",
     "tier": 3,
     "index": 113,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "hestia/hestia_source_small.stl",
@@ -3111,7 +3111,7 @@
     "note": "",
     "tier": 3,
     "index": 114,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "horus-protecting-nectanebo-ii/horus_protecting_nectanebo_ii.glb",
@@ -3140,7 +3140,7 @@
     "note": "",
     "tier": 3,
     "index": 115,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "juno-ludovisi/juno_ludovisi_source.stl",
@@ -3164,7 +3164,7 @@
     "note": "",
     "tier": 3,
     "index": 116,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "kneeling-youth/kneeling_youth_source_small.stl",
@@ -3191,7 +3191,7 @@
     "note": "",
     "tier": 3,
     "index": 117,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "limestone-figure-of-a-woman/limestone_figure_of_a_woman.glb",
@@ -3220,7 +3220,7 @@
     "note": "",
     "tier": 3,
     "index": 118,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "limestone-funerary-stele-cypriot-capital/limestone_funerary_stele_cypriot_capital.glb",
@@ -3249,7 +3249,7 @@
     "note": "",
     "tier": 3,
     "index": 119,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "limestone-head-of-a-bearded-man/limestone_head_of_a_bearded_man.glb",
@@ -3278,7 +3278,7 @@
     "note": "",
     "tier": 3,
     "index": 120,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "limestone-statue-of-herakles/limestone_statue_of_herakles.glb",
@@ -3307,7 +3307,7 @@
     "note": "",
     "tier": 3,
     "index": 121,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "limestone-votive-relief-banquet-scenes/limestone_votive_relief_banquet_scenes.glb",
@@ -3336,7 +3336,7 @@
     "note": "",
     "tier": 3,
     "index": 122,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "lintel-470947/lintel_470947.glb",
@@ -3365,7 +3365,7 @@
     "note": "",
     "tier": 3,
     "index": 123,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "lion/lion_source_small.stl",
@@ -3392,7 +3392,7 @@
     "note": "",
     "tier": 2,
     "index": 124,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "lorenzi/portrait-of-michelangelo/portrait_of_michelangelo_source_small.stl",
@@ -3419,7 +3419,7 @@
     "note": "",
     "tier": 3,
     "index": 125,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "lying-lion/lying_lion_source_small.stl",
@@ -3446,7 +3446,7 @@
     "note": "",
     "tier": 3,
     "index": 126,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "marble-anthropoid-sarcophagus-74-51-2452/marble_anthropoid_sarcophagus_74_51_2452.glb",
@@ -3475,7 +3475,7 @@
     "note": "",
     "tier": 3,
     "index": 127,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "marble-anthropoid-sarcophagus-74-51-2454/marble_anthropoid_sarcophagus_74_51_2454.glb",
@@ -3504,7 +3504,7 @@
     "note": "",
     "tier": 3,
     "index": 128,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "marble-capital-sphinx/marble_capital_and_finial_sphinx.glb",
@@ -3533,7 +3533,7 @@
     "note": "",
     "tier": 3,
     "index": 129,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "marble-sarcophagus-lions-antelope/marble_sarcophagus_with_lions_felling_antelope.glb",
@@ -3561,7 +3561,7 @@
     "note": "",
     "tier": 3,
     "index": 130,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "marble-stele-youth-and-little-girl/marble_stele_youth_and_little_girl.glb",
@@ -3590,7 +3590,7 @@
     "note": "",
     "tier": 3,
     "index": 131,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "medici-faun/medici_faun_source_small.stl",
@@ -3617,7 +3617,7 @@
     "note": "",
     "tier": 3,
     "index": 132,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "menippos/menippos_source_small.stl",
@@ -3644,7 +3644,7 @@
     "note": "",
     "tier": 2,
     "index": 133,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "michelangelo/crouching-boy/crouching_boy_tour.stl",
@@ -3673,7 +3673,7 @@
     "note": "",
     "tier": 2,
     "index": 134,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "michelangelo/madonna-of-the-stairs/madonna_of_the_stairs_source_small.stl",
@@ -3698,7 +3698,7 @@
     "note": "",
     "tier": 3,
     "index": 135,
-    "total": 216,
+    "total": 221,
     "period": "Modern",
     "model": {
       "sourcePath": "mourning-victory-melvin-memorial/mourning_victory_from_the_melvin_memorial.glb",
@@ -3726,7 +3726,7 @@
     "note": "",
     "tier": 3,
     "index": 136,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "narcissus-and-echo-puteal/narcissus_and_echo_puteal.glb",
@@ -3755,7 +3755,7 @@
     "note": "",
     "tier": 3,
     "index": 137,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "old-fisherman/old_fisherman_source_small.stl",
@@ -3784,7 +3784,7 @@
     "note": "",
     "tier": 3,
     "index": 138,
-    "total": 216,
+    "total": 221,
     "period": "Modern",
     "model": {
       "sourcePath": "outside-row-standing-horse/outside_row_standing_horse.glb",
@@ -3811,7 +3811,7 @@
     "note": "",
     "tier": 3,
     "index": 139,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "palmyra/haliphat/haliphat_source.glb",
@@ -3836,7 +3836,7 @@
     "note": "",
     "tier": 3,
     "index": 140,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "pandora-james-pradier/pandora_source.stl",
@@ -3861,7 +3861,7 @@
     "note": "",
     "tier": 3,
     "index": 141,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "penelope/penelope_source_small.stl",
@@ -3888,7 +3888,7 @@
     "note": "",
     "tier": 3,
     "index": 142,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "perseus-with-head-of-medusa/perseus_with_the_head_of_medusa.glb",
@@ -3917,7 +3917,7 @@
     "note": "",
     "tier": 3,
     "index": 143,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "pieta-with-donors/pieta_with_donors.glb",
@@ -3946,7 +3946,7 @@
     "note": "",
     "tier": 3,
     "index": 144,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "porcellino/porcellino_source_small.stl",
@@ -3973,7 +3973,7 @@
     "note": "",
     "tier": 3,
     "index": 145,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "portrait-of-antinoos/portrait_of_antinoos_source_small.stl",
@@ -4000,7 +4000,7 @@
     "note": "",
     "tier": 3,
     "index": 146,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "portrait-of-homer/portrait_of_homer_source_small.stl",
@@ -4027,7 +4027,7 @@
     "note": "",
     "tier": 3,
     "index": 147,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "princess-from-amarna/princess_from_amarna_source_small.stl",
@@ -4054,7 +4054,7 @@
     "note": "",
     "tier": 3,
     "index": 148,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "pudicity/pudicity_source_small.stl",
@@ -4081,7 +4081,7 @@
     "note": "",
     "tier": 3,
     "index": 149,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "relief-agnus-dei-and-cherub/relief_agnus_dei_and_cherub.glb",
@@ -4110,7 +4110,7 @@
     "note": "",
     "tier": 2,
     "index": 150,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "rodin/heroic-head-of-pierre-de-wissant/heroic_head_of_pierre_de_wissant_source.stl",
@@ -4135,7 +4135,7 @@
     "note": "",
     "tier": 2,
     "index": 151,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "rodin/the-thinker/thinker_source.stl",
@@ -4160,7 +4160,7 @@
     "note": "",
     "tier": 3,
     "index": 152,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "silver-bowl-isis-medallion/silver_bowl_with_medallion_of_isis.glb",
@@ -4189,7 +4189,7 @@
     "note": "",
     "tier": 3,
     "index": 153,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "spandrel/spandrel.glb",
@@ -4218,7 +4218,7 @@
     "note": "",
     "tier": 3,
     "index": 154,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "spandrel-sections-of-an-arch/spandrel_sections_of_an_arch.glb",
@@ -4247,7 +4247,7 @@
     "note": "",
     "tier": 3,
     "index": 155,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "sphinx/sphinx_source.stl",
@@ -4272,7 +4272,7 @@
     "note": "",
     "tier": 3,
     "index": 156,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "statue-of-ur-ningirsu/statue_of_ur_ningirsu.glb",
@@ -4299,7 +4299,7 @@
     "note": "",
     "tier": 3,
     "index": 157,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "strangford-shield/strangford_shield_source_small.stl",
@@ -4326,7 +4326,7 @@
     "note": "",
     "tier": 3,
     "index": 158,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "sub-saharan-africa/ancestor-figure-teke/ancestor_figure_teke.glb",
@@ -4354,7 +4354,7 @@
     "note": "",
     "tier": 3,
     "index": 159,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "sub-saharan-africa/female-figure-with-raised-arm/female_figure_with_raised_arm.glb",
@@ -4382,7 +4382,7 @@
     "note": "",
     "tier": 3,
     "index": 160,
-    "total": 216,
+    "total": 221,
     "period": "Modern",
     "model": {
       "sourcePath": "sub-saharan-africa/gelede-helmet-mask/gelede_helmet_mask.glb",
@@ -4410,7 +4410,7 @@
     "note": "",
     "tier": 3,
     "index": 161,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "sub-saharan-africa/helmet-mask-four-faces/helmet_mask_four_faces.glb",
@@ -4437,7 +4437,7 @@
     "note": "",
     "tier": 3,
     "index": 162,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "sub-saharan-africa/male-pombia-figure/male_pombia_figure.glb",
@@ -4464,7 +4464,7 @@
     "note": "",
     "tier": 3,
     "index": 163,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "sub-saharan-africa/ngya-commemorative-post/ngya_commemorative_post.glb",
@@ -4493,7 +4493,7 @@
     "note": "",
     "tier": 3,
     "index": 164,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "sub-saharan-africa/nkisi-power-figure/nkisi_power_figure.glb",
@@ -4521,7 +4521,7 @@
     "note": "",
     "tier": 1,
     "index": 165,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "sub-saharan-africa/opo-veranda-post-olowe/opo_veranda_post_olowe.glb",
@@ -4549,7 +4549,7 @@
     "note": "",
     "tier": 3,
     "index": 166,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "sub-saharan-africa/seated-figure-middle-niger/seated_figure_middle_niger.glb",
@@ -4578,7 +4578,7 @@
     "note": "",
     "tier": 3,
     "index": 167,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "thalia/thalia_source_small.stl",
@@ -4605,7 +4605,7 @@
     "note": "",
     "tier": 2,
     "index": 168,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "the-wrestlers/wrestlers_source_small.stl",
@@ -4634,7 +4634,7 @@
     "note": "",
     "tier": 3,
     "index": 169,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "tomb-effigy-ermengol-ix/tomb_effigy_ermengol_ix.glb",
@@ -4663,7 +4663,7 @@
     "note": "",
     "tier": 3,
     "index": 170,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "tomb-of-ermengol-x/tomb_of_ermengol_x.glb",
@@ -4692,7 +4692,7 @@
     "note": "",
     "tier": 3,
     "index": 171,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "ugolino-and-his-sons/ugolino_and_his_sons.glb",
@@ -4721,7 +4721,7 @@
     "note": "",
     "tier": 3,
     "index": 172,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "voussoir-472190/voussoir_472190.glb",
@@ -4750,7 +4750,7 @@
     "note": "",
     "tier": 3,
     "index": 173,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "vulcan/vulcan_source.stl",
@@ -4775,7 +4775,7 @@
     "note": "",
     "tier": 3,
     "index": 174,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "young-bacchus-bronze/young_bacchus_bronze_source.stl",
@@ -4805,7 +4805,7 @@
     "tier": 3,
     "license_tier": 1,
     "index": 175,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "greek/portrait-of-demosthenes-smk-cast/portrait-of-demosthenes-smk-cast_source.stl",
@@ -4837,7 +4837,7 @@
     "tier": 3,
     "license_tier": 1,
     "index": 176,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "greek/portrait-of-sophocles-smk-cast/portrait-of-sophocles-smk-cast_source.stl",
@@ -4869,7 +4869,7 @@
     "tier": 3,
     "license_tier": 1,
     "index": 177,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "neoclassical/hebe-thorvaldsen-smk-cast/hebe-thorvaldsen-smk-cast_source.stl",
@@ -4902,7 +4902,7 @@
     "license_tier": 1,
     "ingested": "2026-06-10",
     "index": 178,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "egyptian/portrait-of-kaaper-sheik-el-beled-smk-cast/portrait-of-kaaper-sheik-el-beled-smk-cast_source.obj",
@@ -4934,7 +4934,7 @@
     "license_tier": 1,
     "ingested": "2026-06-10",
     "index": 179,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "egyptian/woman-grinding-flour-smk-cast/woman-grinding-flour-smk-cast_source.stl",
@@ -4966,7 +4966,7 @@
     "license_tier": 1,
     "ingested": "2026-06-10",
     "index": 180,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "renaissance/bust-of-marcantonio-ruzzini-smk/bust-of-marcantonio-ruzzini-smk_source.stl",
@@ -4997,7 +4997,7 @@
     "license_tier": 1,
     "ingested": "2026-06-10",
     "index": 181,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "renaissance/saint-jerome-bregno-smk/saint-jerome-bregno-smk_source.stl",
@@ -5028,7 +5028,7 @@
     "license_tier": 1,
     "ingested": "2026-06-10",
     "index": 182,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "renaissance/saint-john-the-baptist-bregno-smk/saint-john-the-baptist-bregno-smk_source.stl",
@@ -5059,7 +5059,7 @@
     "license_tier": 1,
     "ingested": "2026-06-10",
     "index": 183,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "egyptian/portrait-of-nefertiti-smk-cast/portrait-of-nefertiti-smk-cast_source.stl",
@@ -5091,7 +5091,7 @@
     "license_tier": 1,
     "ingested": "2026-06-10",
     "index": 184,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "assyrian/black-obelisk-of-shalmaneser-iii-smk-cast/black-obelisk-of-shalmaneser-iii-smk-cast_source.stl",
@@ -5123,7 +5123,7 @@
     "license_tier": 1,
     "ingested": "2026-06-10",
     "index": 185,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "egyptian/head-of-merytaten-smk-cast/head-of-merytaten-smk-cast_source.obj",
@@ -5155,7 +5155,7 @@
     "license_tier": 1,
     "ingested": "2026-06-10",
     "index": 186,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "roman/portrait-of-philip-the-arab-smk-cast/portrait-of-philip-the-arab-smk-cast_source.stl",
@@ -5187,7 +5187,7 @@
     "license_tier": 1,
     "ingested": "2026-06-10",
     "index": 187,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "egyptian/four-headed-sphinx-tds-khm/4headed.stl",
@@ -5218,7 +5218,7 @@
     "license_tier": 1,
     "ingested": "2026-06-10",
     "index": 188,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "roman/jungling-vom-magdalensberg-tds-khm/jungling_vom_magdalensberg.obj",
@@ -5257,7 +5257,7 @@
     "dimensions": "H 205 cm × W 51.5 cm × D 51.5 cm",
     "scan_source": "Plaster cast, Royal Cast Collection (SMK), Copenhagen",
     "index": 189,
-    "total": 216,
+    "total": 221,
     "search": "kore in chiton and epiblema c. 530 bce marble h 205 cm × w 51.5 cm × d 51.5 cm acropolis museum, athens smk - national gallery of denmark greek plaster cast, royal cast collection (smk), copenhagen smk source metadata records a plaster cast after an archaic greek marble kore from the acropolis; original metadata lists akropolismuseet and findspot west of the erechtheion."
   },
   {
@@ -5289,7 +5289,7 @@
     "dimensions": "H 104 cm",
     "scan_source": "Plaster cast, Royal Cast Collection (SMK), Copenhagen",
     "index": 190,
-    "total": 216,
+    "total": 221,
     "search": "kneeling archer from the temple of aphaia c. 500-490 bce marble h 104 cm staatliche antikensammlungen und glyptothek, munich smk - national gallery of denmark greek plaster cast, royal cast collection (smk), copenhagen smk source metadata places the marble original in the staatliche antikensammlungen und glyptothek and identifies it as figure iv from the west pediment of the temple of aphaia on aegina."
   },
   {
@@ -5321,7 +5321,7 @@
     "dimensions": "H 54 cm",
     "scan_source": "Plaster cast, Royal Cast Collection (SMK), Copenhagen",
     "index": 191,
-    "total": 216,
+    "total": 221,
     "search": "zeus ammon 5th century bce (greek original; roman copy) marble h 54 cm staatliche antikensammlungen und glyptothek, munich smk - national gallery of denmark greek plaster cast, royal cast collection (smk), copenhagen smk source metadata identifies a marble zeus ammon in the staatliche antikensammlungen und glyptothek; dating notes describe a roman copy after a 5th-century bce greek original."
   },
   {
@@ -5345,7 +5345,7 @@
     "license_tier": 1,
     "ingested": "2026-06-26",
     "index": 192,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "greek/crouching-aphrodite-with-eros-smk-cast/crouching-aphrodite-with-eros-smk-cast_source.stl",
@@ -5377,7 +5377,7 @@
     "license_tier": 1,
     "ingested": "2026-06-26",
     "index": 193,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "greek/iris-parthenon-west-pediment-smk-cast/iris-parthenon-west-pediment-smk-cast_source.stl",
@@ -5409,7 +5409,7 @@
     "license_tier": 1,
     "ingested": "2026-06-26",
     "index": 194,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "greek/head-of-amazon-sciarra-type-smk-cast/head-of-amazon-sciarra-type-smk-cast_source.stl",
@@ -5450,7 +5450,7 @@
     },
     "search": "running female figure, perhaps artemis 438 bce marble h 173 cm × w 120 cm × d 80 cm british museum, london smk - national gallery of denmark greek plaster cast, royal cast collection (smk), copenhagen kas2117 smk source metadata records a plaster cast after a marble running female figure, perhaps artemis, from the parthenon east pediment (figure g); the original is in the british museum.",
     "index": 195,
-    "total": 216
+    "total": 221
   },
   {
     "slug": "greek/reclining-dionysos-parthenon-smk-cast",
@@ -5482,7 +5482,7 @@
     },
     "search": "reclining dionysos from the parthenon east pediment 438 bce marble h 127 cm british museum, london smk - national gallery of denmark greek plaster cast, royal cast collection (smk), copenhagen kas2115 smk source metadata records a plaster cast after the marble reclining dionysos from the parthenon east pediment (figure d); the original is in the british museum.",
     "index": 196,
-    "total": 216
+    "total": 221
   },
   {
     "slug": "greek/selene-horse-head-parthenon-smk-cast",
@@ -5514,7 +5514,7 @@
     },
     "search": "head of a horse from selene's chariot 438 bce marble h 50 cm × w 84 cm × d 26 cm british museum, london smk - national gallery of denmark greek plaster cast, royal cast collection (smk), copenhagen kas2120 smk source metadata records a plaster cast after the marble horse head from selene's chariot on the parthenon east pediment (figure o); the original is in the british museum.",
     "index": 197,
-    "total": 216
+    "total": 221
   },
   {
     "slug": "greek/lying-wounded-warrior-aphaia-smk-cast",
@@ -5546,7 +5546,7 @@
     },
     "search": "lying wounded warrior from the temple of aphaia c. 500-490 bce marble h 48 cm glyptothek, munich smk - national gallery of denmark greek plaster cast, royal cast collection (smk), copenhagen kas2123 smk source metadata records a plaster cast after a marble lying wounded warrior from the west pediment of the temple of aphaia on aegina (figure vii); the aegina pediment sculptures are in the glyptothek, munich.",
     "index": 198,
-    "total": 216
+    "total": 221
   },
   {
     "slug": "greek/kneeling-warrior-aphaia-smk-cast",
@@ -5578,7 +5578,7 @@
     },
     "search": "kneeling warrior from the temple of aphaia c. 500-490 bce marble h 91 cm glyptothek, munich smk - national gallery of denmark greek plaster cast, royal cast collection (smk), copenhagen kas2124 smk source metadata records a plaster cast after a marble kneeling warrior from the west pediment of the temple of aphaia on aegina (figure v); the aegina pediment sculptures are in the glyptothek, munich.",
     "index": 199,
-    "total": 216
+    "total": 221
   },
   {
     "slug": "greek/standing-warrior-with-shield-aphaia-smk-cast",
@@ -5610,7 +5610,7 @@
     },
     "search": "standing warrior with shield from the temple of aphaia c. 500-490 bce marble h 128 cm glyptothek, munich smk - national gallery of denmark greek plaster cast, royal cast collection (smk), copenhagen kas2126 smk source metadata records a plaster cast after a marble standing warrior with shield from the west pediment of the temple of aphaia on aegina (figure ii); the aegina pediment sculptures are in the glyptothek, munich.",
     "index": 200,
-    "total": 216
+    "total": 221
   },
   {
     "slug": "greek/lying-warrior-patroklos-aphaia-smk-cast",
@@ -5642,7 +5642,7 @@
     },
     "search": "lying warrior, patroklos, from the temple of aphaia c. 500-490 bce marble h 60.5 cm glyptothek, munich smk - national gallery of denmark greek plaster cast, royal cast collection (smk), copenhagen kas2127 smk source metadata records a plaster cast after a marble lying warrior, identified as patroklos, from the west pediment of the temple of aphaia on aegina (figure xiii); the aegina pediment sculptures are in the glyptothek, munich.",
     "index": 201,
-    "total": 216
+    "total": 221
   },
   {
     "slug": "greek/athena-with-shield-aphaia-smk-cast",
@@ -5674,7 +5674,7 @@
     },
     "search": "athena with shield from the temple of aphaia c. 500-490 bce marble h 170.5 cm glyptothek, munich smk - national gallery of denmark greek plaster cast, royal cast collection (smk), copenhagen kas2128 smk source metadata records a plaster cast after the marble standing athena with shield from the west pediment of the temple of aphaia on aegina (figure i); the aegina pediment sculptures are in the glyptothek, munich.",
     "index": 202,
-    "total": 216
+    "total": 221
   },
   {
     "slug": "greek/kneeling-archer-figure-xii-aphaia-smk-cast",
@@ -5706,7 +5706,7 @@
     },
     "search": "kneeling archer from the temple of aphaia, figure xii c. 500-490 bce marble h 84.5 cm glyptothek, munich smk - national gallery of denmark greek plaster cast, royal cast collection (smk), copenhagen kas2131 smk source metadata records a plaster cast after a marble kneeling archer from the west pediment of the temple of aphaia on aegina (figure xii); the aegina pediment sculptures are in the glyptothek, munich.",
     "index": 203,
-    "total": 216
+    "total": 221
   },
   {
     "slug": "neoclassical/model-of-the-greek-slave-smithsonian",
@@ -5729,7 +5729,7 @@
     "license_tier": 1,
     "ingested": "2026-06-28",
     "index": 204,
-    "total": 216,
+    "total": 221,
     "period": "Early modern",
     "model": {
       "sourcePath": "neoclassical/model-of-the-greek-slave-smithsonian/greek-slave-smithsonian_source.zip",
@@ -5760,7 +5760,7 @@
     "license_tier": 2,
     "ingested": "2026-06-28",
     "index": 205,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "assyrian/huntsmen-with-hounds-panel-13-bm/huntsmen-with-hounds-panel-13-bm_source.obj",
@@ -5791,7 +5791,7 @@
     "license_tier": 1,
     "ingested": "2026-06-28",
     "index": 206,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "americas/stirrup-spout-bottle-mountain-sacrifice-met/stirrup-spout-bottle-mountain-sacrifice-met_source.fbx",
@@ -5822,7 +5822,7 @@
     "license_tier": 1,
     "ingested": "2026-06-28",
     "index": 207,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "asia/brazier-of-rasulid-sultan-met/brazier-of-rasulid-sultan-met_source.usdz",
@@ -5853,7 +5853,7 @@
     "license_tier": 1,
     "ingested": "2026-06-28",
     "index": 208,
-    "total": 216,
+    "total": 221,
     "period": "Renaissance",
     "model": {
       "sourcePath": "asia/tile-panel-architectural-niche-met/tile-panel-architectural-niche-met_source.fbx",
@@ -5884,7 +5884,7 @@
     "license_tier": 1,
     "ingested": "2026-06-29",
     "index": 209,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "egyptian/portrait-of-pharaoh-amasis-smk-cast/portrait-of-pharaoh-amasis-smk-cast_source.stl",
@@ -5916,7 +5916,7 @@
     "license_tier": 1,
     "ingested": "2026-06-29",
     "index": 210,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "roman/julia-domna-smk-cast/julia-domna-smk-cast_source.stl",
@@ -5948,7 +5948,7 @@
     "license_tier": 1,
     "ingested": "2026-06-29",
     "index": 211,
-    "total": 216,
+    "total": 221,
     "period": "Ancient",
     "model": {
       "sourcePath": "roman/julia-mamaea-smk-cast/julia-mamaea-smk-cast_source.stl",
@@ -5989,7 +5989,7 @@
     "note": "Commons file published by Musée Saint-Raymond/IMA Solutions. Wikidata Q24580187 records the Parian marble bust as accession Ra 57 / 30101, 1st century CE, displayed on the first floor of the Musée Saint-Raymond, with dimensions H 51 cm x W 34 cm x D 25 cm.",
     "search": "bust of augustus wearing the oak crown 1st century ce parian marble h 51 cm × w 34 cm × d 25 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons roman wikimedia commons stl from musée saint-raymond / ima solutions musée saint-raymond, first floor ra 57 / 30101 commons file published by musée saint-raymond/ima solutions. wikidata q24580187 records the parian marble bust as accession ra 57 / 30101, 1st century ce, displayed on the first floor of the musée saint-raymond, with dimensions h 51 cm x w 34 cm x d 25 cm.",
     "index": 212,
-    "total": 216
+    "total": 221
   },
   {
     "collection": "roman",
@@ -6021,7 +6021,7 @@
     "note": "Commons file published by Musée Saint-Raymond/IMA Solutions. Wikidata Q25114454 records the Göktepe marble sculpture as accession Ra 134-137 / 30348, 4th century CE, displayed on the first floor of the Musée Saint-Raymond, with dimensions H 49 cm x W 30 cm x D 21 cm.",
     "search": "bacchus 4th century ce göktepe marble h 49 cm × w 30 cm × d 21 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons roman wikimedia commons stl from musée saint-raymond / ima solutions musée saint-raymond, first floor ra 134-137 / 30348 commons file published by musée saint-raymond/ima solutions. wikidata q25114454 records the göktepe marble sculpture as accession ra 134-137 / 30348, 4th century ce, displayed on the first floor of the musée saint-raymond, with dimensions h 49 cm x w 30 cm x d 21 cm.",
     "index": 213,
-    "total": 216
+    "total": 221
   },
   {
     "collection": "roman",
@@ -6053,7 +6053,7 @@
     "note": "Commons file published by Musée Saint-Raymond/IMA Solutions. Wikidata Q53466868 records the marble bust as accession 2005.1.1, 2nd century CE, held in the Saint-Raymond Museum reserves, with dimensions H 43 cm x W 23 cm.",
     "search": "bust of a satyr 2nd century ce marble h 43 cm × w 23 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons roman wikimedia commons stl from musée saint-raymond / ima solutions saint-raymond museum reserves 2005.1.1 commons file published by musée saint-raymond/ima solutions. wikidata q53466868 records the marble bust as accession 2005.1.1, 2nd century ce, held in the saint-raymond museum reserves, with dimensions h 43 cm x w 23 cm.",
     "index": 214,
-    "total": 216
+    "total": 221
   },
   {
     "collection": "roman",
@@ -6085,7 +6085,7 @@
     "note": "Commons file published by Musée Saint-Raymond/IMA Solutions. Wikidata Q24659883 records this Saint-Béat marble Villa Chiragan relief as accession Ra 28 l / 30382, 3rd century CE, displayed on the first floor of the Musée Saint-Raymond, with dimensions H 155 cm x W 103 cm x D 23 cm.",
     "search": "hercules and the cattle of geryon 3rd century ce saint-béat marble h 155 cm × w 103 cm × d 23 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons roman wikimedia commons stl from musée saint-raymond / ima solutions musée saint-raymond, first floor ra 28 l / 30382 commons file published by musée saint-raymond/ima solutions. wikidata q24659883 records this saint-béat marble villa chiragan relief as accession ra 28 l / 30382, 3rd century ce, displayed on the first floor of the musée saint-raymond, with dimensions h 155 cm x w 103 cm x d 23 cm.",
     "index": 215,
-    "total": 216
+    "total": 221
   },
   {
     "collection": "roman",
@@ -6117,6 +6117,181 @@
     "note": "Commons file published by Musée Saint-Raymond/IMA Solutions. Wikidata Q24436503 records the Carrara marble bust as accession Ra 117 / 30154, 2nd century CE, displayed on the first floor of the Musée Saint-Raymond, with dimensions H 56 cm x W 36 cm x D 25 cm.",
     "search": "bust of trajan 2nd century ce carrara marble h 56 cm × w 36 cm × d 25 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons roman wikimedia commons stl from musée saint-raymond / ima solutions musée saint-raymond, first floor ra 117 / 30154 commons file published by musée saint-raymond/ima solutions. wikidata q24436503 records the carrara marble bust as accession ra 117 / 30154, 2nd century ce, displayed on the first floor of the musée saint-raymond, with dimensions h 56 cm x w 36 cm x d 25 cm.",
     "index": 216,
-    "total": 216
+    "total": 221
+  },
+  {
+    "slug": "roman/portrait-of-julia-msr",
+    "collection": "roman",
+    "title": "Portrait of Julia",
+    "artist": "",
+    "year": "12-11 BCE",
+    "year_sort": -12,
+    "material": "Marble",
+    "museum": "Musée Saint-Raymond, Toulouse",
+    "displayed_at": "2nd floor of Musée Saint-Raymond",
+    "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:45-msr-julie-5.stl",
+    "source_record_url": "https://www.wikidata.org/wiki/Q27102780",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Scan The World / Musée Saint-Raymond",
+    "accession": "Ra 338 / 30.004",
+    "wikidata": "Q27102780",
+    "scan_author": "Scan The World",
+    "scan_source": "Wikimedia Commons STL from Musée Saint-Raymond / Scan The World",
+    "note": "Commons file published from Scan The World with Musée Saint-Raymond source metadata. Wikidata Q27102780 records the marble portrait as accession Ra 338 / 30.004, dated 12-11 BCE, displayed on the 2nd floor of the Musée Saint-Raymond, with dimensions H 37.3 cm x W 18.5 cm x D 22.5 cm.",
+    "dimensions": "H 37.3 cm x W 18.5 cm x D 22.5 cm",
+    "tier": 3,
+    "license_tier": 2,
+    "ingested": "2026-06-29",
+    "index": 217,
+    "total": 221,
+    "period": "Ancient",
+    "model": {
+      "sourcePath": "roman/portrait-of-julia-msr/portrait-of-julia_source.stl",
+      "format": "stl",
+      "sizeBytes": 34999884
+    },
+    "search": "portrait of julia 12-11 bce marble h 37.3 cm x w 18.5 cm x d 22.5 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons roman wikimedia commons stl from musée saint-raymond / scan the world commons file published from scan the world with musée saint-raymond source metadata. wikidata q27102780 records the marble portrait as accession ra 338 / 30.004, dated 12-11 bce, displayed on the 2nd floor of the musée saint-raymond, with dimensions h 37.3 cm x w 18.5 cm x d 22.5 cm."
+  },
+  {
+    "slug": "roman/jupiter-with-thunderbolt-msr",
+    "collection": "roman",
+    "title": "Jupiter with Thunderbolt",
+    "artist": "",
+    "year": "1st century CE",
+    "year_sort": 50,
+    "material": "Bronze",
+    "museum": "Musée Saint-Raymond, Toulouse",
+    "displayed_at": "2nd floor of Musée Saint-Raymond",
+    "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:MSR-Jupiter-2014-1-1.stl",
+    "source_record_url": "https://www.wikidata.org/wiki/Q28108996",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Musée Saint-Raymond",
+    "accession": "2014.1.1",
+    "wikidata": "Q28108996",
+    "scan_author": "Musée Saint-Raymond",
+    "scan_source": "Wikimedia Commons STL from Musée Saint-Raymond",
+    "note": "Commons file published by Musée Saint-Raymond. Wikidata Q28108996 records the bronze figurine as accession 2014.1.1, 1st century CE, displayed on the 2nd floor of the Musée Saint-Raymond, with dimensions H 16.8 cm x W 5.5 cm.",
+    "dimensions": "H 16.8 cm x W 5.5 cm",
+    "tier": 3,
+    "license_tier": 1,
+    "ingested": "2026-06-29",
+    "index": 218,
+    "total": 221,
+    "period": "Ancient",
+    "model": {
+      "sourcePath": "roman/jupiter-with-thunderbolt-msr/jupiter-with-thunderbolt_source.stl",
+      "format": "stl",
+      "sizeBytes": 5001184
+    },
+    "search": "jupiter with thunderbolt 1st century ce bronze h 16.8 cm x w 5.5 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons roman wikimedia commons stl from musée saint-raymond commons file published by musée saint-raymond. wikidata q28108996 records the bronze figurine as accession 2014.1.1, 1st century ce, displayed on the 2nd floor of the musée saint-raymond, with dimensions h 16.8 cm x w 5.5 cm."
+  },
+  {
+    "slug": "roman/satyr-mask-ra-36d-msr",
+    "collection": "roman",
+    "title": "Satyr Mask",
+    "artist": "",
+    "year": "2nd-3rd century CE",
+    "year_sort": 150,
+    "material": "Marble",
+    "museum": "Musée Saint-Raymond, Toulouse",
+    "displayed_at": "Musée Saint-Raymond, first floor",
+    "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:80-msr-satyr.stl",
+    "source_record_url": "https://www.wikidata.org/wiki/Q38569208",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Scan The World / Musée Saint-Raymond",
+    "accession": "Ra 36 d",
+    "wikidata": "Q38569208",
+    "scan_author": "Scan The World",
+    "scan_source": "Wikimedia Commons STL from Musée Saint-Raymond / Scan The World",
+    "note": "Commons file published from Scan The World with Musée Saint-Raymond source metadata. Wikidata Q38569208 records the marble mask as accession Ra 36 d, dated 2nd-3rd century CE, displayed on the first floor of the Musée Saint-Raymond, with dimensions H 20 cm x W 19 cm x D 10 cm.",
+    "dimensions": "H 20 cm x W 19 cm x D 10 cm",
+    "tier": 3,
+    "license_tier": 2,
+    "ingested": "2026-06-29",
+    "index": 219,
+    "total": 221,
+    "period": "Ancient",
+    "model": {
+      "sourcePath": "roman/satyr-mask-ra-36d-msr/satyr-mask_source.stl",
+      "format": "stl",
+      "sizeBytes": 16027184
+    },
+    "search": "satyr mask 2nd-3rd century ce marble h 20 cm x w 19 cm x d 10 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons roman wikimedia commons stl from musée saint-raymond / scan the world commons file published from scan the world with musée saint-raymond source metadata. wikidata q38569208 records the marble mask as accession ra 36 d, dated 2nd-3rd century ce, displayed on the first floor of the musée saint-raymond, with dimensions h 20 cm x w 19 cm x d 10 cm."
+  },
+  {
+    "slug": "greek/terracotta-dancer-msr",
+    "collection": "greek",
+    "title": "Terracotta Dancer",
+    "artist": "",
+    "year": "3rd-2nd century BCE",
+    "year_sort": -250,
+    "material": "Terracotta",
+    "museum": "Musée Saint-Raymond, Toulouse",
+    "displayed_at": "Saint-Raymond Museum reserves",
+    "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Scan_the_World-MSR-25797-statuette.stl",
+    "source_record_url": "https://www.wikidata.org/wiki/Q28653996",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Scan The World / Musée Saint-Raymond",
+    "accession": "25797",
+    "wikidata": "Q28653996",
+    "scan_author": "Scan The World",
+    "scan_source": "Wikimedia Commons STL from Musée Saint-Raymond / Scan The World",
+    "note": "Commons file published from Scan The World with Musée Saint-Raymond source metadata. Wikidata Q28653996 records the terracotta statuette as accession 25797, dated 3rd-2nd century BCE, held in the Saint-Raymond Museum reserves, with dimensions H 19.5 cm x W 9.5 cm x D 9 cm.",
+    "dimensions": "H 19.5 cm x W 9.5 cm x D 9 cm",
+    "tier": 3,
+    "license_tier": 2,
+    "ingested": "2026-06-29",
+    "index": 220,
+    "total": 221,
+    "period": "Ancient",
+    "model": {
+      "sourcePath": "greek/terracotta-dancer-msr/terracotta-dancer_source.stl",
+      "format": "stl",
+      "sizeBytes": 36700784
+    },
+    "search": "terracotta dancer 3rd-2nd century bce terracotta h 19.5 cm x w 9.5 cm x d 9 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons greek wikimedia commons stl from musée saint-raymond / scan the world commons file published from scan the world with musée saint-raymond source metadata. wikidata q28653996 records the terracotta statuette as accession 25797, dated 3rd-2nd century bce, held in the saint-raymond museum reserves, with dimensions h 19.5 cm x w 9.5 cm x d 9 cm."
+  },
+  {
+    "slug": "roman/portrait-of-an-unknown-woman-msr",
+    "collection": "roman",
+    "title": "Portrait of an Unknown Woman",
+    "artist": "",
+    "year": "1st century CE",
+    "year_sort": 50,
+    "material": "Marble",
+    "museum": "Musée Saint-Raymond, Toulouse",
+    "displayed_at": "Saint-Raymond Museum reserves",
+    "source_institution": "Musée Saint-Raymond / Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Msr-woman-head-5.stl",
+    "source_record_url": "https://www.wikidata.org/wiki/Q28857289",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Scan The World / Musée Saint-Raymond",
+    "accession": "2000.67.1",
+    "wikidata": "Q28857289",
+    "scan_author": "Scan The World",
+    "scan_source": "Wikimedia Commons STL from Musée Saint-Raymond / Scan The World",
+    "note": "Commons file published from Scan The World with Musée Saint-Raymond source metadata. Wikidata Q28857289 records the marble portrait as accession 2000.67.1, 1st century CE, held in the Saint-Raymond Museum reserves, with dimensions H 30 cm x W 19.5 cm x D 18 cm.",
+    "dimensions": "H 30 cm x W 19.5 cm x D 18 cm",
+    "tier": 3,
+    "license_tier": 2,
+    "ingested": "2026-06-29",
+    "index": 221,
+    "total": 221,
+    "period": "Ancient",
+    "model": {
+      "sourcePath": "roman/portrait-of-an-unknown-woman-msr/portrait-of-an-unknown-woman_source.stl",
+      "format": "stl",
+      "sizeBytes": 34999884
+    },
+    "search": "portrait of an unknown woman 1st century ce marble h 30 cm x w 19.5 cm x d 18 cm musée saint-raymond, toulouse musée saint-raymond / wikimedia commons roman wikimedia commons stl from musée saint-raymond / scan the world commons file published from scan the world with musée saint-raymond source metadata. wikidata q28857289 records the marble portrait as accession 2000.67.1, 1st century ce, held in the saint-raymond museum reserves, with dimensions h 30 cm x w 19.5 cm x d 18 cm."
   }
 ]

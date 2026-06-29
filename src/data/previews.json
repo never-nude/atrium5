@@ -1726,5 +1726,45 @@
     "sourceFormat": "stl",
     "faces": 291488,
     "sourceFaces": 291488
+  },
+  "greek/terracotta-dancer-msr": {
+    "url": "/models/previews/greek/terracotta-dancer-msr/preview.glb",
+    "bytes": 7185684,
+    "sourceBytes": 36700784,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 734014
+  },
+  "roman/portrait-of-julia-msr": {
+    "url": "/models/previews/roman/portrait-of-julia-msr/preview.glb",
+    "bytes": 7200848,
+    "sourceBytes": 34999884,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 699996
+  },
+  "roman/satyr-mask-ra-36d-msr": {
+    "url": "/models/previews/roman/satyr-mask-ra-36d-msr/preview.glb",
+    "bytes": 5770860,
+    "sourceBytes": 16027184,
+    "sourceFormat": "stl",
+    "faces": 320542,
+    "sourceFaces": 320542
+  },
+  "roman/jupiter-with-thunderbolt-msr": {
+    "url": "/models/previews/roman/jupiter-with-thunderbolt-msr/preview.glb",
+    "bytes": 1801304,
+    "sourceBytes": 5001184,
+    "sourceFormat": "stl",
+    "faces": 100022,
+    "sourceFaces": 100022
+  },
+  "roman/portrait-of-an-unknown-woman-msr": {
+    "url": "/models/previews/roman/portrait-of-an-unknown-woman-msr/preview.glb",
+    "bytes": 7200848,
+    "sourceBytes": 34999884,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 699996
   }
 }
