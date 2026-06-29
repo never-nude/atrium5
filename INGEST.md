@@ -34,6 +34,27 @@ refuses to run if it detects ingested entries.
 5. **Build, eyeball, push.** `npm run build`, check a few new work pages, push to main —
    the Pages workflow deploys.
 
+## Automated open-scan pipeline
+
+The scheduled path in `.github/workflows/ingest.yml` discovers CC0/Public Domain/CC BY
+sculpture scans from whitelisted sources, stages downloads under `.atrium-ingest/`,
+generates Atrium previews, and opens a draft PR. It never merges or publishes by
+itself.
+
+Local dry run:
+
+```bash
+npm run ingest:discover -- --limit=3
+npm run ingest:fetch -- --limit=3
+SOURCE_ATRIUM_DIR=.atrium-ingest/source-archive npm run ingest:assemble
+npm run verify:assets
+```
+
+Sketchfab downloads require `SKETCHFAB_TOKEN`; without it, Sketchfab candidates are
+reported but skipped at fetch time. The generated PR body lives at
+`.atrium-ingest/last-report.md` and lists provenance, license, integrity, and
+orientation decisions for every accepted or rejected candidate.
+
 ## Field semantics
 
 - `tier` = curatorial prominence (1 featured … 3 default). Ingest always sets 3; promote by hand.

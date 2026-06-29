@@ -10,6 +10,7 @@ lerna-debug.log*
 node_modules
 .astro
 .tmp
+.atrium-ingest
 dist
 dist-ssr
 *.local

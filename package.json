@@ -14,7 +14,11 @@
     "images:renders": "node ./scripts/render-thumbnails.mjs",
     "models:preview": ".venv/bin/python ./scripts/generate-previews.py",
     "import:catalog:legacy": "node ./scripts/import-catalog.mjs",
-    "ingest": "node ./scripts/ingest-manifests.mjs"
+    "ingest": "node ./scripts/ingest-manifests.mjs",
+    "ingest:discover": "node ./scripts/discover-sources.mjs",
+    "ingest:fetch": "node ./scripts/fetch-source.mjs",
+    "ingest:assemble": "node ./scripts/assemble-piece.mjs",
+    "ingest:auto": "npm run ingest:discover && npm run ingest:fetch && npm run ingest:assemble"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.7.2",
