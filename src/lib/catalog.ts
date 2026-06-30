@@ -15,6 +15,8 @@ type RawWork = {
   material?: string | null;
   dimensions?: string | null;
   museum?: string | null;
+  displayed_at?: string | null;
+  current_location?: string | null;
   source_institution?: string | null;
   source_url?: string | null;
   scan_source?: string | null;
@@ -519,7 +521,7 @@ function normalize(raw: RawWork, fallbackIndex: number): Work {
   const materialProfile = materialProfileFor(raw.slug, materials);
   const materialAppearance = effectiveAppearanceFor(raw.slug, materialProfile);
   const sourceMuseum = clean(raw.source_institution);
-  const museum = clean(raw.museum);
+  const museum = clean(raw.displayed_at) || clean(raw.current_location) || clean(raw.museum);
   const preview = previewMap[raw.slug];
   const movement = movementFor(raw, era);
   const description = summaryFor(raw);
