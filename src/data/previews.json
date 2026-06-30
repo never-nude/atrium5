@@ -497,10 +497,10 @@
   },
   "assyrian/huntsmen-with-hounds-panel-13-bm": {
     "url": "/models/previews/assyrian/huntsmen-with-hounds-panel-13-bm/preview.glb",
-    "bytes": 16906104,
+    "bytes": 22417228,
     "sourceBytes": 23588048,
     "sourceFormat": "obj",
-    "faces": 234862,
+    "faces": 474004,
     "sourceFaces": 234870
   },
   "assyrian/black-obelisk-of-shalmaneser-iii-smk-cast": {
@@ -1489,10 +1489,10 @@
   },
   "egyptian/four-headed-sphinx-tds-khm": {
     "url": "/models/previews/egyptian/four-headed-sphinx-tds-khm/preview.glb",
-    "bytes": 2700956,
+    "bytes": 2616712,
     "sourceBytes": 25040084,
     "sourceFormat": "stl",
-    "faces": 150000,
+    "faces": 145326,
     "sourceFaces": 500800
   },
   "egyptian/portrait-of-kaaper-sheik-el-beled-smk-cast": {

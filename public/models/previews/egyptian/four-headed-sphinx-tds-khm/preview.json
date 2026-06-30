@@ -3,6 +3,7 @@
   "source": "/sessions/trusting-loving-feynman/mnt/New project 2/atrium/egyptian/four-headed-sphinx-tds-khm/4headed.stl",
   "sourceBytes": 25040084,
   "sourceFaces": 500800,
-  "faces": 150000,
-  "targetFaces": 150000
+  "faces": 145326,
+  "targetFaces": 150000,
+  "note": "Investigated 2026-06-30: live render shows visible gaps/holes in the marble surface. Checked mesh integrity with position-relative welding (fixed-decimal rounding is unreliable at this file's tiny coordinate scale -- see project notes): ncomp=5, bratio=0.0, largest component 96.9% of faces. Zero topological boundary edges anywhere -- every component, including the small ones, is individually closed/watertight. This rules out scan/mesh corruption as the cause of the visible holes. Dropped the 4 small disconnected debris components (3.1% of faces, likely scan noise/dust specks) for tidiness; the main body was already clean. Conclusion: the visible 'holes' are very likely authentic erosion damage in the 1900-year-old marble (matches the original Jun 28 audit note: 'heavily eroded + support strut, possibly just the real scan') and the decimation from the 500,800-face source down to 150k may also be exaggerating some surface detail loss. Not a fixable mesh defect with the current source; a higher-resolution rescan would be the only way to materially change this. Not yet checked against the live render pipeline (needs Chrome, unavailable in this session)."
 }
