@@ -497,10 +497,10 @@
   },
   "assyrian/huntsmen-with-hounds-panel-13-bm": {
     "url": "/models/previews/assyrian/huntsmen-with-hounds-panel-13-bm/preview.glb",
-    "bytes": 1499540,
+    "bytes": 16906104,
     "sourceBytes": 23588048,
     "sourceFormat": "obj",
-    "faces": 79999,
+    "faces": 234862,
     "sourceFaces": 234870
   },
   "assyrian/black-obelisk-of-shalmaneser-iii-smk-cast": {
@@ -662,6 +662,14 @@
     "sourceFormat": "glb",
     "faces": 99985,
     "sourceFaces": 99985
+  },
+  "asia/molded-plaque-couple-met": {
+    "url": "/models/previews/asia/molded-plaque-couple-met/preview.glb",
+    "bytes": 6879904,
+    "sourceBytes": 6879904,
+    "sourceFormat": "glb",
+    "faces": 99079,
+    "sourceFaces": 99079
   },
   "asia/ewer-khurasan-herat": {
     "url": "/models/previews/asia/ewer-khurasan-herat/preview.glb",
@@ -935,6 +943,22 @@
     "faces": 14000,
     "sourceFaces": 400036
   },
+  "greek/athena-parthenos-fragment-smk-cast": {
+    "url": "/models/previews/greek/athena-parthenos-fragment-smk-cast/preview.glb",
+    "bytes": 7200704,
+    "sourceBytes": 20001084,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 400020
+  },
+  "greek/head-of-a-giant-smk-cast": {
+    "url": "/models/previews/greek/head-of-a-giant-smk-cast/preview.glb",
+    "bytes": 7201032,
+    "sourceBytes": 20000084,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 400000
+  },
   "greek/head-of-amazon-sciarra-type-smk-cast": {
     "url": "/models/previews/greek/head-of-amazon-sciarra-type-smk-cast/preview.glb",
     "bytes": 252832,
@@ -974,6 +998,14 @@
     "sourceFormat": "stl",
     "faces": 14000,
     "sourceFaces": 400056
+  },
+  "greek/seated-herakles-aphaia-smk-cast": {
+    "url": "/models/previews/greek/seated-herakles-aphaia-smk-cast/preview.glb",
+    "bytes": 7200784,
+    "sourceBytes": 20000284,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 400004
   },
   "greek/selene-horse-head-parthenon-smk-cast": {
     "url": "/models/previews/greek/selene-horse-head-parthenon-smk-cast/preview.glb",
@@ -1022,6 +1054,14 @@
     "sourceFormat": "stl",
     "faces": 14000,
     "sourceFaces": 400012
+  },
+  "greek/athena-hope-head-smk-cast": {
+    "url": "/models/previews/greek/athena-hope-head-smk-cast/preview.glb",
+    "bytes": 7200800,
+    "sourceBytes": 20000284,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 400004
   },
   "greek/crouching-aphrodite-with-eros-smk-cast": {
     "url": "/models/previews/greek/crouching-aphrodite-with-eros-smk-cast/preview.glb",
@@ -1351,6 +1391,14 @@
     "faces": 400000,
     "sourceFaces": 1943262
   },
+  "roman/laurel-wreathed-sacrificial-attendant-smk-cast": {
+    "url": "/models/previews/roman/laurel-wreathed-sacrificial-attendant-smk-cast/preview.glb",
+    "bytes": 7200768,
+    "sourceBytes": 20000284,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 400004
+  },
   "limestone-head-of-a-bearded-man": {
     "url": "/models/previews/limestone-head-of-a-bearded-man/preview.glb",
     "bytes": 5796892,
@@ -1374,6 +1422,14 @@
     "sourceFormat": "glb",
     "faces": 99986,
     "sourceFaces": 99986
+  },
+  "egyptian/temple-of-dendur-met": {
+    "url": "/models/previews/egyptian/temple-of-dendur-met/preview.glb",
+    "bytes": 10476264,
+    "sourceBytes": 10476264,
+    "sourceFormat": "glb",
+    "faces": 96877,
+    "sourceFaces": 96877
   },
   "egyptian/portrait-of-nefertiti-smk-cast": {
     "url": "/models/previews/egyptian/portrait-of-nefertiti-smk-cast/preview.glb",
@@ -1446,6 +1502,14 @@
     "sourceFormat": "glb",
     "faces": 99986,
     "sourceFaces": 99986
+  },
+  "sub-saharan-africa/zoomorphic-headrest-nguni-met": {
+    "url": "/models/previews/sub-saharan-africa/zoomorphic-headrest-nguni-met/preview.glb",
+    "bytes": 5352524,
+    "sourceBytes": 5352524,
+    "sourceFormat": "glb",
+    "faces": 99999,
+    "sourceFaces": 99999
   },
   "sub-saharan-africa/ancestor-figure-teke": {
     "url": "/models/previews/sub-saharan-africa/ancestor-figure-teke/preview.glb",
@@ -1671,6 +1735,14 @@
     "faces": 317960,
     "sourceFaces": 317960
   },
+  "americas/engraved-bamboo-container-kare-u-ta-met": {
+    "url": "/models/previews/americas/engraved-bamboo-container-kare-u-ta-met/preview.glb",
+    "bytes": 3165180,
+    "sourceBytes": 3165180,
+    "sourceFormat": "glb",
+    "faces": 100000,
+    "sourceFaces": 100000
+  },
   "americas/house-model-nayarit-2015-306": {
     "url": "/models/previews/americas/house-model-nayarit-2015-306/preview.glb",
     "bytes": 5100436,
@@ -1702,6 +1774,14 @@
     "sourceFormat": "glb",
     "faces": 150000,
     "sourceFaces": 150000
+  },
+  "americas/stirrup-spout-bottle-feline-and-snake-met": {
+    "url": "/models/previews/americas/stirrup-spout-bottle-feline-and-snake-met/preview.glb",
+    "bytes": 5081228,
+    "sourceBytes": 5081228,
+    "sourceFormat": "glb",
+    "faces": 99999,
+    "sourceFaces": 99999
   },
   "americas/village-scene-nayarit": {
     "url": "/models/previews/americas/village-scene-nayarit/preview.glb",

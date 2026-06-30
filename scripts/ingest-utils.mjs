@@ -223,6 +223,8 @@ export function searchText(record) {
     record.year,
     record.material,
     record.dimensions,
+    record.displayed_at,
+    record.current_location,
     record.museum,
     record.source_institution,
     record.collection,

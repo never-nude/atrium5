@@ -52,11 +52,17 @@ function formatIntegrity(integrity) {
   return `faces=${integrity.faces ?? '?'} ncomp=${integrity.ncomp ?? '?'} bratio=${integrity.bratio ?? '?'}`;
 }
 
-function badIntegrity(integrity) {
+function badIntegrity(integrity, candidate = {}) {
   if (!integrity) return true;
   if (!Number.isFinite(Number(integrity.faces)) || Number(integrity.faces) <= 0) return true;
-  if (Number(integrity.ncomp) > 50) return true;
   if (Number(integrity.bratio) > 0.3) return true;
+
+  if (candidate.allow_componentized_mesh) {
+    const maxComponents = Number(candidate.max_component_count || 1_000);
+    return Number(integrity.ncomp) > maxComponents;
+  }
+
+  if (Number(integrity.ncomp) > 50) return true;
   if (Number(integrity.largest_frac) && Number(integrity.largest_frac) < 0.5) return true;
   return false;
 }
@@ -67,7 +73,7 @@ async function proposeOrientation(sourcePath, slug) {
 }
 
 async function maybeRetryAlternate(candidate, firstProposal, report) {
-  if (!badIntegrity(firstProposal.integrity)) return { candidate, proposal: firstProposal };
+  if (!badIntegrity(firstProposal.integrity, candidate)) return { candidate, proposal: firstProposal };
   const alternates = candidate.alternate_downloads || [];
   if (!alternates.length) return { candidate, proposal: firstProposal };
 
@@ -82,7 +88,7 @@ async function maybeRetryAlternate(candidate, firstProposal, report) {
     try {
       const downloaded = await downloadFile(alternate.url, dest);
       const proposal = await proposeOrientation(dest, candidate.slug);
-      if (!badIntegrity(proposal.integrity)) {
+      if (!badIntegrity(proposal.integrity, candidate)) {
         const next = {
           ...candidate,
           fetched: {
@@ -116,7 +122,9 @@ function catalogEntry(candidate, archiveRel, sizeBytes) {
     year: candidate.year || '',
     year_sort: yearSort,
     material: candidate.material || '',
-    museum: candidate.museum || '',
+    museum: candidate.displayed_at || candidate.current_location || candidate.museum || '',
+    original_location: candidate.museum || '',
+    current_location: candidate.displayed_at || candidate.current_location || '',
     displayed_at: candidate.displayed_at || '',
     source_institution: candidate.source_institution || '',
     source_url: candidate.source_url || '',
@@ -282,7 +290,8 @@ for (const originalCandidate of candidates) {
     continue;
   }
 
-  if (badIntegrity(proposal.integrity)) {
+  const strictIntegrityFailed = badIntegrity(proposal.integrity);
+  if (badIntegrity(proposal.integrity, candidate)) {
     report.rejected.push({
       slug: candidate.slug,
       title: candidate.title,
@@ -291,6 +300,12 @@ for (const originalCandidate of candidates) {
       integrity: formatIntegrity(proposal.integrity),
     });
     continue;
+  }
+  if (strictIntegrityFailed && candidate.allow_componentized_mesh) {
+    report.warnings.push({
+      slug: candidate.slug,
+      reason: `accepted componentized mesh via explicit candidate flag: ${formatIntegrity(proposal.integrity)}`,
+    });
   }
 
   const currentSourcePath = path.resolve(repoRoot, candidate.fetched.local_source_path);
