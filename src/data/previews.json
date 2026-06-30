@@ -663,6 +663,14 @@
     "faces": 99985,
     "sourceFaces": 99985
   },
+  "asia/molded-plaque-couple-met": {
+    "url": "/models/previews/asia/molded-plaque-couple-met/preview.glb",
+    "bytes": 6879904,
+    "sourceBytes": 6879904,
+    "sourceFormat": "glb",
+    "faces": 99079,
+    "sourceFaces": 99079
+  },
   "asia/ewer-khurasan-herat": {
     "url": "/models/previews/asia/ewer-khurasan-herat/preview.glb",
     "bytes": 5158308,
@@ -1415,6 +1423,14 @@
     "faces": 99986,
     "sourceFaces": 99986
   },
+  "egyptian/temple-of-dendur-met": {
+    "url": "/models/previews/egyptian/temple-of-dendur-met/preview.glb",
+    "bytes": 10476264,
+    "sourceBytes": 10476264,
+    "sourceFormat": "glb",
+    "faces": 96877,
+    "sourceFaces": 96877
+  },
   "egyptian/portrait-of-nefertiti-smk-cast": {
     "url": "/models/previews/egyptian/portrait-of-nefertiti-smk-cast/preview.glb",
     "bytes": 2700816,
@@ -1486,6 +1502,14 @@
     "sourceFormat": "glb",
     "faces": 99986,
     "sourceFaces": 99986
+  },
+  "sub-saharan-africa/zoomorphic-headrest-nguni-met": {
+    "url": "/models/previews/sub-saharan-africa/zoomorphic-headrest-nguni-met/preview.glb",
+    "bytes": 5352524,
+    "sourceBytes": 5352524,
+    "sourceFormat": "glb",
+    "faces": 99999,
+    "sourceFaces": 99999
   },
   "sub-saharan-africa/ancestor-figure-teke": {
     "url": "/models/previews/sub-saharan-africa/ancestor-figure-teke/preview.glb",
@@ -1711,6 +1735,14 @@
     "faces": 317960,
     "sourceFaces": 317960
   },
+  "americas/engraved-bamboo-container-kare-u-ta-met": {
+    "url": "/models/previews/americas/engraved-bamboo-container-kare-u-ta-met/preview.glb",
+    "bytes": 3165180,
+    "sourceBytes": 3165180,
+    "sourceFormat": "glb",
+    "faces": 100000,
+    "sourceFaces": 100000
+  },
   "americas/house-model-nayarit-2015-306": {
     "url": "/models/previews/americas/house-model-nayarit-2015-306/preview.glb",
     "bytes": 5100436,
@@ -1742,6 +1774,14 @@
     "sourceFormat": "glb",
     "faces": 150000,
     "sourceFaces": 150000
+  },
+  "americas/stirrup-spout-bottle-feline-and-snake-met": {
+    "url": "/models/previews/americas/stirrup-spout-bottle-feline-and-snake-met/preview.glb",
+    "bytes": 5081228,
+    "sourceBytes": 5081228,
+    "sourceFormat": "glb",
+    "faces": 99999,
+    "sourceFaces": 99999
   },
   "americas/village-scene-nayarit": {
     "url": "/models/previews/americas/village-scene-nayarit/preview.glb",
