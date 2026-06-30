@@ -708,6 +708,7 @@
   },
   {
     "slug": "michelangelo/dusk",
+    "dimensions": "H 147.5 cm × W 212 cm × D 86 cm",
     "collection": "michelangelo",
     "title": "Dusk",
     "artist": "Michelangelo",
@@ -734,6 +735,7 @@
   },
   {
     "slug": "michelangelo/dawn",
+    "dimensions": "H 150 cm × W 240 cm × D 97 cm",
     "collection": "michelangelo",
     "title": "Dawn",
     "artist": "Michelangelo",
@@ -758,6 +760,7 @@
   },
   {
     "slug": "michelangelo/lorenzo-duke-of-urbino",
+    "dimensions": "H 187 cm × W 76 cm × D 94 cm",
     "collection": "michelangelo",
     "title": "Lorenzo, Duke of Urbino",
     "artist": "Michelangelo",
@@ -782,6 +785,7 @@
   },
   {
     "slug": "michelangelo/giuliano-duke-of-nemours",
+    "dimensions": "H 182 cm × W 89 cm × D 100 cm",
     "collection": "michelangelo",
     "title": "Giuliano, Duke of Nemours",
     "artist": "Michelangelo",
@@ -806,6 +810,7 @@
   },
   {
     "slug": "michelangelo/night",
+    "dimensions": "H 150 cm × W 206 cm × D 105 cm",
     "collection": "michelangelo",
     "title": "Night",
     "artist": "Michelangelo",
@@ -2069,6 +2074,7 @@
   },
   {
     "slug": "bronze-horse-head-herculaneum",
+    "dimensions": "H 35 cm × W 37 cm",
     "collection": "",
     "title": "Bronze Horse Head Herculaneum",
     "artist": "",
@@ -2852,6 +2858,7 @@
   },
   {
     "slug": "head-from-farnese-hercules-type",
+    "dimensions": "W 54 cm × D 57.7 cm",
     "collection": "",
     "title": "Head From Farnese Hercules Type",
     "artist": "",
@@ -3127,6 +3134,7 @@
   },
   {
     "slug": "juno-ludovisi",
+    "dimensions": "H 115 cm",
     "collection": "",
     "title": "Juno Ludovisi",
     "artist": "",
