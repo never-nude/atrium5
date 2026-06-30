@@ -935,6 +935,22 @@
     "faces": 14000,
     "sourceFaces": 400036
   },
+  "greek/athena-parthenos-fragment-smk-cast": {
+    "url": "/models/previews/greek/athena-parthenos-fragment-smk-cast/preview.glb",
+    "bytes": 7200704,
+    "sourceBytes": 20001084,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 400020
+  },
+  "greek/head-of-a-giant-smk-cast": {
+    "url": "/models/previews/greek/head-of-a-giant-smk-cast/preview.glb",
+    "bytes": 7201032,
+    "sourceBytes": 20000084,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 400000
+  },
   "greek/head-of-amazon-sciarra-type-smk-cast": {
     "url": "/models/previews/greek/head-of-amazon-sciarra-type-smk-cast/preview.glb",
     "bytes": 252832,
@@ -974,6 +990,14 @@
     "sourceFormat": "stl",
     "faces": 14000,
     "sourceFaces": 400056
+  },
+  "greek/seated-herakles-aphaia-smk-cast": {
+    "url": "/models/previews/greek/seated-herakles-aphaia-smk-cast/preview.glb",
+    "bytes": 7200784,
+    "sourceBytes": 20000284,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 400004
   },
   "greek/selene-horse-head-parthenon-smk-cast": {
     "url": "/models/previews/greek/selene-horse-head-parthenon-smk-cast/preview.glb",
@@ -1022,6 +1046,14 @@
     "sourceFormat": "stl",
     "faces": 14000,
     "sourceFaces": 400012
+  },
+  "greek/athena-hope-head-smk-cast": {
+    "url": "/models/previews/greek/athena-hope-head-smk-cast/preview.glb",
+    "bytes": 7200800,
+    "sourceBytes": 20000284,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 400004
   },
   "greek/crouching-aphrodite-with-eros-smk-cast": {
     "url": "/models/previews/greek/crouching-aphrodite-with-eros-smk-cast/preview.glb",
@@ -1350,6 +1382,14 @@
     "sourceFormat": "stl",
     "faces": 400000,
     "sourceFaces": 1943262
+  },
+  "roman/laurel-wreathed-sacrificial-attendant-smk-cast": {
+    "url": "/models/previews/roman/laurel-wreathed-sacrificial-attendant-smk-cast/preview.glb",
+    "bytes": 7200768,
+    "sourceBytes": 20000284,
+    "sourceFormat": "stl",
+    "faces": 400000,
+    "sourceFaces": 400004
   },
   "limestone-head-of-a-bearded-man": {
     "url": "/models/previews/limestone-head-of-a-bearded-man/preview.glb",
