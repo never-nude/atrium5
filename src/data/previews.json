@@ -655,6 +655,14 @@
     "faces": 99985,
     "sourceFaces": 99985
   },
+  "asia/inscribed-pen-box-met": {
+    "url": "/models/previews/asia/inscribed-pen-box-met/preview.glb",
+    "bytes": 8782600,
+    "sourceBytes": 8782600,
+    "sourceFormat": "glb",
+    "faces": 99988,
+    "sourceFaces": 99988
+  },
   "asia/standing-buddha-radiate-combined-halo": {
     "url": "/models/previews/asia/standing-buddha-radiate-combined-halo/preview.glb",
     "bytes": 3920596,
@@ -686,6 +694,22 @@
     "sourceFormat": "stl",
     "faces": 63950,
     "sourceFaces": 63950
+  },
+  "asia/tombstone-architectural-niche-met": {
+    "url": "/models/previews/asia/tombstone-architectural-niche-met/preview.glb",
+    "bytes": 7042884,
+    "sourceBytes": 7042884,
+    "sourceFormat": "glb",
+    "faces": 100000,
+    "sourceFaces": 100000
+  },
+  "asia/water-pipe-base-huqqa-poetry-flowers-met": {
+    "url": "/models/previews/asia/water-pipe-base-huqqa-poetry-flowers-met/preview.glb",
+    "bytes": 8619776,
+    "sourceBytes": 8619776,
+    "sourceFormat": "glb",
+    "faces": 100000,
+    "sourceFaces": 100000
   },
   "asia/figure-of-an-elephant-possibly-a-chessman": {
     "url": "/models/previews/asia/figure-of-an-elephant-possibly-a-chessman/preview.glb",
@@ -1743,6 +1767,14 @@
     "faces": 100000,
     "sourceFaces": 100000
   },
+  "americas/double-bowl-inca-met": {
+    "url": "/models/previews/americas/double-bowl-inca-met/preview.glb",
+    "bytes": 5764244,
+    "sourceBytes": 5764244,
+    "sourceFormat": "glb",
+    "faces": 99986,
+    "sourceFaces": 99986
+  },
   "americas/house-model-nayarit-2015-306": {
     "url": "/models/previews/americas/house-model-nayarit-2015-306/preview.glb",
     "bytes": 5100436,
@@ -1758,6 +1790,14 @@
     "sourceFormat": "glb",
     "faces": 99986,
     "sourceFaces": 99986
+  },
+  "americas/kero-beaker-tiwanaku-met": {
+    "url": "/models/previews/americas/kero-beaker-tiwanaku-met/preview.glb",
+    "bytes": 5263164,
+    "sourceBytes": 5263164,
+    "sourceFormat": "glb",
+    "faces": 100000,
+    "sourceFaces": 100000
   },
   "americas/bisj-ancestor-pole-1978-412-1251": {
     "url": "/models/previews/americas/bisj-ancestor-pole-1978-412-1251/preview.glb",
