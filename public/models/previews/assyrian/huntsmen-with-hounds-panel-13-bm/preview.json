@@ -1,8 +1,9 @@
 {
   "slug": "assyrian/huntsmen-with-hounds-panel-13-bm",
-  "source": "/Users/michael/Documents/Claude/Projects/atrium/assyrian/huntsmen-with-hounds-panel-13-bm/huntsmen-with-hounds-panel-13-bm_source.obj",
+  "source": "https://github.com/ProjectNineveh/panel13 (Models/panel13.obj) -- re-fetched from original public CC-BY-4.0 repo, previous local source was producing the same content",
   "sourceBytes": 23588048,
   "sourceFaces": 234870,
-  "faces": 79999,
-  "targetFaces": 80000
+  "faces": 234862,
+  "targetFaces": 400000,
+  "note": "Re-exported to fix mesh corruption: prior preview was decimated to 80000 faces under an old target, which fragmented the relief into 271 disconnected components (bratio 0.08). Source re-pulled fresh from ProjectNineveh GitHub repo; raw source is essentially clean (ncomp=3, 2 are 4-face noise specks) when faces are welded by position. Cleaned (dropped components <0.2% of total faces) and left undecimated since source faces (234870) < new 400k target. Result: ncomp=1, bratio=0.006."
 }
