@@ -1,49 +1,589 @@
 {
- "asia/bowl-arabic-inscription": "z",
- "rodin/danaid": { "upAxis": "z", "modelRotation": [0, 180, 0], "yaw": 0, "fit": 1.1, "status": "reviewed", "confidence": 0.8, "note": "Corrected 2026-06-30 from legacy y:1.1:180, which presented the recumbent figure on its cut side. Use the scan's Z-up basis and flip around Y so the figure rests on a horizontal base while remaining front-readable." },
- "greek/lying-wounded-warrior-aphaia-smk-cast": "z",
- "egyptian/portrait-of-kaaper-sheik-el-beled-smk-cast": "y::180",
- "egyptian/woman-grinding-flour-smk-cast": "z",
- "porcellino": { "upAxis": "y", "modelRotation": [-90, 0, -83], "status": "fixed", "note": "Sit the seated boar level on its plinth (raw scan rests ~48deg off-axis); rotation from stable-pose analysis." },
- "greek/kneeling-archer-figure-xii-aphaia-smk-cast": { "upAxis": "y", "modelRotation": [-90, 0, -93], "status": "fixed", "note": "Stand the crouching archer upright on its plinth (raw scan was inverted, plinth on top)." },
- "rodin/heroic-head-of-pierre-de-wissant": { "upAxis": "y", "modelRotation": [0, 0, 180], "status": "fixed", "note": "Flip 180deg so the mount stump is the base and the face points to the camera (raw scan was upside-down)." },
- "americas/bisj-ancestor-pole-jiem": { "upAxis": "y", "modelRotation": [-6.2, 0, -0.7], "status": "fixed", "note": "Stand the bisj pole vertical to match its upright siblings (raw scan leaned ~6deg)." },
- "michelangelo/dawn": { "upAxis": "auto", "viewDirection": [0.2, 1.2, 0.9], "status": "needs-refetch", "note": "Mesh bundles an oversized plain base block larger than the figure; no camera/orientation fixes it. Needs a mesh trim or cleaner re-fetch. Reverted to prior view meanwhile." },
- "michelangelo/madonna-of-the-stairs": { "upAxis": "auto", "modelRotation": [0, 0, 10], "viewDirection": [-0.77, 0, 0.64], "status": "reviewed", "confidence": 0.85, "note": "Keep the face-on relief view, then add a small +10deg roll correction so the slab reads upright instead of diagonally tilted in the live viewer." },
- "roman/portrait-of-julia-msr": { "upAxis": "z", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "note": "Use the scan's Z-up axis; stable-pose auto-orientation placed the portrait head on its side." },
- "roman/jupiter-with-thunderbolt-msr": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "note": "Keep the source mesh's Y-up orientation; stable-pose auto-orientation laid the figurine down." },
- "roman/satyr-mask-ra-36d-msr": { "upAxis": "z", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "note": "Use the scan's Z-up axis; stable-pose auto-orientation presented the rear/side of the mask." },
- "greek/terracotta-dancer-msr": { "upAxis": "y", "modelRotation": [-90, 0, 92.82], "yaw": 0, "status": "auto", "confidence": 0.82, "note": "Stable-pose solve (pose 3, p=0.12, margin 0.71); confident." },
- "roman/portrait-of-an-unknown-woman-msr": { "upAxis": "z", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "note": "Use the scan's Z-up axis; stable-pose auto-orientation placed the portrait head on its side." },
- "asia/cosmic-buddha": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "viewDirection": [0.55, 0.34, -0.9], "status": "reviewed", "confidence": 1, "note": "Open on the carved front face of the relief; source GLB is already Y-up." },
- "sub-saharan-africa/sapi-portuguese-hunting-horn": { "upAxis": "auto", "modelRotation": [0, 0, 50], "fit": 1.04, "status": "fixed", "note": "Roll the oblong horn to a diagonal and tighten the frame so it fills the portrait thumbnail (2.5x coverage) instead of floating in a thin horizontal band." },
- "dying-gaul": { "upAxis": "y", "modelRotation": [90, 180, 0], "viewDirection": [1, 0, 0], "status": "review", "note": "Base-down + eye-level broadside (coverage-derived) so the dying warrior reads in profile instead of top-down." },
- "asia/brazier-of-rasulid-sultan-met": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.9, "note": "Corrected 2026-06-30: reject the stable-pose rotation, which laid the brazier on its side in the live viewer. The source Met/VNTANA GLB is already Y-up and renders with the four legs down." },
- "greek/athena-parthenos-fragment-smk-cast": { "upAxis": "z", "modelRotation": [0, 0, -90], "yaw": 0, "fit": 1.45, "status": "reviewed", "confidence": 0.85, "note": "Manual review: stand the helmet/head fragment upright and face the sculptural side; the stable-pose solve selected the casting support axis." },
- "greek/seated-herakles-aphaia-smk-cast": { "upAxis": "y", "modelRotation": [-90, 0, -38.68], "yaw": 0, "viewDirection": [-0.55, 0.34, -0.9], "status": "reviewed", "confidence": 0.75, "note": "Manual review: keep the stable-pose upright transform, but start from the opposite side so the archer's front and bow read in the gallery thumbnail." },
- "greek/head-of-a-giant-smk-cast": { "upAxis": "auto", "modelRotation": [0, 0, 0], "yaw": 0, "fit": 1.38, "status": "reviewed", "confidence": 0.85, "note": "Manual review: keep the source orientation so the Pergamon head faces the camera; the stable-pose solve laid the casting plug horizontally." },
- "greek/athena-hope-head-smk-cast": { "upAxis": "auto", "modelRotation": [0, 0, 0], "yaw": 0, "fit": 1.38, "status": "reviewed", "confidence": 0.85, "note": "Manual review: keep the source orientation so the Athena head opens to the camera; automated long-axis alignment emphasized the support instead of the face." },
- "roman/laurel-wreathed-sacrificial-attendant-smk-cast": { "upAxis": "auto", "modelRotation": [0, 0, 0], "yaw": 0, "fit": 1.16, "status": "reviewed", "confidence": 0.8, "note": "Manual review: the shallow relief renders upright and front-facing in its source orientation." },
- "egyptian/temple-of-dendur-met": { "upAxis": "y", "modelRotation": [-175.44, 0, 1.32], "yaw": 0, "status": "auto", "confidence": 0.63, "note": "Stable-pose solve (pose 0, p=0.70, margin 0.29); confident." },
- "americas/engraved-bamboo-container-kare-u-ta-met": { "upAxis": "y", "modelRotation": [-3.93, 0.06, -1.69], "yaw": 0, "status": "auto", "confidence": 0.95, "note": "Elongated (aspect 8.9); PCA long-axis aligned to vertical." },
- "americas/stirrup-spout-bottle-feline-and-snake-met": { "upAxis": "y", "modelRotation": [-174.47, 0, -179.97], "yaw": 0, "status": "reviewed", "confidence": 0.87, "note": "Manual review: use the stable-pose proposal; this VNTANA GLB is componentized but visually coherent." },
- "asia/molded-plaque-couple-met": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "fit": 1.24, "status": "reviewed", "confidence": 0.9, "note": "Corrected 2026-06-30: preserve the source Y-up/front-facing orientation. The previous stable-pose rotation opened on the undecorated back and left the plaque diagonal." },
- "sub-saharan-africa/zoomorphic-headrest-nguni-met": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.9, "note": "Corrected 2026-06-30: preserve the Met/VNTANA source Y-up pose so the top plank is horizontal and the supports sit below it. Stable-pose rotations made the headrest look fallen over." },
- "americas/kero-beaker-tiwanaku-met": { "upAxis": "auto", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.85, "note": "Manual review: preserve the source orientation so the kero stands upright instead of following the stable-pose side-rest." },
- "americas/double-bowl-inca-met": { "upAxis": "auto", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.9, "note": "Corrected 2026-06-30: reject the stable-pose rotation, which floated the double vessel diagonally in the live viewer. Preserve the source/Z-up presentation so the spouts and decorated body read upright." },
- "asia/inscribed-pen-box-met": { "upAxis": "auto", "modelRotation": [0, 0, 0], "yaw": 0, "viewDirection": [-0.55, 0.82, -0.9], "fit": 1.28, "status": "reviewed", "confidence": 0.85, "note": "Manual review: preserve the source orientation so the long pen box reads in its catalogued proportions; start the camera from above the decorated face." },
- "asia/tombstone-architectural-niche-met": { "upAxis": "auto", "modelRotation": [0, 0, 0], "yaw": 0, "viewDirection": [0.55, 0.34, 0.9], "fit": 1.24, "status": "reviewed", "confidence": 0.6, "note": "Manual review: preserve the source orientation for the shallow carved slab and open the camera on the relief face." },
- "asia/water-pipe-base-huqqa-poetry-flowers-met": { "upAxis": "y", "modelRotation": [-167, 0, 178.98], "yaw": 0, "status": "reviewed", "confidence": 0.51, "note": "Manual review: start from the stable-pose proposal so the huqqa base sits upright." },
- "americas/tuber-inspired-stirrup-spout-bottle-met": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.8, "note": "Manual review: preserve the Met/VNTANA source pose rather than the stable-pose side-rest proposal." },
- "americas/stirrup-spout-bottle-combat-scene-met": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.8, "note": "Manual review: preserve the Met/VNTANA source pose for this low vessel; the stable-pose proposal rotates the form away from its catalogued stance." },
- "americas/stirrup-spout-bottle-decapitation-scene-met": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.8, "note": "Manual review: preserve the Met/VNTANA source pose rather than the componentized stable-pose proposal." },
- "americas/old-arrow-maker-edmonia-lewis-smithsonian": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.8, "note": "Manual review: preserve the Smithsonian 3D GLB source pose." },
- "americas/helen-ruthven-waterston-edmonia-lewis-smithsonian": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.8, "note": "Manual review: preserve the Smithsonian 3D GLB source pose." },
- "renaissance/mater-dolorosa-smk-cast": { "upAxis": "y", "modelRotation": [-90, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.95, "note": "Corrected 2026-07-01: reject the low-confidence stable-pose solve, which showed the hollow underside of the drapery. Source STL is Z-up; a plain -90deg X correction (no yaw) stands the hooded, seated mourning figure upright with clasped hands and base visible." },
- "asia/buddha-of-medicine-bhaishajyaguru-met": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "viewDirection": [0.2, 0.15, 0.97], "fit": 1.05, "status": "reviewed", "confidence": 0.85, "note": "2026-07-01: this wide wall-mural scan reads tiny at the default angled 3/4 view/padding, wasting most of the portrait frame. Near-frontal viewDirection + tightened fit (near the framing-utility's padding floor) makes the mural legible and fills the thumbnail; the mesh's own bounding box (likely including backing/matrix material beyond the painted face) is the limiting factor on going tighter." },
- "sub-saharan-africa/ram-mask-bolo-cleveland": { "upAxis": "z", "modelRotation": [0, 0, 0], "yaw": 180, "status": "reviewed", "confidence": 0.8, "note": "Use the scan source Z-up basis so the ram mask sits upright in the viewer; yaw set to 180deg so the default camera opens on the carved face rather than the hollow back." },
- "sub-saharan-africa/kongo-ntadi-figure-mia": { "upAxis": "y", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.8, "note": "Keep the source Y-up orientation; the ntadi figure bounds are already vertically dominant and read upright without additional roll." },
- "sub-saharan-africa/kongo-tusk-relief-nmafa-74-20-1": { "upAxis": "x", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.75, "note": "Museum dimensions identify the long axis as height; the preview GLB arrives X-up, so rotate X to viewer Y to avoid a sideways tusk." },
- "sub-saharan-africa/kongo-tusk-nmafa-96-28-1": { "upAxis": "x", "modelRotation": [0, 0, 0], "yaw": 0, "status": "reviewed", "confidence": 0.75, "note": "Museum dimensions identify the long axis as height; the preview GLB arrives X-up, so rotate X to viewer Y to avoid a sideways tusk." },
- "sub-saharan-africa/temne-mask-mia": { "upAxis": "y", "modelRotation": [-1.09, 0, -0.15], "yaw": 180, "status": "reviewed", "confidence": 0.8, "note": "Accept the auto-orient micro-correction; yaw set to 180deg so the default camera opens on the carved face rather than the back." }
+  "asia/bowl-arabic-inscription": "z",
+  "rodin/danaid": {
+    "upAxis": "z",
+    "modelRotation": [
+      0,
+      180,
+      0
+    ],
+    "yaw": 0,
+    "fit": 1.1,
+    "status": "reviewed",
+    "confidence": 0.8,
+    "note": "Corrected 2026-06-30 from legacy y:1.1:180, which presented the recumbent figure on its cut side. Use the scan's Z-up basis and flip around Y so the figure rests on a horizontal base while remaining front-readable."
+  },
+  "greek/lying-wounded-warrior-aphaia-smk-cast": "z",
+  "egyptian/portrait-of-kaaper-sheik-el-beled-smk-cast": "y::180",
+  "egyptian/woman-grinding-flour-smk-cast": "z",
+  "porcellino": {
+    "upAxis": "y",
+    "modelRotation": [
+      -90,
+      0,
+      -83
+    ],
+    "status": "fixed",
+    "note": "Sit the seated boar level on its plinth (raw scan rests ~48deg off-axis); rotation from stable-pose analysis."
+  },
+  "greek/kneeling-archer-figure-xii-aphaia-smk-cast": {
+    "upAxis": "y",
+    "modelRotation": [
+      -90,
+      0,
+      -93
+    ],
+    "status": "fixed",
+    "note": "Stand the crouching archer upright on its plinth (raw scan was inverted, plinth on top)."
+  },
+  "rodin/heroic-head-of-pierre-de-wissant": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      180
+    ],
+    "status": "fixed",
+    "note": "Flip 180deg so the mount stump is the base and the face points to the camera (raw scan was upside-down)."
+  },
+  "americas/bisj-ancestor-pole-jiem": {
+    "upAxis": "y",
+    "modelRotation": [
+      -6.2,
+      0,
+      -0.7
+    ],
+    "status": "fixed",
+    "note": "Stand the bisj pole vertical to match its upright siblings (raw scan leaned ~6deg)."
+  },
+  "michelangelo/dawn": {
+    "upAxis": "auto",
+    "viewDirection": [
+      0.2,
+      1.2,
+      0.9
+    ],
+    "status": "needs-refetch",
+    "note": "Mesh bundles an oversized plain base block larger than the figure; no camera/orientation fixes it. Needs a mesh trim or cleaner re-fetch. Reverted to prior view meanwhile."
+  },
+  "michelangelo/madonna-of-the-stairs": {
+    "upAxis": "auto",
+    "modelRotation": [
+      0,
+      0,
+      10
+    ],
+    "viewDirection": [
+      -0.77,
+      0,
+      0.64
+    ],
+    "status": "reviewed",
+    "confidence": 0.85,
+    "note": "Keep the face-on relief view, then add a small +10deg roll correction so the slab reads upright instead of diagonally tilted in the live viewer."
+  },
+  "roman/portrait-of-julia-msr": {
+    "upAxis": "z",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "note": "Use the scan's Z-up axis; stable-pose auto-orientation placed the portrait head on its side."
+  },
+  "roman/jupiter-with-thunderbolt-msr": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "note": "Keep the source mesh's Y-up orientation; stable-pose auto-orientation laid the figurine down."
+  },
+  "roman/satyr-mask-ra-36d-msr": {
+    "upAxis": "z",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "note": "Use the scan's Z-up axis; stable-pose auto-orientation presented the rear/side of the mask."
+  },
+  "greek/terracotta-dancer-msr": {
+    "upAxis": "y",
+    "modelRotation": [
+      -90,
+      0,
+      92.82
+    ],
+    "yaw": 0,
+    "status": "auto",
+    "confidence": 0.82,
+    "note": "Stable-pose solve (pose 3, p=0.12, margin 0.71); confident."
+  },
+  "roman/portrait-of-an-unknown-woman-msr": {
+    "upAxis": "z",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "note": "Use the scan's Z-up axis; stable-pose auto-orientation placed the portrait head on its side."
+  },
+  "asia/cosmic-buddha": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "viewDirection": [
+      0.55,
+      0.34,
+      -0.9
+    ],
+    "status": "reviewed",
+    "confidence": 1,
+    "note": "Open on the carved front face of the relief; source GLB is already Y-up."
+  },
+  "sub-saharan-africa/sapi-portuguese-hunting-horn": {
+    "upAxis": "auto",
+    "modelRotation": [
+      0,
+      0,
+      50
+    ],
+    "fit": 1.04,
+    "status": "fixed",
+    "note": "Roll the oblong horn to a diagonal and tighten the frame so it fills the portrait thumbnail (2.5x coverage) instead of floating in a thin horizontal band."
+  },
+  "dying-gaul": {
+    "upAxis": "y",
+    "modelRotation": [
+      90,
+      180,
+      0
+    ],
+    "viewDirection": [
+      1,
+      0,
+      0
+    ],
+    "status": "review",
+    "note": "Base-down + eye-level broadside (coverage-derived) so the dying warrior reads in profile instead of top-down."
+  },
+  "asia/brazier-of-rasulid-sultan-met": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.9,
+    "note": "Corrected 2026-06-30: reject the stable-pose rotation, which laid the brazier on its side in the live viewer. The source Met/VNTANA GLB is already Y-up and renders with the four legs down."
+  },
+  "greek/athena-parthenos-fragment-smk-cast": {
+    "upAxis": "z",
+    "modelRotation": [
+      0,
+      0,
+      -90
+    ],
+    "yaw": 0,
+    "fit": 1.45,
+    "status": "reviewed",
+    "confidence": 0.85,
+    "note": "Manual review: stand the helmet/head fragment upright and face the sculptural side; the stable-pose solve selected the casting support axis."
+  },
+  "greek/seated-herakles-aphaia-smk-cast": {
+    "upAxis": "y",
+    "modelRotation": [
+      -90,
+      0,
+      -38.68
+    ],
+    "yaw": 0,
+    "viewDirection": [
+      -0.55,
+      0.34,
+      -0.9
+    ],
+    "status": "reviewed",
+    "confidence": 0.75,
+    "note": "Manual review: keep the stable-pose upright transform, but start from the opposite side so the archer's front and bow read in the gallery thumbnail."
+  },
+  "greek/head-of-a-giant-smk-cast": {
+    "upAxis": "auto",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "fit": 1.38,
+    "status": "reviewed",
+    "confidence": 0.85,
+    "note": "Manual review: keep the source orientation so the Pergamon head faces the camera; the stable-pose solve laid the casting plug horizontally."
+  },
+  "greek/athena-hope-head-smk-cast": {
+    "upAxis": "auto",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "fit": 1.38,
+    "status": "reviewed",
+    "confidence": 0.85,
+    "note": "Manual review: keep the source orientation so the Athena head opens to the camera; automated long-axis alignment emphasized the support instead of the face."
+  },
+  "roman/laurel-wreathed-sacrificial-attendant-smk-cast": {
+    "upAxis": "auto",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "fit": 1.16,
+    "status": "reviewed",
+    "confidence": 0.8,
+    "note": "Manual review: the shallow relief renders upright and front-facing in its source orientation."
+  },
+  "egyptian/temple-of-dendur-met": {
+    "upAxis": "y",
+    "modelRotation": [
+      -175.44,
+      0,
+      1.32
+    ],
+    "yaw": 0,
+    "status": "auto",
+    "confidence": 0.63,
+    "note": "Stable-pose solve (pose 0, p=0.70, margin 0.29); confident."
+  },
+  "americas/engraved-bamboo-container-kare-u-ta-met": {
+    "upAxis": "y",
+    "modelRotation": [
+      -3.93,
+      0.06,
+      -1.69
+    ],
+    "yaw": 0,
+    "status": "auto",
+    "confidence": 0.95,
+    "note": "Elongated (aspect 8.9); PCA long-axis aligned to vertical."
+  },
+  "americas/stirrup-spout-bottle-feline-and-snake-met": {
+    "upAxis": "y",
+    "modelRotation": [
+      -174.47,
+      0,
+      -179.97
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.87,
+    "note": "Manual review: use the stable-pose proposal; this VNTANA GLB is componentized but visually coherent."
+  },
+  "asia/molded-plaque-couple-met": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "fit": 1.24,
+    "status": "reviewed",
+    "confidence": 0.9,
+    "note": "Corrected 2026-06-30: preserve the source Y-up/front-facing orientation. The previous stable-pose rotation opened on the undecorated back and left the plaque diagonal."
+  },
+  "sub-saharan-africa/zoomorphic-headrest-nguni-met": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.9,
+    "note": "Corrected 2026-06-30: preserve the Met/VNTANA source Y-up pose so the top plank is horizontal and the supports sit below it. Stable-pose rotations made the headrest look fallen over."
+  },
+  "americas/kero-beaker-tiwanaku-met": {
+    "upAxis": "auto",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.85,
+    "note": "Manual review: preserve the source orientation so the kero stands upright instead of following the stable-pose side-rest."
+  },
+  "americas/double-bowl-inca-met": {
+    "upAxis": "auto",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.9,
+    "note": "Corrected 2026-06-30: reject the stable-pose rotation, which floated the double vessel diagonally in the live viewer. Preserve the source/Z-up presentation so the spouts and decorated body read upright."
+  },
+  "asia/inscribed-pen-box-met": {
+    "upAxis": "auto",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "viewDirection": [
+      -0.55,
+      0.82,
+      -0.9
+    ],
+    "fit": 1.28,
+    "status": "reviewed",
+    "confidence": 0.85,
+    "note": "Manual review: preserve the source orientation so the long pen box reads in its catalogued proportions; start the camera from above the decorated face."
+  },
+  "asia/tombstone-architectural-niche-met": {
+    "upAxis": "auto",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "viewDirection": [
+      0.55,
+      0.34,
+      0.9
+    ],
+    "fit": 1.24,
+    "status": "reviewed",
+    "confidence": 0.6,
+    "note": "Manual review: preserve the source orientation for the shallow carved slab and open the camera on the relief face."
+  },
+  "asia/water-pipe-base-huqqa-poetry-flowers-met": {
+    "upAxis": "y",
+    "modelRotation": [
+      -167,
+      0,
+      178.98
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.51,
+    "note": "Manual review: start from the stable-pose proposal so the huqqa base sits upright."
+  },
+  "americas/tuber-inspired-stirrup-spout-bottle-met": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.8,
+    "note": "Manual review: preserve the Met/VNTANA source pose rather than the stable-pose side-rest proposal."
+  },
+  "americas/stirrup-spout-bottle-combat-scene-met": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.8,
+    "note": "Manual review: preserve the Met/VNTANA source pose for this low vessel; the stable-pose proposal rotates the form away from its catalogued stance."
+  },
+  "americas/stirrup-spout-bottle-decapitation-scene-met": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.8,
+    "note": "Manual review: preserve the Met/VNTANA source pose rather than the componentized stable-pose proposal."
+  },
+  "americas/old-arrow-maker-edmonia-lewis-smithsonian": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.8,
+    "note": "Manual review: preserve the Smithsonian 3D GLB source pose."
+  },
+  "americas/helen-ruthven-waterston-edmonia-lewis-smithsonian": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.8,
+    "note": "Manual review: preserve the Smithsonian 3D GLB source pose."
+  },
+  "renaissance/mater-dolorosa-smk-cast": {
+    "upAxis": "y",
+    "modelRotation": [
+      -90,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.95,
+    "note": "Corrected 2026-07-01: reject the low-confidence stable-pose solve, which showed the hollow underside of the drapery. Source STL is Z-up; a plain -90deg X correction (no yaw) stands the hooded, seated mourning figure upright with clasped hands and base visible."
+  },
+  "asia/buddha-of-medicine-bhaishajyaguru-met": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "viewDirection": [
+      0.2,
+      0.15,
+      0.97
+    ],
+    "fit": 1.05,
+    "status": "reviewed",
+    "confidence": 0.85,
+    "note": "2026-07-01: this wide wall-mural scan reads tiny at the default angled 3/4 view/padding, wasting most of the portrait frame. Near-frontal viewDirection + tightened fit (near the framing-utility's padding floor) makes the mural legible and fills the thumbnail; the mesh's own bounding box (likely including backing/matrix material beyond the painted face) is the limiting factor on going tighter."
+  },
+  "sub-saharan-africa/ram-mask-bolo-cleveland": {
+    "upAxis": "z",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 180,
+    "status": "reviewed",
+    "confidence": 0.8,
+    "note": "Use the scan source Z-up basis so the ram mask sits upright in the viewer; yaw set to 180deg so the default camera opens on the carved face rather than the hollow back."
+  },
+  "sub-saharan-africa/kongo-ntadi-figure-mia": {
+    "upAxis": "y",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.8,
+    "note": "Keep the source Y-up orientation; the ntadi figure bounds are already vertically dominant and read upright without additional roll."
+  },
+  "sub-saharan-africa/kongo-tusk-relief-nmafa-74-20-1": {
+    "upAxis": "x",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.75,
+    "note": "Museum dimensions identify the long axis as height; the preview GLB arrives X-up, so rotate X to viewer Y to avoid a sideways tusk."
+  },
+  "sub-saharan-africa/kongo-tusk-nmafa-96-28-1": {
+    "upAxis": "x",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.75,
+    "note": "Museum dimensions identify the long axis as height; the preview GLB arrives X-up, so rotate X to viewer Y to avoid a sideways tusk."
+  },
+  "sub-saharan-africa/temne-mask-mia": {
+    "upAxis": "y",
+    "modelRotation": [
+      -1.09,
+      0,
+      -0.15
+    ],
+    "yaw": 180,
+    "status": "reviewed",
+    "confidence": 0.8,
+    "note": "Accept the auto-orient micro-correction; yaw set to 180deg so the default camera opens on the carved face rather than the back."
+  },
+  "americas/stoneware-jug-commeraw-smithsonian": {
+    "upAxis": "auto",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "status": "reviewed",
+    "confidence": 0.85,
+    "note": "Manual review: preserve the Smithsonian GLB source orientation so the jug stands upright; the stable-pose solve laid it on its side."
+  },
+  "americas/colonoware-pot-cooper-river-smithsonian": {
+    "upAxis": "auto",
+    "modelRotation": [
+      90,
+      0,
+      0
+    ],
+    "yaw": 180,
+    "status": "reviewed",
+    "confidence": 0.85,
+    "note": "Manual review: rotate the Smithsonian GLB around X so the pot stands on its base, then yaw 180deg so the broken rim/opening faces the default camera."
+  },
+  "americas/the-dying-tecumseh-smithsonian": {
+    "upAxis": "auto",
+    "modelRotation": [
+      0,
+      0,
+      0
+    ],
+    "yaw": 0,
+    "viewDirection": [
+      -0.55,
+      0.34,
+      -0.9
+    ],
+    "status": "reviewed",
+    "confidence": 0.85,
+    "note": "Manual review: preserve the Smithsonian GLB source orientation and open the camera from the opposite side so the figure, not the underside of the base, faces the thumbnail."
+  }
 }

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">The Dying Tecumseh</title>
+  <desc id="desc">Dark gallery poster preview for The Dying Tecumseh.</desc>
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="28%" r="45%">
+      <stop offset="0" stop-color="#ECBE78" stop-opacity=".82"/>
+      <stop offset=".36" stop-color="#ECBE78" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#0C1322" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="figure" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EAF0F7"/>
+      <stop offset=".54" stop-color="#ECBE78"/>
+      <stop offset="1" stop-color="#EAF0F7" stop-opacity=".68"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="720" height="900" fill="#0C1322"/>
+  <rect width="720" height="900" fill="#20304E" opacity=".38"/>
+  <path d="M148 0 L478 0 L608 900 L238 900 Z" fill="#ECBE78" opacity=".16"/>
+  <path d="M278 0 L428 0 L528 900 L338 900 Z" fill="#EAF0F7" opacity=".08"/>
+  <path d="M0 706 C126 650 246 730 376 686 C504 644 560 598 720 642 L720 900 L0 900 Z" fill="#000" opacity=".24"/>
+  <g transform="translate(238 180) rotate(6 120 260) scale(0.92)">
+    <ellipse cx="118" cy="44" rx="42" ry="48" fill="url(#figure)"/>
+    <path d="M80 98 C112 72 150 74 178 100 C170 174 158 234 178 314 C152 342 102 340 76 310 C94 235 88 170 80 98Z" fill="url(#figure)"/>
+    <path d="M77 128 C38 166 20 230 34 296 C48 306 65 305 76 292 C68 236 84 194 110 154Z" fill="url(#figure)" opacity=".88"/>
+    <path d="M174 124 C216 154 236 212 224 268 C210 278 194 276 184 263 C190 216 175 180 150 150Z" fill="url(#figure)" opacity=".76"/>
+    <path d="M96 310 C74 390 70 470 48 558 C66 580 96 580 112 558 C126 474 142 398 132 318Z" fill="url(#figure)" opacity=".9"/>
+    <path d="M154 314 C176 386 194 462 212 548 C198 572 166 574 150 550 C142 466 126 390 120 318Z" fill="url(#figure)" opacity=".86"/>
+    <ellipse cx="130" cy="574" rx="112" ry="20" fill="#EAF0F7" opacity=".68"/>
+  </g>
+</svg>

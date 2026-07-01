@@ -1684,7 +1684,7 @@
     "bytes": 4552564,
     "sourceBytes": 23149492,
     "sourceFormat": "glb",
-    "faces": 150000,
+    "faces": 450000,
     "sourceFaces": 450000
   },
   "sub-saharan-africa/male-pombia-figure": {
@@ -1783,6 +1783,14 @@
     "faces": 1092825,
     "sourceFaces": 1092825
   },
+  "americas/wounded-scout-friend-in-swamp-smithsonian": {
+    "url": "/models/previews/americas/wounded-scout-friend-in-swamp-smithsonian/preview.glb",
+    "bytes": 6138816,
+    "sourceBytes": 6138816,
+    "sourceFormat": "glb",
+    "faces": 150000,
+    "sourceFaces": 150000
+  },
   "americas/bisj-ancestor-pole-jewer": {
     "url": "/models/previews/americas/bisj-ancestor-pole-jewer/preview.glb",
     "bytes": 2851392,
@@ -1790,6 +1798,14 @@
     "sourceFormat": "glb",
     "faces": 187049,
     "sourceFaces": 187049
+  },
+  "americas/girl-skating-eberle-smithsonian": {
+    "url": "/models/previews/americas/girl-skating-eberle-smithsonian/preview.glb",
+    "bytes": 5690332,
+    "sourceBytes": 5690332,
+    "sourceFormat": "glb",
+    "faces": 149999,
+    "sourceFaces": 149999
   },
   "americas/headdress-effigy-hareiga": {
     "url": "/models/previews/americas/headdress-effigy-hareiga/preview.glb",
@@ -1919,6 +1935,14 @@
     "faces": 100000,
     "sourceFaces": 100000
   },
+  "americas/colonoware-pot-cooper-river-smithsonian": {
+    "url": "/models/previews/americas/colonoware-pot-cooper-river-smithsonian/preview.glb",
+    "bytes": 5566236,
+    "sourceBytes": 5566236,
+    "sourceFormat": "glb",
+    "faces": 150000,
+    "sourceFaces": 150000
+  },
   "americas/key-marco-cat": {
     "url": "/models/previews/americas/key-marco-cat/preview.glb",
     "bytes": 9595724,
@@ -1942,6 +1966,22 @@
     "sourceFormat": "glb",
     "faces": 99999,
     "sourceFaces": 99999
+  },
+  "americas/the-dying-tecumseh-smithsonian": {
+    "url": "/models/previews/americas/the-dying-tecumseh-smithsonian/preview.glb",
+    "bytes": 6097008,
+    "sourceBytes": 6097008,
+    "sourceFormat": "glb",
+    "faces": 150000,
+    "sourceFaces": 150000
+  },
+  "americas/stoneware-jug-commeraw-smithsonian": {
+    "url": "/models/previews/americas/stoneware-jug-commeraw-smithsonian/preview.glb",
+    "bytes": 5387700,
+    "sourceBytes": 5387700,
+    "sourceFormat": "glb",
+    "faces": 149990,
+    "sourceFaces": 149990
   },
   "americas/helen-ruthven-waterston-edmonia-lewis-smithsonian": {
     "url": "/models/previews/americas/helen-ruthven-waterston-edmonia-lewis-smithsonian/preview.glb",
