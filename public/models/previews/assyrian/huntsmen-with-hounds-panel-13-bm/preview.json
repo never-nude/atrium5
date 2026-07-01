@@ -3,7 +3,7 @@
   "source": "https://github.com/ProjectNineveh/panel13 (Models/panel13.obj) -- re-fetched from original public CC-BY-4.0 repo, previous local source was producing the same content",
   "sourceBytes": 23588048,
   "sourceFaces": 234870,
-  "faces": 234862,
+  "faces": 234874,
   "targetFaces": 400000,
-  "note": "Re-exported to fix mesh corruption: prior preview was decimated to 80000 faces under an old target, which fragmented the relief into 271 disconnected components (bratio 0.08). Source re-pulled fresh from ProjectNineveh GitHub repo; raw source is essentially clean (ncomp=3, 2 are 4-face noise specks) when faces are welded by position. Cleaned (dropped components <0.2% of total faces) and left undecimated since source faces (234870) < new 400k target. Result: ncomp=1, bratio=0.006."
+  "note": "Re-exported to fix mesh corruption: prior preview was decimated to 80000 faces under an old target, which fragmented the relief into 271 disconnected components (bratio 0.08). Source re-pulled fresh from ProjectNineveh GitHub repo; raw source is essentially clean (ncomp=3, 2 are 4-face noise specks) when faces are welded by position. Cleaned (dropped components <0.2% of total faces) and left undecimated since source faces (234870) < new 400k target. Result: ncomp=1, bratio=0.006. Back fill added 2026-06-30 by preserving the original textured relief primitive and appending a simple 12-triangle rear slab behind the captured face to approximate the British Museum depth ratio; this avoids the boundary-stitch slivers seen in the live side view."
 }
