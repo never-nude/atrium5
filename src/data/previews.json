@@ -1575,6 +1575,14 @@
     "faces": 99999,
     "sourceFaces": 99999
   },
+  "sub-saharan-africa/ram-mask-bolo-cleveland": {
+    "url": "/models/previews/sub-saharan-africa/ram-mask-bolo-cleveland/preview.glb",
+    "bytes": 3197948,
+    "sourceBytes": 3197948,
+    "sourceFormat": "glb",
+    "faces": 29992,
+    "sourceFaces": 29992
+  },
   "sub-saharan-africa/ancestor-figure-teke": {
     "url": "/models/previews/sub-saharan-africa/ancestor-figure-teke/preview.glb",
     "bytes": 2297884,
@@ -1582,6 +1590,14 @@
     "sourceFormat": "glb",
     "faces": 99990,
     "sourceFaces": 99990
+  },
+  "sub-saharan-africa/kongo-tusk-nmafa-96-28-1": {
+    "url": "/models/previews/sub-saharan-africa/kongo-tusk-nmafa-96-28-1/preview.glb",
+    "bytes": 9889284,
+    "sourceBytes": 9889284,
+    "sourceFormat": "glb",
+    "faces": 150000,
+    "sourceFaces": 150000
   },
   "sub-saharan-africa/ngya-commemorative-post": {
     "url": "/models/previews/sub-saharan-africa/ngya-commemorative-post/preview.glb",
@@ -1615,6 +1631,14 @@
     "faces": 150000,
     "sourceFaces": 150000
   },
+  "sub-saharan-africa/kongo-ntadi-figure-mia": {
+    "url": "/models/previews/sub-saharan-africa/kongo-ntadi-figure-mia/preview.glb",
+    "bytes": 3555608,
+    "sourceBytes": 3555608,
+    "sourceFormat": "glb",
+    "faces": 100142,
+    "sourceFaces": 100142
+  },
   "sub-saharan-africa/seated-figure-middle-niger": {
     "url": "/models/previews/sub-saharan-africa/seated-figure-middle-niger/preview.glb",
     "bytes": 4337656,
@@ -1639,6 +1663,14 @@
     "faces": 74985,
     "sourceFaces": 74985
   },
+  "sub-saharan-africa/temne-mask-mia": {
+    "url": "/models/previews/sub-saharan-africa/temne-mask-mia/preview.glb",
+    "bytes": 8533408,
+    "sourceBytes": 8533408,
+    "sourceFormat": "glb",
+    "faces": 199999,
+    "sourceFaces": 199999
+  },
   "sub-saharan-africa/female-figure-with-raised-arm": {
     "url": "/models/previews/sub-saharan-africa/female-figure-with-raised-arm/preview.glb",
     "bytes": 1962256,
@@ -1646,6 +1678,14 @@
     "sourceFormat": "glb",
     "faces": 99985,
     "sourceFaces": 99985
+  },
+  "sub-saharan-africa/kongo-tusk-relief-nmafa-74-20-1": {
+    "url": "/models/previews/sub-saharan-africa/kongo-tusk-relief-nmafa-74-20-1/preview.glb",
+    "bytes": 4552564,
+    "sourceBytes": 23149492,
+    "sourceFormat": "glb",
+    "faces": 150000,
+    "sourceFaces": 450000
   },
   "sub-saharan-africa/male-pombia-figure": {
     "url": "/models/previews/sub-saharan-africa/male-pombia-figure/preview.glb",
