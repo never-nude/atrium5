@@ -74,7 +74,12 @@ function publicNote(record) {
 }
 
 function removeDir(dir) {
-  rmSync(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 150 });
+  try {
+    rmSync(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 150 });
+  } catch {
+    // Some sandboxed/bridged filesystems disallow unlink/rmdir on mounted dirs.
+    // Non-fatal: this only cleans up a scratch Chrome profile dir.
+  }
 }
 
 function materialsFor(record) {
@@ -177,7 +182,7 @@ async function closeServer(server) {
 }
 
 async function startChrome() {
-  const profile = join(root, '.tmp/chrome-render-profile');
+  const profile = process.env.CHROME_PROFILE_DIR || join(root, '.tmp/chrome-render-profile');
   removeDir(profile);
   mkdirSync(profile, { recursive: true });
 
@@ -280,7 +285,7 @@ async function render(page, slug, index, total) {
   const png = join(outDir, 'thumb.png');
   const webp = join(outDir, 'thumb.webp');
   mkdirSync(outDir, { recursive: true });
-  rmSync(png, { force: true });
+  try { rmSync(png, { force: true }); } catch { /* see removeDir() note above */ }
 
   const model = `/public/models/previews/${slug}/preview.glb`;
   const url = `http://127.0.0.1:${serverPort}/public/__render.html?model=${encodeURIComponent(model)}&up=${encodeURIComponent(legacyUp)}&transform=${encodeURIComponent(transformParam)}&appearance=${encodeURIComponent(appearance)}`;
@@ -294,7 +299,7 @@ async function render(page, slug, index, total) {
   writeFileSync(png, Buffer.from(data, 'base64'));
 
   await sharp(png).webp({ quality: 90 }).toFile(webp);
-  rmSync(png, { force: true });
+  try { rmSync(png, { force: true }); } catch { /* see removeDir() note above */ }
   console.log(`[${index + 1}/${total}] ${slug}`);
 }
 
