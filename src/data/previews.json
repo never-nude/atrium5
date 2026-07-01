@@ -1735,6 +1735,14 @@
     "faces": 99985,
     "sourceFaces": 99985
   },
+  "americas/stirrup-spout-bottle-decapitation-scene-met": {
+    "url": "/models/previews/americas/stirrup-spout-bottle-decapitation-scene-met/preview.glb",
+    "bytes": 7612360,
+    "sourceBytes": 7612360,
+    "sourceFormat": "glb",
+    "faces": 99986,
+    "sourceFaces": 99986
+  },
   "americas/atingting-kon-slit-gong": {
     "url": "/models/previews/americas/atingting-kon-slit-gong/preview.glb",
     "bytes": 1573752,
@@ -1742,6 +1750,22 @@
     "sourceFormat": "glb",
     "faces": 99985,
     "sourceFaces": 99985
+  },
+  "americas/old-arrow-maker-edmonia-lewis-smithsonian": {
+    "url": "/models/previews/americas/old-arrow-maker-edmonia-lewis-smithsonian/preview.glb",
+    "bytes": 8312092,
+    "sourceBytes": 8312092,
+    "sourceFormat": "glb",
+    "faces": 150000,
+    "sourceFaces": 150000
+  },
+  "americas/stirrup-spout-bottle-combat-scene-met": {
+    "url": "/models/previews/americas/stirrup-spout-bottle-combat-scene-met/preview.glb",
+    "bytes": 7558824,
+    "sourceBytes": 7558824,
+    "sourceFormat": "glb",
+    "faces": 100000,
+    "sourceFaces": 100000
   },
   "americas/female-figure-inyai-ewa": {
     "url": "/models/previews/americas/female-figure-inyai-ewa/preview.glb",
@@ -1791,6 +1815,14 @@
     "faces": 99986,
     "sourceFaces": 99986
   },
+  "americas/tuber-inspired-stirrup-spout-bottle-met": {
+    "url": "/models/previews/americas/tuber-inspired-stirrup-spout-bottle-met/preview.glb",
+    "bytes": 5508156,
+    "sourceBytes": 5508156,
+    "sourceFormat": "glb",
+    "faces": 99986,
+    "sourceFaces": 99986
+  },
   "americas/kero-beaker-tiwanaku-met": {
     "url": "/models/previews/americas/kero-beaker-tiwanaku-met/preview.glb",
     "bytes": 5263164,
@@ -1830,6 +1862,14 @@
     "sourceFormat": "glb",
     "faces": 99999,
     "sourceFaces": 99999
+  },
+  "americas/helen-ruthven-waterston-edmonia-lewis-smithsonian": {
+    "url": "/models/previews/americas/helen-ruthven-waterston-edmonia-lewis-smithsonian/preview.glb",
+    "bytes": 6657532,
+    "sourceBytes": 6657532,
+    "sourceFormat": "glb",
+    "faces": 150000,
+    "sourceFaces": 150000
   },
   "americas/mask-le-op": {
     "url": "/models/previews/americas/mask-le-op/preview.glb",
